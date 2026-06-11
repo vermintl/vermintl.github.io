@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bitter&family=Cabin+Sketch:wght@400;700&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Dekko&family=Lato&family=Ojuju:wght@200..800&family=Signika+Negative&family=Slabo+27px&display=swap')
+
+.bitter-<uniquifier> {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.center.b {
+	color: #703112 !important;
+}
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #703112 !important;
+        text-shadow: none !important
+}
+
+div.slider.round /* Background */ {
+	background: #703112 !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #b06035 !important
+}
+
+
+body {
+	background: url('https://i.ibb.co/Xp4cyrT/image.png') center center fixed;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+  font-family: "Bitter", serif;
+	color: #e5ceb7; 
+border: 1px #703112 solid;}
+
+ hr {
+display:none;
+}
+
+
+table#player.table div.xlarge { 
+    margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+margin-top:10px !important}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(176, 96, 53, .7);
+	border: none;
+	border-radius: 0px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+	background-size: cover !important; 
+	background-repeat: no-repeat;
+        border-right: none
+}
+
+/*Lioden Logo Image
+this image replaces the main Lioden Logo. the image should be 192x120px.*/
+
+  div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+      content: url('https://static.lioden.com/images/items/Amusement/awdskull.png');}
+
+
+/* Gift Image
+The gift image is 50x50 pixels and will only be viewable by others.*/
+table#player.table img.floatleft {
+  content: url('https://static.lioden.com/images/items/Other/maypersonality.png') !important;}
+
+/*Navigation Bar
+The Navbar is everything at the top next to the Lioden Image.
+This includes: Den, Crossroads, Hoard, Oasis, Chatter, News, Event and FAQ.
+>> .navbar << background controls the basic color.
+>> .navbar li a << color controls the Text color.
+>> .navbar li a:hover: << controls the aspects of the navbar when hovered over by a mouse."*/
+  .navbar {background: #863B13 !important;border: none !important;font-family: 'Bitter', serif !important;}
+  
+  .navbar li a {
+  color: #E1C6AB !important;
+    font-family: 'Bitter', serif;
+  }
+  
+  .navbar li a:hover {
+  background: #703112 !important;
+    font-family: 'Bitter', serif;
+  }
+
+/*Topbar
+Topbar is above the Navigation Bar. This includes:
+"Welcome Back, Username", your Messages, SB, GB, Journal etc.
+The >> color << option here only controls the text "Welcome back,"*/
+  .topbar {background: #703112 !important;color: #C47749 !important;border: none !important; font-family: 'Bitter', serif !important;}
+
+  
+/*Alerts
+>> .alert << controls all the "Green" alerts you normally see - such as hunting or forum notifications.
+>> .alert-warning << and >> .alert-danger << controls the "Red" notifications - such as new messages.*/
+  .alert {background: rgb(112, 49, 18, .5);border: 1px #703112 solid !important;color: #E1C6AB; font-family: 'Bitter', serif;}
+  .alert-warning, .alert-danger {background: rgb(112, 49, 18, .5); color: #E1C6AB; font-family: 'Bitter', serif;border: 1px #703112 solid !important;}
+
+/*
+>> .panel-body << color controls the Text on the right side of the screen.
+This includes the Date, Time, Level and Impression, and Member Counts.*/
+  .panel-body{
+  color: #E1C6AB;
+  font-family: 'Bitter', serif; }
+
+  
+/*Headers
+h1 - king's den
+h3 - side bar headers (your king, achievements, etc)*/
+  h1 {
+  text-align: center !important;
+  color: #E1C6AB !important;
+  font-family: 'Bitter', serif;
+  }
+  
+  h3 {
+  text-align: !important;
+  color: #E1C6AB !important;
+  font-family: 'Bitter', serif
+  }
+  
+/*Home Taskbar
+Controls the "Home/Den" area. The border also extends to the Bookmark button.*/
+  .breadcrumb {
+  background: #964319 !important;
+  color: #E1C6AB!important;
+border: 1px #703112 solid !important;
+  font-family: 'Bitter', serif;}
+  
+/*changes Home/Den*/
+  .breadcrumb>.active {
+  color: #E1C6AB;}
+
+/*Feed All Play All*/
+  .feature {
+  background: #964319 !important;
+  color: #E1C6AB!important;
+  border: 1px solid #703112 !important;
+  font-family: 'Bitter', serif; 
+  }
+
+/*Sidebar is the Entire colum on the right side.
+This area's the Event currency, Energy/Hunger bars, Bookmarks, etc down the side.*/
+  .sidebar {
+  background:  !important;
+  border: none !important;
+  }
+
+/*Progress Bars
+These are items within the Sidebar.
+These control the Energy, Hunger, EXP, and IMP progress bars.*/
+  .progress {background: #703112 !important;color: #E1C6AB !important;border: 1px solid #703112 !important;}
+  
+  .progress div {color: #E1C6AB !important; font-family: 'Bitter', serif !important;}
+  
+  .progress-bar-warning {background: #B06035 !important; font-family: 'Bitter', serif;}
+  
+  .progress-bar-danger {background: #B06035 !important; font-family: 'Bitter', serif;}
+  
+  .progress-bar-success {background: #B06035 !important; font-family: 'Bitter', serif;}
+
+  .progress-bar {background: #C47749 !important; font-family: 'Bitter', serif;}
+
+
+/*The "Panel" is the different boxes within the sidebar. The box shadow is currently invisible.*/
+  .panel {
+  background: #964319 !important;
+  border: 1px solid #703112 !important;
+  box-shadow: none !important;
+  }
+
+/*Caves and Mounds*/
+/*This first "grid" area is for the colors surrounding the grid images.*/
+  .cave-grid{background: #964319;color: #E1C6AB; border: 1px solid #703112}
+  
+  .mound-grid{background: #964319;color: #E1C6AB; border: 1px solid #703112}
+
+/*Cave and Mound Images.
+CHANGE 12345 to USER ID! 260x60px*/
+
+/*Pregnant Lionesses*/
+  .cave-grid>img {
+  content: url('https://i.ibb.co/vjK0nGX/image.png')!important;
+  }
+
+/*Unsorted*/
+  a[href="unsorted.php?id=282830"]>.cave-grid>img {
+  content: url('https://i.ibb.co/vjK0nGX/image.png')!important;
+  }
+
+/*Pride Overview*/
+  a[href="lionoverview.php?id=282830"]>.cave-grid>img {
+  content: url('https://i.ibb.co/vjK0nGX/image.png')!important;
+  }
+
+/*The same applies to the beetle mounds.
+Mound images are 130x80px.*/
+
+.mound-grid img {
+	content: url('https://static.lioden.com/images/items/Other/tigerseye.png');
+	margin-bottom: 5px;
+}
+  
+.about{background: none !important;
+  color: #964319 !important;
+  border: 1px solid #703112 !important;
+  text-align: center !important;}
+
+/*About Section
+This controls the table where your king appears on your home page. This also controls the appearance of your player information.
+You can control the appearance of the border. If you wish there to be all sides of the border, you can erase the existing border code and write the following: "border: none !imporant;"*/ 
+
+  .top {background: #863B13 !important;color: #E1C6AB !important; border: none !important; text-align: center !important; font-family: 'Bitter', serif !important;}
+
+/*controls lion image. can erase lion image and replace with a different one*/
+div#lion_image {
+	border-radius: 15% !important;
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+}
+
+/*Pride Tables
+"th" controls the Table Header. This is the name of each of the caves.*/
+  th {background: #863B13 !important;color: #E1C6AB !important; border: 1px solid #703112!important;text-align: center !important; font-family: 'Bitter', serif !important;}
+
+/*Pride Tables CONTINUED.
+>> .left << refers to the different rows on the Pride Tables.
+This is where "LVL, Stats, Name, Age and Status" are.
+If you want to override all the Text within the Pride Tables, remove the >> Color:#### !important; << from the following areas:
+>> .right_cub <<
+>> .right_odd <<
+>> .right << */
+  .left {
+  background: rgb(134, 58, 19, .8) !important;
+  color: #E1C6AB !important;
+  text-align: center !important;
+  font-family: 'Bitter', serif !important;
+  }
+  
+  .right_cub {background: rgb(150, 67, 25, .6) !important; color: #E1C6AB !important;}
+  .right_odd {background: rgb(150, 67, 25, .4) !important; color: #E1C6AB !important;}
+  .right {background: rgb(134, 58, 19, .4)  !important; color: #E1C6AB !important;}
+
+/*The "Featured Lion" tag is for if you use the CSS within a cave.*/
+  .featured-lion {
+  background-color: #163b52; !important}
+
+  .inner-table {
+  border-spacing: 6px 3px;
+  border-collapse: separate;}
+
+/*>> td << controls the description of the left side of the Sparring menu.*/
+  td {
+      background: rgba(176, 96, 53, 1);
+      color: #E1C6AB;
+      border: 1px solid #703112 !important;}
+  
+/*Bottom refers to the footers of tables. For this, you can see it at the bottom of "Reclaim lost lions" and "Recent Allies".*/
+  .bottom {
+  background: #964319 !important;
+  color: #E1C6AB !important;
+  border: 1px solid #703112 !important;
+  text-align: center !important;
+  font-family: 'Bitter', serif !important;
+  }
+
+/*Links
+>> a:link << controls the color of the Logout Button, Online Members/Friends, Refer Friend/Wishlist, and Names in Chatbox.
+>> a:visited << controls the color of your name, bookmarks and other links.
+>> a:hover << changes the color of links when you hover over them with a mouse.*/
+  a:link {
+  color: #E1C6AB !important;
+  }
+  
+  a:visited {
+  color: #E1C6AB !important;
+  }
+  
+  a:hover {
+  color: #C47749 !important;
+  }
+
+/*Buttons*/
+/*The FIRST Input is for the default appearance.
+The SECOND input:focus area is for how it looks when you're typing in it.
+Refer to Hide button to see*/
+
+/*This first segment is the generic Lioden Button.*/
+  input[type="button"] {background: #B06035 !important;
+  color: #E1C6AB !important;
+border: 1px #703112 solid !important;  text-align: center !important;
+  text-shadow: none !important;
+  box-shadow: none !important;}
+
+  input[type="submit"]:hover {
+  background: #703112 !important;
+  color: #E1C6AB !important;
+border: 1px #703112 solid !important; text-align: center !important;}
+  
+  input[type="submit"] {background: #B06035 !important;color: #E1C6AB !important;border: 1px #703112 solid !important;text-align: center !important;text-shadow: none !important;box-shadow: none !important;}
+
+/*Territory Description*/
+  textarea {background: #964319 !important;
+  color: #E1C6AB !important;
+  border: 1px solid #703112 !important;
+  font-family: 'Bitter', serif !important;
+  text-align: center !important;}
+
+  textarea:focus {
+  background: #964319 !important;
+  color: #E1C6AB !important;
+border: 1px #703112 solid !important;  font-family: 'Bitter', serif !important;
+  text-align: center !important;}
+
+/*Password*/
+  input[type="password"] {background: #C47749 !important;
+  color: #E1C6AB !important;
+border: 1px #703112 solid !important;  text-align: center !important;}
+
+  input[type="password"]:focus {background: #C47749 !important;
+  color: #E1C6AB !important;
+border: 1px #703112 solid !important;  text-align: center !important;}
+
+/*Dropdown Menus*/
+  select {background: #B06035 !important;
+  color: #E1C6AB !important;
+  border: 1px solid #703112 !important;
+  font-family: 'Bitter', serif;
+  text-align: center !important;}
+  
+  select:focus {background: #f1aa45 !important;
+  color: #C3DAE8 !important;
+border: 1px #703112 solid !important;  text-align: center !important;}
+
+/*Account Options
+This area controls the Account Options. The Header controls the text and box at the top of each option box.
+The >> .item << controls the area for where the chat "switch" is located.*/
+  .table .left a {background: none !important;}
+  
+  .item-header {background: #863B13;color: #E1C6AB; border: none !important; }
+  
+  .item {background: #B06035;color: E1C6AB; border: 1px #703112 solid !important;}
+
+/*Comment Box*/
+
+div#commentBox {
+        border: 1px #703112 solid !important; !important;
+        border-radius: px !important;
+        text-align: center;}
+
+
+.comment:nth-child(even) {
+    background: rgba(112, 49, 18, .5) !important;
+  color: #703112 !important
+}
+
+div.comment {background: rgba(112, 49, 18, .2) !important;
+            border-bottom: none !important);
+            font-weight: ;}
+/*changes by --- on --- in comment box*/
+small.text-muted{color: #5E331C !important}
+
+/*changes text color in comment box*/
+div.commentText {background: none !important;
+color: #E1C6AB}
+
+input#comment {
+	background: rgba(112, 49, 18, .5)!important;
+	color: #E1C6AB !important;
+border-radius:5px;
+border: 1px #703112 solid !important;
+}
+
+/*changes X button in comment box*/
+input[type="button"].bad {background: #703112 !important;border: 1px #703112 solid !important;}
+
+/*Chatbox
+To lessen the borders just change the pixel size. I wanted them to be visible for the template.*/
+
+.s-chat-message:nth-child(even) {
+	background: #B06035 !important;
+        color: #E1C6AB !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #964319 !important;
+        color: #E1C6AB !important;
+	border: none !important;
+}
+
+/* TIMESTAMPS */
+.s-chat-message_timestamp {
+	color: #C47749 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: #5E331C !important;
+        color: #E1C6AB !important;
+border: 1px #703112 solid !important;  text-align: none !important;
+}
+
+/* MOD MESSAGE */
+#fra_chatContainer .modMessage, .s-chat-message__mod {
+        background: #5E331C !important;
+        color: #E1C6AB;
+}
+
+/* PING */
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background: #5E331C !important;
+	color: #E1C6AB;
+}
+
+/* CHANNEL BUTTON */
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: #964319 !important;
+        color: #E1C6AB !important;
+	border: 1px #703112 solid !important
+}
+
+#chatMessageContainer {
+	border: 1px #solid !important;
+}
+
+/*Chat Text*/
+  input[type="text"] {
+  background: #863a13 !important;
+  color: #E1C6AB !important;
+border: 1px #703112 solid !important;  text-align: center !important;}
+
+  input[type="text"]:focus {background: #863a13 !important;
+  color: #E1C6AB !important;
+border: 1px #703112 solid !important;  text-align: center !important;}
+
+/*"Roar" Button*/
+  input[type="button"]:hover {background: #C47749 !important;
+  color: #E1C6AB !important;
+border: 1px #703112 solid !important;
+  text-align: center !important;}
+
+/*Scrollbar Edits*/
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #C47749;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #E1C6AB;
+	border-radius: 3px;
+}
+
+/*Boxes*/
+.boxContainer{
+display: flex;
+justify-content: space-between;
+}
+
+.BoxTrio {
+	background: none;
+	height: 150px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.BoxTrioLeft {
+	float: left;
+background: rgb(112, 49, 18, .7);	color: #E1C6AB;
+	padding: 15px;
+border: 1px #703112 solid !important;	float: left;
+	height: 150px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxTrioLeft:hover {
+	overflow-y: auto;
+}
+
+.BoxTrioMid {
+background: rgb(112, 49, 18, .7);	color: #E1C6AB;
+	padding: 15px;
+	border: 1px #703112 solid !important;
+	height: 150px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxTrioMid:hover {
+	overflow-y: auto;
+}
+
+.BoxTrioRight {
+background: rgb(112, 49, 18, .7);	color: #E1C6AB;
+	padding: 15px;
+	border: 1px #703112 solid !important;
+	height: 150px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxTrioRight:hover {
+	overflow-y: auto;
+}
+
+.BoxDuo {
+	background: none;
+	height: 150px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.BoxDuoLeft {
+	float: left;
+	background: rgb(112, 49, 18, .7);
+	color: #E1C6AB;
+	padding: 15px;
+border: 1px #703112 solid !important;
+	float: left;
+	height: 150px;
+	width: 385px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxDuoLeft:hover {
+	overflow-y: auto;
+}
+
+.BoxDuoRight {
+	float: left;
+background: rgb(112, 49, 18, .7);	color: #E1C6AB;
+	padding: 15px;
+	border: 1px #703112 solid !important;
+	float: left;
+	height: 150px;
+	width: 385px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxDuoRight:hover {
+	overflow-y: auto;
+}
+
+.BoxDuoUneven {
+	background: none;
+	height: 150px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.BoxDuoLeftUneven {
+	float: left;
+background: rgb(112, 49, 18, .7);	color: #E1C6AB;
+	padding: 15px;
+	border: 1px #703112 solid !important;
+	float: left;
+	height: 150px;
+	width: 520px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxDuoLeftUneven:hover {
+	overflow-y: auto;
+}
+
+.BoxDuoRightUneven {
+	float: left;
+background: rgb(112, 49, 18, .7);	color: #E1C6AB;
+	padding: 15px;
+	border: 1px #703112 solid !important;
+	float: left;
+	height: 150px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxDuoRightUneven:hover {
+	overflow-y: auto;
+}
+
+.BoxCover {
+background: rgb(112, 49, 18, .7);	color: #E1C6AB;
+	padding-bottom: 20px;
+	border: 1px #703112 solid !important;
+	margin: 10px;
+	height: auto;
+	width: 790px;
+	overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.BoxCover:hover {
+	overflow-y: auto;
+}
+
+/*CREDIT do not remove*/
+.credit {
+background: rgb(112, 49, 18, .7);	color: #fbefe3;
+	padding: 10px;
+	border: 1px #703112 solid !important;
+	position: fixed;
+	text-align: center;
+	border-radius: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 180px;
+	height: 40px;
+	font-size: 14px;
+	overflow: auto;
+}
+
+.breadcrumb:after { 
+content:'CSS by grassman (#243884) ★';
+right: 110px;
+position: absolute;
+color: #E1C6AB;
+font-size: auto !important;
+}
+
+
+#pageSidebar > p > a {
+    display:none;
+}
+
+#context-chatMenu {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    border-bottom-color: transparent !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    min-height: 0px;
+    margin-top: 3px !important;
+    text-indent: 0px !important;
+}
+
+/* chatbox */
+
+.s-chat-sidebar #label_currentChannel {
+	border-radius: 4px !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+div#fraChatChannelMenu.chatMenu-container {
+	box-shadow: none !important;
+}
+
+.s-chat-message:nth-child(even) {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message:nth-child(odd) {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_content {
+    display: block !important;
+    padding-left: 8px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_timestamp {
+	padding-left:8px;
+}
+/* player table cosmetics */
+#player.table hr {
+	visibility: hidden !important;
+	display: none !important; 
+}
+
+#player.table div.xlarge { 
+	margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+	margin-top:10px !important
+}
+
+#player.table .text-muted {
+	visibility: hidden;
+	position: relative;
+}
+
+#player.table .text-muted::after {
+	content: none !important;
+	visibility: hidden;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+	content:'Block Member';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a::after {
+	content:'Friend Request';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+
+/* player icons */
+img[src$="//static.lioden.com/images/layout/icon_den_message.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_gift.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_trade.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_wishlist.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_viewtrade.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_block.png"]{
+   display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
+ display: none;
+}
+
+/* showcase */
+.dynastylist {
+	width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+    .dynastylist h3 {
+        font-size: 15px !important;
+    }
+}
+
+img[src$="den_ancestors.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/skull_bison.png');
+	width: 100% !important;
+	max-width: 80px !important;
+} 
+
+img[src$="ancestorsfem.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/skull_wolverine.png');
+	width: 100% !important;
+	max-width: 80px !important;
+    transform: scalex(-1);
+}
+
+img[src$="den_achievements.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/skull_nanulak.png');
+	width: 100% !important;
+	max-width: 80px !important;
+}
+
+img[src$="den_showcase.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/skull_bushdog.png');
+	width: 100% !important;
+	max-width: 80px !important;
+}
+
+img[src$="den_beetlebook.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/skull_bighorn.png');
+	width: 100% !important; 
+	max-width: 80px !important;
+}
+
+.col-xs-10{
+    color: #472711 !important;
+    text-shadow: none !important
+}
+
+/* social media icons */
+img[src$="iconFB.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/skull_cottonmouth.png');
+	width: 30% !important;
+}
+
+img[src$="iconTwit.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/skull_condor.png');
+	width: 30% !important;
+}
+
+img[src$="iconInsta.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/skull_anaconda.png');
+	width: 30% !important;
+    transform: scalex(-1);
+}
+
+img[src$="gold.png"] {
+    content: url('https://static.wolvden.com/images/items/trophies/fangs_bear.png');
+	width:20px!important;
+}
+
+img[src$="silver.png"] {
+    content: url('https://static.wolvden.com/images/items/trophies/antler_broken_moose.png');
+	width:20px!important;
+}
