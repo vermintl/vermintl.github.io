@@ -1,0 +1,1518 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Love+Ya+Like+A+Sister&family=Special+Elite&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+@media only screen and (min-width: 601px) {} body {
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/koumformation.png');
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: 'Love Ya Like A Sister' !important;
+    font-family: 'Special Elite';
+	text-transform: none;
+	box-shadow: none !important;
+	color: #D1BF9A;
+}
+
+/* main panel */
+.container.main {
+    background: rgb(76, 71, 35,.8);
+	border: 1px #27231a solid;
+	border-radius: 6px 6px 5px 5px !important;
+	box-shadow: none!important;
+}
+
+.col-md-9 {
+	background: none;
+	background-size: cover !important; 
+	background-repeat: no-repeat;
+	border-right: none
+}
+
+/* logo 192x120 */
+img[src$="//static.lioden.com/img/layout/logo-full-2.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/alloskull.png');
+	display: block;
+	margin-left: 25px;
+	width: 243px;
+    margin-top:-19px;
+    transform: scalex(-1);
+}
+
+/* topbar "welcome back" */
+.topbar {
+	background: #3c3725;
+	border: 1px #27231a solid;
+	border-top: none;
+	border-radius: 0px 0px 5px 5px !important;
+	color: #595838;
+}
+
+.badge /* message count */{
+	background: #595838;
+}
+
+img[src$="gold.png"] {
+	content:url('https://static.wolvden.com/images/items/lore/tigerseye.png')!important;
+	width:20px!important;
+}
+
+img[src$="silver.png"] {
+	content:url('https://static.lioden.com/images/items/Other/tigerseye.png')!important;
+	width:20px!important; 
+}
+
+/* navbar "den, crossroads ..." */
+.navbar {
+    border-radius: 5px 5px 0px 0px !important;
+	background: #3c3725;
+	border-bottom: none;
+}
+
+.navbar li a {
+	color: #595838 !important;
+	margin-top: 5px;
+}
+
+.navbar li a:hover {
+	background: #3c3725 !important;
+	border-bottom: none;
+	color: #7a7740 !important;
+	border-radius: 0px
+}
+
+.navbar li:last-child{
+    display:none;
+    visibility: hidden;
+}
+
+/* "home/den" bar */
+.breadcrumb {
+	background: #666433;
+	border: 1px #3C3725 solid;
+	border-radius: 5px
+}
+
+.breadcrumb>li+li:before {
+    color:#3C3725;
+}
+
+.breadcrumb .active {
+	color: #bca67a;
+}
+
+.breadcrumb:after { 
+	content:'CSS by grassman (#243884) ★';
+	right: 155px;
+	position: absolute;
+	color: #332e1e;
+	font-size: auto !important;
+}
+
+.breadcrumb:before { 
+	content:url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/totodile.gif);
+	right: 90px;
+    top: 0px;
+	position: absolute;
+	color: #332e1e;
+	font-size: auto !important;
+}
+
+input.floatright {
+	background: #7a7740 !important;
+	border: 1px #565128 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	margin-top: 1.5%;
+}
+
+input.floatright:hover {
+	background: #848048 !important;
+	border: 1px #565128 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	margin-top: 1.5%;
+}
+
+/* alerts */
+.alert,
+.alert-warning {
+	background: #5f5d30 !important;
+	color: #c1ad85;
+	border: 1px #3c3725 solid; 
+	border-radius: 5px !important
+}
+
+.alert-danger {
+	background: #5f5d30 !important;
+	border: 1px #3c3725 solid; 
+	color: #c1ad85;
+	border-radius: 5px !important
+}
+
+.alert a:link, .alert a:visited, .alert-warning a:link, .alert-warning a:visited, .alert-danger a:link, .alert-danger a:visited {
+    color: #848048 !important;
+}
+
+.alert a:hover, .alert-warning a:hover, .alert-danger a:hover {
+    color: #7a753f !important;
+}
+
+/* sidebar */
+.sidebar h3 {
+	color: #848048 !important;
+	font-size: 20px;
+	text-transform: none;
+}
+
+.panel {
+	background: linear-gradient(to right, rgb(80, 78, 20,.87), rgb(102, 98, 23,.87)), url("https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/fossilrepeat3") !important;
+	box-shadow: none !important;
+	border: 1px #3c3725 solid !important;
+	color: #2d2a1e !important;
+	border-radius: 5px;
+	text-transform: none;
+}
+
+div.col-md-12.col-xs-6:first-of-type div.panel.panel-default:first-of-type div.panel-body.small.center {
+    background: url(https://static.lioden.com/images/explorenew/shaman/fossildinoday.png) !important;
+    background-size: cover !important;
+    
+}
+
+input[name="freeEnergyBoost"] {
+    background: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/afrovenator.png') no-repeat center center;
+    background-size: contain;
+    width:200px;
+    height:80px;
+    margin-right:-60px;
+    font-size: 0;
+    border:none;
+    cursor: pointer;
+    padding: 0;
+}
+
+input[name="freeEnergyBoost"]:hover {
+    background: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/afrovenator.png') no-repeat center center;
+    background-size: contain;
+    width:200px;
+    height:80px;
+    margin-right:-60px;
+    margin-bottom:-10-px;
+    font-size: 0;
+    border:none;
+    pointer-events:none;
+    padding: 0;
+}
+
+/* arrows */
+
+div.col-md-12.col-xs-6 > a h3 div {
+	content: url('https://www.lioden.com/images/items/Amusement/leopardskull.png');
+	position:absolute;
+	right: 0px;
+	top: 175px;
+	width: 70px;
+	z-index: 4;
+    transform: scalex(-1);
+}
+
+div.col-md-12.col-xs-5 > a:nth-child(1) h3 div {
+	content: url(https://www.lioden.com/images/items/Other/app_markings_homotherium.png);
+    position: absolute;
+    width: 60px;
+    right: 0px;
+    top: -10px;
+    z-index:5;
+    filter: sepia(1) hue-rotate(-5deg);
+}
+
+div.col-md-12.col-xs-5 > a:nth-child(3) h3 div {
+	content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/fangs_bear.png);
+	position:absolute;
+	right: 0px;
+	top: 90px;
+	width:65px;
+    z-index: 6;
+}
+
+
+/* energy bar */ 
+.progress {
+	background: #7a7740;
+	border-radius: 3px !important;
+	border: 1px #505036 solid !important;
+}
+
+.progress-bar {
+	background: #a8935f;
+}
+
+.progress div {
+	color: #3c3725 !important;
+}
+
+/* comment box */
+#commentBox {
+	background: #5D592D;
+	border: 1px #3c3725 solid;
+	color: #3c3725;
+	border-radius: 5px;
+}
+
+.commentTag {
+	content: url('https://static.lioden.com/images/items/Decoration/limestonefoss.png');
+	width: 40px;
+	height: 40px;
+	border-radius: 5px !important;
+}
+
+.comment:nth-child(even) {
+	background: rgb(102, 100, 51,.8) !important;
+}
+
+.comment:nth-child(odd) {
+	background: rgb(122, 119, 64,.7) !important;
+}
+
+small.text-muted{
+	color: #B9A182 !important
+}
+
+input[type="button"].bad {
+	background: #9c8855 !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: uppercase !important;
+}
+
+input[type="button"].bad:hover {
+	background: #a8935f !important;
+	border: 1px #3c3725 solid;
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: uppercase !important;
+}
+
+#comment {
+	background: #5D592D;
+	border: 1px #3c3725 solid;
+	color: #d1bf9a;
+	border-radius: 4px;
+}
+
+input#postComment {
+	background: #6d6936 !important;
+	border: 1px #3c3725 solid !important; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+input#postComment:hover {
+	background: #7a7740 !important;
+	border: 1px #565128 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+/* chatbox */
+
+/* chat channel button + pinned message */
+
+#btnChatSettings, #btnLoadNewMessages, .s-chat-message_menu {
+	filter: grayscale() brightness(0%) !important;
+}
+
+.s-chat-sidebar #label_currentChannel {
+	background: #6d6936 !important;
+	border: 1px #3c3725 solid !important; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+button.channelSwitcher:hover {
+	background: #7a7740;
+	border: 0px #3c3725 solid; 
+	border-radius: 4px;
+	color: #3c3725;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+div#fraChatChannelMenu.chatMenu-container {
+    background: #7a7740;
+    box-shadow: none!important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+    background: #848048;
+	border: 0px #3c3725 solid; 
+	border-radius: 0px;
+	color: #3c3725;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+button.channelSwitcher.active {
+	background: #9c8855 !important;
+	border: 0px #3c3725 solid !important; 
+	border-radius: 0px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+button.channelSwitcher:hover{
+    background: #9c8855 !important;
+	border: 0px #3c3725 solid !important; 
+	border-radius: 0px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+#chatMessagePinned {
+	background: #5D592D !important;
+	color: #b9a182 !important;
+    border-bottom-color: #3c3725 !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    border-bottom-color: #3c3725 !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    min-height: 0px;
+}
+
+div#fraChatChannelMenu.chatMenu-container {
+	background: #5D592D;
+    border: 1px #3c3725 solid;
+}
+
+div#chatMessageContainer {
+    border: 1px #3c3725 solid;
+}
+
+.s-chat-message:nth-child(even) {
+	background: rgb(102, 100, 51,.8) !important;
+	color: #27231a !important;
+	border: 0px #000 solid; 
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: rgb(122, 119, 64,.7) !important;
+	color: #27231a !important;
+	border: 0px #000 solid; 
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_content {
+    display: block !important;
+    padding-left: 8px !important;
+    padding-right: 5px !important;
+}
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background-color: #6d6936 !important;
+}
+
+#txtChatContainer #lblCharacterCounter {
+	color: #b9a182 !important
+}
+
+.s-chat-message_timestamp {
+	color: #3c3725 !important;
+    padding-left:8px;
+}
+
+input#btnToggleSidebarChat {
+	background: #7a7740 !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+input#btnToggleSidebarChat:hover {
+	background: #848048 !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+input#txtChatInput, select, textarea {
+	background: #5D592D !important;
+	border: 1px #3c3725 solid !important; 
+	border-radius: 3px !important;
+	color: #d1bf9a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+input#btnChatSend {
+	background: #7a7740 !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+input#btnChatSend:hover {
+	background: #848048 !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+
+/* den header */
+h1 {
+	color: #bca67a;
+	font-size: 30px;
+	text-align: center;
+	text-transform: none !important;
+}
+
+/* all table backgrounds */
+table.table {
+	background: #59532B;
+    border: 1px #3c3725 solid !important;
+    border-radius: 7px;
+}
+
+/* all table headers */
+
+
+.top,
+th {
+	background: #3c3725 !important;
+	color: #7a7740 !important;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.bottom {
+	background: #3c3725 !important;
+	color: #7a7740 !important;
+	border-radius: 0px 0px 4px 4px;
+}
+
+table#about.table > tbody{
+    background: #59532b;
+	border-radius: 4px !important;
+    overflow: hidden;
+}
+table#about.table {
+    border: #27231a 1px solid !important;
+    border-radius: 5px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+    
+table#player.table > tbody{
+    background: #59532b;
+	border-radius: 0px 0px 100px 100px !important;
+    overflow: hidden;
+}
+    
+table#player.table {
+    border: #27231a 1px solid !important;
+    border-radius: 5px 5px 0px 0px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+    
+table#sparring.table > tbody{
+    background: #59532b;
+	border-radius: 0px 0px 100px 100px !important;
+    overflow: hidden;
+}
+    
+table#sparring.table {
+    border: #27231a 1px solid !important;
+    border-radius: 5px 5px 0px 0px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+    
+table#allies.table > tbody{
+    background: #59532b;
+	border-radius: 4px!important;
+    overflow: hidden;
+}
+    
+table#allies.table {
+    border: #27231a 1px solid !important;
+    border-radius: 5px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+    
+table#clans.table > tbody{
+    background: #59532b;
+	border-radius: 0px 0px 100px 100px !important;
+    overflow: hidden;
+}
+    
+table#clans.table {
+    border: #27231a 1px solid !important;
+    border-radius: 5px 5px 0px 0px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+
+table.table > tbody{
+    background: #59532b;
+	border-radius: 0px 0px 100px 100px !important;
+    overflow: hidden;
+}
+    
+table.table {
+    border: #27231a 1px solid !important;
+    border-radius: 5px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+
+table.table {
+        border: #27231a 1px solid !important;
+        border-radius: 7px !important; 
+    }
+    
+table.table tbody tr:last-child td {
+    border-radius: 0px;
+}
+
+.left {
+    background: #666433 !important;
+    color: #9c8855 !important;
+    border: #3c3725 1px solid !important; 
+    text-align: center !important;
+}
+
+.right_odd {
+    background: #666433 !important;
+    color: #bca67a !important;
+    border: #3c3725 1px solid !important; 
+}
+
+.left.b {
+    background: #666433 !important;
+    color: #bca67a !important;
+}
+
+.left h3 {
+    color: #bca67a;
+}
+
+.inner-table .left {
+	background: #5F5D30 !important;
+	color:  #9c8855;
+    border: #3c3725 1px solid !important; 
+	border-radius: 5px 0px 0px 5px !important;
+}
+
+
+.inner-table .right {
+	background: #6D6B3A !important;
+	color:  #9c8855;
+    border: #3c3725 1px solid !important; 
+	border-radius: 0px 5px 5px 0px !important;
+}
+
+table#player.table td.right_odd {
+    border: none !important;
+}
+
+/* custom title - king name the ____ */
+
+#about > tbody > tr:nth-child(1) > td > div::after {
+	content: 'the Ancient';
+	font-size: 17px;
+	color: #7a7740;
+}
+
+/* "level, stats, etc" */
+.inner-table .left {
+	background: #5f5d30 !important;
+	color: #9c8855 !important;
+    border: 1px #3c3725 solid !important;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.inner-table .right {
+	background: #6d6b3a !important;
+	color: #bca67a;
+    border: 1px #3c3725 solid !important;
+    border-left: none !important;
+	border-radius: 0px 5px 5px 0px;
+}
+
+table#about.table > tbody > tr.right > td.right > table.inner-table.auto a {
+	color: #d1bf9a !important
+}
+
+table#about.table > tbody > tr.right > td.right > table.inner-table.auto a:hover {
+	color: #dbcbad !important
+}
+
+/* king image */
+#lion_image {
+	border-radius: 5px !important;
+    border: 1px #3c3725 solid !important;
+	width:200px !important;
+	margin-top: 6%;
+	margin-left: 4%;
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/trilobite')!important;
+    transform: scalez(-1) !important;
+}
+
+
+/* player table cosmetics */
+#player.table hr {
+	visibility: hidden !important;
+	display: none !important; 
+}
+
+#player.table div.xlarge { 
+	margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+	margin-top:10px !important
+}
+
+#player.table .text-muted {
+	visibility: hidden;
+	position: relative;
+}
+
+#player.table .text-muted::after {
+	content: none !important;
+	visibility: hidden;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+	content:'Block Member';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a::after {
+	content:'Friend Request';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+
+
+/* player icons */
+img[src$="//static.lioden.com/images/layout/icon_den_message.png"]{
+    content: url('https://static.wolvden.com/images/items/herbs/chaparral.png');
+    width: 30px !important;
+    filter: saturate(1.2);
+}
+
+
+img[src$="//static.lioden.com/images/layout/icon_den_gift.png"]{
+    content: url('https://static.wolvden.com/images/items/herbs/carrionflower.png');
+    width: 30px !important;
+    filter: hue-rotate(-20deg);
+}
+
+
+img[src$="//static.lioden.com/images/layout/icon_den_trade.png"]{
+    content: url('https://static.wolvden.com/images/items/herbs/redwoodsorrel.png');
+    width: 30px !important;
+    filter: hue-rotate(-10deg);
+}
+
+
+img[src$="//static.lioden.com/images/layout/icon_den_wishlist.png"]{
+    content: url('https://static.wolvden.com/images/items/trophies/wealdenamber.png');
+    width: 30px !important;
+    filter: hue-rotate(15deg);
+}
+
+
+img[src$="//static.lioden.com/images/layout/icon_den_viewtrade.png"]{
+    content: url('https://static.wolvden.com/images/items/lore/citrine.png');
+    width: 30px !important;
+    filter: saturate(1.2) hue-rotate(-5deg) 
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_block.png"]{
+    content: url('https://static.wolvden.com/images/items/trophies/skull_grison.png');
+    width: 30px !important;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
+    content: url('https://static.wolvden.com/images/items/trophies/skull_badger.png');
+    width: 30px !important;
+}
+
+.member-online {
+    content: url('https://static.lioden.com/images/items/Other/penumbraapp.png') !important;
+    width:35px;
+    height:35px !important;
+    background: none !important;
+    border-radius: 0px !important;
+    margin: -5px 0px -10px 10px;
+filter: sepia(1) hue-rotate(0deg) saturate(1);
+}
+
+.member-offline {
+    content: url('https://www.lioden.com/images/items/Other/app_ammonitebody.png') !important;
+    width:35px;
+    height:35px !important;
+    background: none !important;
+    border-radius: 0px !important;
+    margin: -10px 0px -10px 10px;
+filter: hue-rotate(15deg) ;
+}
+
+
+/* caves */
+.cave-grid {
+	background: #3c3725;
+	border: 1px #27231a solid;
+	border-radius: 5px;
+    color: #a8935f;
+}
+
+.cave-grid:hover {
+    color: #bca67a;
+}
+.cave-grid img {
+	width:100px;
+}
+
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content:url('https://static.lioden.com/images/items/Other/plantfossil.png');
+	width:100px;
+    opacity: 0.8; 
+}
+
+div.cave-grid>img[src$="nestingbanner.png"]:hover {
+    opacity: 1; 
+}
+
+div.cave-grid>img[src$="unsortedlionsbanner.png"]{
+	content:url('https://www.lioden.com/images/items/Other/buchu.png');
+    opacity: .9;
+    transition: 0.5s !important;
+}
+
+div.cave-grid>img[src$="unsortedlionsbanner.png"]:hover {
+    opacity: 1; 
+}
+
+div.cave-grid>img[src$="prideoverviewbanner.png"]{
+	content:url('https://www.lioden.com/images/items/Other/largeleaves.png');
+    opacity: 0.9; 
+    filter:hue-rotate(-20deg);
+}
+
+div.cave-grid>img[src$="prideoverviewbanner.png"]:hover {
+    opacity: 1; 
+}
+
+div.cave-grid>img[src$="caveunused.jpg"]{
+	content:url('https://static.lioden.com/images/dynamic/backgrounds/ammonitecave.png');
+	height:120px;
+	object-fit: cover;
+	object-position: 0% 0;
+	min-width: 0 !important;
+	width: 100% !important;
+}
+
+a[href$="369036"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/ainelguettar.png') !important;
+	height:120px;
+	object-fit: cover;
+	object-position: 0% 0;
+	min-width: 0 !important;
+	width: 100% !important;
+    opacity: 0.85; 
+    transition: 0.5s !important;
+}
+
+a[href$="369036"] > div.cave-grid > img:hover {
+    opacity: 1; 
+}
+
+a[href$="303894"]>div.cave-grid>img {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/elliotformation2.png') !important;
+	height:120px;
+	object-fit: cover;
+    object-position: bottom 0px right 0px!important;
+	min-width: 0 !important;
+    width:100% !important;
+    filter: contrast(.85) brightness(1.1) saturate(1.4) hue-rotate(-3deg);
+    opacity: 0.85; 
+    transition: 0.5s !important;
+}
+
+a[href$="303894"] > div.cave-grid > img:hover {
+    opacity: 1; 
+}
+
+
+a[href$="367489"]>div.cave-grid>img {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/echkarformation.png') !important;
+	height:120px;
+	object-fit: cover;
+    object-position: bottom 0px right 0px!important;    
+	min-width: 0 !important;
+	width: 100% !important;
+    filter: hue-rotate(10deg);
+    opacity: 0.85; 
+    transition: 0.5s !important;
+}
+
+a[href$="367489"] > div.cave-grid > img:hover {
+    opacity: 1; 
+}
+
+a[href$="225216"]>div.cave-grid>img {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/elhrazformation2') !important;
+	height:120px;
+	object-fit: cover;
+	object-position:bottom 0px right 0px !important;
+	min-width: 0 !important;
+	width: 100% !important;
+    filter:hue-rotate(6deg) saturate(.84) brightness(1.1);
+    opacity: 0.85;
+    transition: 0.5s !important;
+}
+
+a[href$="225216"] > div.cave-grid > img:hover {
+    opacity: 1; 
+}
+
+a[href$="313892"]>div.cave-grid>img {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/ancienttrail.png') !important;
+	height:120px;
+	object-fit: cover;
+	object-position:bottom 0px right 0px !important;
+	min-width: 0 !important;
+	width: 100% !important;
+    opacity: 0.85; 
+    transition: 0.5s !important;
+}
+
+a[href$="313892"] > div.cave-grid > img:hover {
+    opacity: 1; 
+}
+
+a[href$="355867"]>div.cave-grid>img {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/excavation.png') !important;
+	height:120px;
+	object-fit: cover;
+	object-position:bottom 0px right 0px !important;
+	min-width: 0 !important;
+	width: 100% !important;
+    opacity: 0.85; 
+    transition: 0.5s !important;
+}
+
+a[href$="355867"]>div.cave-grid>img:hover {
+    opacity: 1; 
+}
+
+/* mounds */
+
+.mound-grid {
+	background: #59532B;
+    border: 1px #27231a solid;
+	border-radius: 5px;
+    color: #a8935f;
+}
+
+.mound-grid:hover {
+    color: #bca67a;
+}
+.mound-grid img {
+	content: url('https://static.lioden.com/images/beetles/prosopocoilussavagei/male/left/charred.png');
+	margin-bottom: 5px;
+	height: 80px !important;
+}
+
+div.mound-grid>img[src$="beetleunsorted.png"]{
+	content: url('https://static.lioden.com/images/beetles/prosopocoilussavagei/male/left/charred.png')!important;
+	object-fit: cover;
+	object-position: 0% 0; 
+	margin-top: 5px !important;
+}
+
+div.mound-grid>img[src$="beetlemound.png"]{
+	content: url('link')!important;
+	object-fit: cover;
+	object-position: 0% 0; 
+	margin-top: 5px !important;
+}
+
+div.mound-grid>img[src$="addbeetlemound.png"]{
+	content: url('https://static.lioden.com/images/beetles/prosopocoilussavagei/male/left/charred.png')!important;
+	object-fit: contain;
+    width:100% !important;
+    height:100% !important;
+	object-position: 0% 0; 
+}
+
+a[href="mound.php?id=237574"]>div.mound-grid>img[src$="beetlemound.png"]{
+	content: url('https://static.lioden.com/images/beetles/mesotopusregius/male/left/brown.png')!important;
+	object-fit: cover;
+        object-position: 0% 0px;
+        margin-top: 5px !important;
+    opacity: 0.85; 
+        filter:hue-rotate(15deg);
+    transition: 0.5s !important;
+}
+
+a[href="mound.php?id=237575"]>div.mound-grid>img[src$="beetlemound.png"]{
+	content: url('https://static.lioden.com/images/beetles/proagoderusrangifer/male/left/green.png')!important;
+    object-fit: cover;
+    object-position: 0% 0px;
+    margin-top: 5px !important;
+    opacity: 0.85; 
+    filter:hue-rotate(-10deg);
+    transition: 0.5s !important;
+}
+
+a[href="mound.php?id=237574"]>div.mound-grid>img[src$="beetlemound.png"]:hover{
+    opacity: 1; 
+}
+
+a[href="mound.php?id=237575"]>div.mound-grid>img[src$="beetlemound.png"]:hover{
+    opacity: 1; 
+}
+
+.table input {
+background: #5D592D !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #d1bf9a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+
+.table input:hover {
+background: #59532b !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #bca67a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.right_odd input {
+background: #5D592D !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #d1bf9a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.right_odd input:hover {
+background: #59532b !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #bca67a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+/* _ days left */
+b span {
+	color: #d1bf9a !important;
+}
+
+.right a.bigger img {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+
+/* buttons */
+.feature input {
+	background: #5D592D; 
+	border: 1px #3c3725 solid !important; 
+	border-radius: 4px !important;
+	color: #d1bf9a;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.feature input:hover {
+	background: #565128; 
+	color: #bca67a !important;
+}
+
+/* showcase */
+.dynastylist {
+	width: 20% !important;
+}
+
+.dynastylist h3 {
+        font-size: 100% !important;
+}
+
+@media only screen and (min-width: 601px) {
+    .dynastylist h3 {
+        font-size: 20px !important;
+    }
+}
+
+img[src$="den_ancestors.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/plesiosaurus.png');
+	width: auto !important;
+} 
+
+img[src$="ancestorsfem.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/majungasaurus.png');
+	width: auto !important;
+}
+
+img[src$="den_achievements.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/rahonavis.png');
+	width: auto !important;
+}
+
+img[src$="den_showcase.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/ceratosaurus.png');
+	width: auto !important;
+}
+
+img[src$="den_beetlebook.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/lesothosaurus.png');
+	width: auto !important; 
+    transform:scalex(-1);
+	background:none!important;
+}
+
+
+.item-header {
+	background: #7a7740 !important;
+	color: #d1bf9a  !important;
+	border-bottom: 1px #3c3725 solid; 
+	border-radius: 5px 5px 0px 0px !important;
+}
+
+.item {
+	background: #666433 !important;
+	border: 1px #3c3725 solid; 
+	border-radius: 5px !important
+}
+
+div.slider.round {
+	background: #a8935f !important;
+}
+
+div.slider.round::before {
+	background: #dbcbad !important;
+}
+
+
+a:visited, a:link {
+    color: #bca67a !important;
+}
+
+a:hover{
+    color: #a8935f !important;
+}
+
+.topbar a:visited, .topbar a:link {
+    color: #a8935f !important;
+}
+
+.topbar a:hover {
+    color: #bca67a !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #584e33;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #5d592d;
+	border-radius: 0px;
+}
+
+
+#editdetailspanel input {
+	background: #6d6b3a; 
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #bca67a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+#editdetailspanel input:focus {
+	background: #656432; 
+	color: #d1bf9a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+#editdetailspanel input:hover {
+	background: #656432; 
+	color: #d1bf9a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+/* password panel */
+
+#changepasswordpanel input {
+	background: #6d6b3a; 
+	border: 1px #3c3725 solid; 
+	border-radius: 4px !important;
+	color: #bca67a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+#changepasswordpanel input:hover {
+	background: #656432; 
+	color: #d1bf9a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+#changepasswordpanel input:focus {
+	background: #656432; 
+	color: #d1bf9a !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+/* copyright */
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+	color: #d1bf9a;
+	text-shadow: none !important
+}
+
+
+/* switch acc button */
+button.button {
+	background: #7a7740 !important;
+	border: 1px #565128 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+button.button:hover {
+	background: #848048 !important;
+	border: 1px #565128 solid; 
+	border-radius: 4px !important;
+	color: #3c3725 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+
+/* social media icons */
+img[src$="iconFB.png"] {
+	content: url('https://www.lioden.com/images/items/Other/crackedfossil.png');
+	height: 55px;
+	width: auto !important;
+}
+
+img[src$="iconTwit.png"] {
+	content: url('https://www.lioden.com/images/items/Other/crumbledfossil.png');
+	height: 55px;
+	width: auto !important;
+}
+
+img[src$="iconTwitch.png"] {
+	content: url('https://www.lioden.com/images/items/Other/ancientfossil.png');
+	height: 55px;
+	width: auto !important;
+}
+
+img[src$="iconYoutube.png"] {
+	content: url('https://www.lioden.com/images/items/Other/fossilafrovenator.png');
+	height: 55px;
+	width: auto !important;
+}
+
+/* fapa */
+
+/* _ days left */
+b span {
+	color: #cfb986 !important;
+}
+
+.feature h3 {
+color: #cfb986;
+}
+
+.feature, div.left {
+	background: #666434 !important;
+	border: 1px #3C3725 solid !important;
+	border-radius: 5px !important;
+	color: #d1bf9a;
+	box-shadow: none !important;
+}
+img[src$="icon_khepri.png"] {
+    content: url('https://static.lioden.com/images/icon_beetlejewel.png');
+        filter: hue-rotate(-30deg);
+}
+
+img[src$="icon_axion.png"] {
+    filter: hue-rotate(-195deg) saturate(.4);
+}
+
+img[src$="icon_beetlejewel.png"] {
+    filter: hue-rotate(-30deg);
+}
+
+img[src$="icon_doubloon.png"] {
+    filter: hue-rotate(10deg) saturate(.8);
+}
+
+img[src$="icon_beetleblood.png"] {
+    filter: hue-rotate(65deg);
+}
+
+img[src$="demonicscale.png"] {
+        filter: hue-rotate(50deg);
+}
+
+img[src$="icon_scarabbeetle.png"] {
+    filter: hue-rotate(-130deg) saturate(.4);
+}
+
+.bigbox {
+	background: #666434;
+	color: #d1bf9a;
+	padding-bottom: 20px;
+    border: #3c3725 1px solid !important;
+	border-radius: 8px;
+    height: auto;
+	width: 91.5%;
+	overflow: hidden;
+    padding:20px;
+    }
+    
+.boxes {
+    position: relative; 
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+border-radius: 8px;
+}
+
+.image-abs {
+    position: absolute;
+    bottom: 0px;
+    width: 91%;
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/WDcottongrass_wilted.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1; 
+    border-radius: 20px !important;
+    filter: hue-rotate(5deg);
+    overflow: hidden;
+    pointer-events: none;  
+    border-radius: 0px !important;
+}
+
+
+.box1{   
+    background: #666434;
+	color: #d1bf9a;
+    border-radius: 8px;
+    border: #3c3725 1px solid !important;
+    width:40%;
+    height:auto;
+    position: relative !important;
+	text-align: right;
+    float:left;
+      box-sizing: border-box;
+	overflow:auto;
+    padding:20px;
+    align-content: center;
+}
+
+
+.box2{   
+    background: #666434;
+	color: #d1bf9a;
+    border-radius: 8px;
+    border: #3c3725 1px solid !important;
+    width:50%;
+    float:right;
+    margin-left:10px;
+    height:auto;
+    position: relative !important;
+	text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+	overflow:auto;
+    padding:20px;
+    align-content: center;
+}
+
+.box1::-webkit-scrollbar-track {
+    background: #666434 !important;
+    border-radius: 0px 8px 8px 0px !important;
+}
+
+.box1::-webkit-scrollbar-thumb {
+    background: #666434 !important;
+        border-radius: 0px 100px 100px 0px;
+}
+
+.box2::-webkit-scrollbar-track {
+    background: #666434 !important;
+    border-radius: 0px 8px 8px 0px !important;
+}
+
+.box2::-webkit-scrollbar-thumb {
+    background: #666434 !important;
+        border-radius: 0px 100px 100px 0px !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #584e33;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #5d592d;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #584e33;
+}
+
+.container.main::before {
+content: "";
+background-image: url('https://static.wolvden.com/images/wolves/decor/default/adult/over/grass_green.png');
+background-size: cover;
+position: fixed;
+display: block;
+height:670px;
+width:870px;
+right: 0px;
+bottom: -30px;
+z-index: 50;
+pointer-events:none;
+}
+
+.container.main::after {
+content: "";
+background-image: url('https://static.wolvden.com/images/wolves/decor/default/adult/over/grass_green.png');
+background-size: cover;
+position: fixed;
+display: block;
+height:670px;
+width:870px;
+right: 828px;
+bottom: -30px;
+z-index: 50;
+pointer-events:none;
+}
+
+/* copyright */
+.col-xs-10{
+    color: #d1bf9a !important;
+    text-shadow: none !important
+}
