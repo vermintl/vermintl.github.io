@@ -971,3 +971,7 @@ div#chatMessageContainer {
 .s-chat-message_timestamp {
 	padding-left:8px;
 }
+
+#pageSidebar > p > a {
+    display:none;
+}
