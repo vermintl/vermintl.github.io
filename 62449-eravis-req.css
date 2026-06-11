@@ -1,0 +1,943 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bitter&family=Cabin+Sketch:wght@400;700&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Dekko&family=Lato&family=Ojuju:wght@200..800&family=Signika+Negative&family=Slabo+27px&family=Truculenta:opsz,wght@12..72,100..900&display=swap')
+#txtChatContainer #lblCharacterCounter{
+	color: #FAF9F6;
+}
+
+table#player.table hr {
+    visibility: hidden !important;
+    display: none !important; 
+}
+
+table#player.table div.xlarge { 
+    margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+margin-top:10px !important}
+
+/* # ffffff - white - rgb(255, 255, 255, 1) */
+
+hr {
+display:none;
+}
+
+/*BACKGROUND*/
+
+body {
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/busanga_flood.png') center center fixed;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+    font-family: "Truculenta", sans-serif !important;
+	color: #fade97;
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgb(75,74,9, .7);
+    font-family: "Truculenta", sans-serif !important;
+	border: none;
+	border-radius: 0px
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+	background-size: cover !important; 
+	background-repeat: no-repeat;
+        border-right: none
+}
+
+/*LOGO. 192x120px.*/
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://static.lioden.com/images/items/Other/opuntia.png');
+	display: block;
+	margin-left: auto;
+	width: 120px;
+	height: px;}
+
+/*TOPBAR ("  font-family: "Truculenta", sans-serife back")*/
+
+.topbar {
+	background: #59590f;
+	border: none;
+	border-top: none;
+	color: #ab9930;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: #59590f;
+	border-bottom: none;
+	color: #676828;
+	border-radius: 0px
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #ab9930 !important
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: #d58a21 !important;
+	border-bottom: none;
+	color: #6f4a19 !important;
+	border-radius: 0px
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgb(213,138,33,.8)!important;
+        border: none;
+	border-radius: 0px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #6f4a19
+}
+
+/* BUTTONS */
+
+input[type="button"] {
+        background: #6f4a19  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #d58a21 !important; 
+	text-shadow: none !important;
+}
+
+input[type="button"]:hover {
+        background: #4b4a09 !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #d58a21 !important; 
+	text-shadow: none !important;
+}
+
+input[type="submit"] {
+background: #6f4a19!important;
+        border: none !important;
+	border-radius: 0px;
+	color: #d58a21 !important;
+	text-shadow: none !important;
+}
+
+input[type="submit"]:hover {
+background: #4b4a09!important;
+        border: none !important;
+	border-radius: 0px;
+	color: #d58a21 !important;
+	text-shadow: none !important;
+}
+
+/* BOOKMARK BUTTON */
+
+input.floatright {
+	background: #6f4a19  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #d58a21 !important;    
+}
+
+input.floatright:hover {
+	background: #4b4a09 !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #d58a21 !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button {
+	background:#4b4a09;
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #d58a21 !important
+}
+
+button.button:hover{
+	background: #ab9930;
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #d58a21 !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning {
+	background: rgb(171,153,48,.8) !important;
+	border: none;
+	color: #482e13;
+	border-radius: 0px !important
+}
+
+.alert-danger {
+	background: rgb(171,153,48,.8)!important;
+	border: none;
+	color: #482e13;
+	border-radius: 0px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #b66d30;
+	font-size: 30px;
+	text-align: center;
+          font-family: "Truculenta", sans-serif
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #a5591a;
+	font-size: 12px;
+	text-align: center
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #a5591a !important;
+	font-size: 14px !important
+}
+
+/* COMMENT BOX */
+
+div#commentBox, div#makeComment, div#commentErrors {
+        border: none !important;
+        border-radius: 0px !important;
+        text-align: center;}
+
+#commentBox {
+	background: rgb(103,104,40,.2)  !important;
+	border: none !important;
+}
+
+.comment:nth-child(even) {
+	background: rgb(171,153,48, .7) !important;
+	color: #482e13 !important
+}
+
+.comment:nth-child(odd) {
+	background: rgb(169,129,52, .7) !important;
+	color: #482e13 !important;
+}
+
+/* BY ____ ON ____ */
+small.text-muted{
+	color: #482e13 !important
+}
+
+/* TEXT COLOR */
+div.commentText {
+	background: none !important;
+	color: #fade97
+}
+
+/* WRITING BOX */
+input#comment {
+	background: rgb(169,129,52,.5)!important;
+border: none !important;
+	color: #b5c1cf !important;
+}
+
+/* X BUTTON */
+input[type="button"].bad {
+	background: #6f4a19 !important;
+	border-radius: px !important;
+}
+
+input[type="button"].bad:hover {
+	background: #59590f !important;
+	border-radius: px !important;
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #ab9930 !important;
+        font-size: 16px !important;
+          font-family: "Truculenta", sans-serif
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgb(213,138,33,.8) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #59590f !important;
+	border-radius: 0px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: #59590f;
+	color: #d58a21 !important;
+	border-radius: px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: #ab9930;
+	color: #482e13 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar-warning {
+        background: #ab9930 !important;
+}
+
+/* HUNGER BAR COLOR */
+.progress-bar-danger {
+        background: #ab9930 !important;
+}
+
+/* EXP BAR COLOR */
+.progress-bar-success {
+        background: #ab9930 !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #fade97 !important;
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: rgb(171,153,48, .7) !important;
+        color: #fade97 !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background:rgb(169,129,52, .7) !important;
+        color: #fade97 !important;
+	border: none !important;
+}
+
+/* TIMESTAMPS */
+.s-chat-message_timestamp {
+	color: #482e13 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: rgb(224,142,47, .8) !important;
+        color: #482e13 !important;
+	border: none !important;
+}
+
+/* CHANNEL BUTTON */
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgb(224,142,47,.8) !important;
+        color: #482e13 !important;
+	border: none !important
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+/* LION IMAGE */
+
+#lion_image {
+	border-radius: 12px !important;
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+        /*content: url('LINK')!important;*/
+ 
+}
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgb(171,153,48,.7);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 0px;
+    color: #4b4a09
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgb(213,138,33, .8) !important;
+	color: #a5591a !important;
+	border-radius: 0px
+}
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgb(75,74,9, .6) !important;
+        color: #4b4a09 !important;
+	border-radius: 0px
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgb(89,89,15, .4);
+	color: #59590f !important;
+	border-radius: 0px !important
+}
+
+td.right {
+	border-radius: 0px !important
+}
+
+.left {
+  background: rgb(89,89,15, .4)!important;
+  color: #4b4a09 !important;
+  border: none !important;
+  text-align: center !important;
+    font-family: "Truculenta", sans-serif !important;
+  }
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/*CAVE/MOUND IMAGES. CHANGE 12345 to USER ID! 260x60px*/
+
+/* CAVE BACKGROUND */
+
+.cave-grid,
+.mound-grid {
+	background: rgb(213,138,33, .8);
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* PREGGO LIONS */
+.cave-grid>img {
+content: url('https://www.lioden.com/images/items/Other/shardsmossagate.png')!important;
+width:auto !important;
+}
+
+/* UNSORTED */
+a[href="unsorted.php?id=62449"]>.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Other/gemmeteorite.png')!important;
+}
+
+/* PRIDE OVERVIEW */
+a[href="lionoverview.php?id=62449"]>.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Other/gemjasper.png')!important;
+}
+
+a[href$="45236"]>div.cave-grid>img {
+    content: url(https://www.lioden.com/images/items/Other/amber.png) !important;
+}
+
+
+a[href$="49754"]>div.cave-grid>img {
+    content: url(https://www.lioden.com/images/items/Other/amber.png) !important;
+}
+
+a[href$="404901"]>div.cave-grid>img {
+    content: url(https://www.lioden.com/images/items/Other/amber.png) !important;
+}
+
+a[href$="47125"]>div.cave-grid>img {
+    content: url(https://www.lioden.com/images/items/Other/amber.png) !important;
+}
+/* MOUNDS. 130x80px. */
+
+/* UNCREATED MOUND */
+.mound-grid img {
+	content: url('https://www.lioden.com/images/items/Beetles/EVENTBEETLE_lamprimaaurata.png');
+	margin-bottom: 5px;
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgb(213,138,33, .8) !important;
+	color: #59590f !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgb(213,138,33, .8) !important;
+color: #4b4a09 !important;
+	border: none;
+	border-radius: 0px !important;
+   font-family: "Truculenta", sans-serif !important;
+
+}
+
+/* TERRITORY DESCRIPTION */
+
+textarea {
+	background: rgb(89,89,15,.5)!important;
+	color: #f9de97 !important;
+	border: none !important;
+	  font-family: "Truculenta", sans-serif !important;
+	text-align: center !important;
+}
+
+textarea:focus {
+	background: rgb(89,89,15,.8)!important;
+	color: #f9de97 !important;
+	border: none !important;
+	  font-family: "Truculenta", sans-serif !important;
+	text-align: center !important;}
+
+/* PASSWORD */
+
+input[type="password"] {
+	background: rgb(89,89,15,.8)!important;
+	color: #f9de97 !important;
+	border: none !important;
+	  font-family: "Truculenta", sans-serif !important;
+	text-align: center !important;
+}
+
+input[type="password"]:focus {
+	background: rgb(89,89,15,.8)!important;
+	color: #f9de97 !important;
+	border: none !important;
+	  font-family: "Truculenta", sans-serif !important;
+	text-align: center !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgb(89,89,15,.8)!important;
+	color: #f9de97 !important;
+	border: none !important;
+	  font-family: "Truculenta", sans-serif !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: rgb(89,89,15,.5)!important;
+	color: #f9de97 !important;
+	border: none !important;
+	  font-family: "Truculenta", sans-serif !important;
+	border-radius: 0px !important
+}
+
+/* Next to Player/Avatar/Email */
+input[type="text"] {
+	background: rgb(89,89,15,.8)!important;
+	color: #f9de97 !important;
+	border: none !important;
+	  font-family: "Truculenta", sans-serif !important;
+	text-align: center !important;
+}
+
+input[type="text"]:focus {
+	background: rgb(89,89,15,.8)!important;
+	color: #f9de97 !important;
+	border: none !important;
+	  font-family: "Truculenta", sans-serif !important;
+	text-align: center !important;
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #4b4a09 !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #ab9930 !important
+}
+
+/* DROPDOWN MENU */
+
+select {
+	background: #ab9930 !important;
+	color: #676828 !important;
+	border: none!important;
+	  font-family: "Truculenta", sans-serif;
+	text-align: center !important;}
+  
+select:focus {
+	background: #ab9930 !important;
+	color: #676828 !important;
+	border: none!important;
+	text-align: center !important;
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #676828 !important;
+        text-shadow: none !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #482e13 !important
+}
+
+a:hover {
+	color: #4b4a09 !important
+}
+
+/* Scrollbar Edits */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #59590f;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ab9930;
+	border-radius: px;
+}
+
+/* BOXES */
+.boxContainer{
+display: flex;
+justify-content: space-between;
+}
+
+.twobox {
+	background: none;
+	height: 150px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.twoboxleft {
+	float: left;
+	background: rgb(75,74,9, .8);
+	color: #ab9930;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	height: 150px;
+	width: 385px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.twoboxleft:hover {
+	overflow-y: auto;
+}
+
+.twoboxright {
+	float: left;
+background: rgb(75,74,9, .8);
+	color: #ab9930;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	height: 150px;
+	width: 385px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.twoboxright:hover {
+	overflow-y: auto;
+}
+
+.largeboxscroll {
+background: rgb(75,74,9, .8);
+	color: #ab9930;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    height: 140px;
+    width: auto;
+    overflow: auto;
+}
+
+.largeboxhover {
+	background: rgb(75,74,9, .8);
+	color: #ab9930;
+	padding-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+    height: 140px;
+	width: auto;
+	overflow: hidden;
+        margin-bottom: 35px;
+transition: height 140s;
+}
+
+.largeboxhover:hover {
+        height: auto;
+	overflow-y: auto;
+}
+
+/* CREDIT do not remove */
+.credit {
+	background: rgba(213,138,33, .7);
+	color: #59590f;
+	z-index: 100;
+	padding: 10px;
+	border: 1px solid #;
+	position: fixed;
+	text-align: center;
+	border-radius: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 180px;
+	height: 40px;
+	font-size: 14px;
+	overflow: auto;
+}
+/* showcase */
+.dynastylist {
+	width: 20%;
+}
+
+.dynastylist h3 {
+        font-size: 100% !important;
+color: #482E13 !important;
+}
+
+@media only screen and (min-width: 601px) {
+    .dynastylist h3 {
+        font-size: 15px !important;
+    }
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+	width: 20%;
+}
+
+
+img[src$="den_ancestors.png"] {
+	content: url(https://www.lioden.com/images/items/Other/BaobabFruit.png);
+	width: auto !important;
+} 
+
+
+img[src$="ancestorsfem.png"] {
+	content: url('https://static.lioden.com/images/items/Other/blackmustard.png');
+	width: auto !important;
+}
+
+
+img[src$="den_achievements.png"] {
+	content: url('https://www.lioden.com/images/items/Other/marulafruit.png');
+	width: auto !important;
+}
+
+
+img[src$="den_showcase.png"] {
+	content: url('https://www.lioden.com/images/items/Other/safou.png');
+	width: auto !important;
+    transform: scaleX(-1);
+}
+
+
+img[src$="den_beetlebook.png"] {
+	content: url('https://www.lioden.com/images/items/Other/medlarfruit.png');
+    width: auto !important; 
+	background:none!important;
+}
+
+/* player table cosmetics */
+#player.table hr {
+	visibility: hidden !important;
+	display: none !important; 
+}
+
+#player.table div.xlarge { 
+	margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+	margin-top:10px !important
+}
+
+#player.table .text-muted {
+	visibility: hidden;
+	position: relative;
+}
+
+#player.table .text-muted::after {
+	content: none !important;
+	visibility: hidden;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+	content:'Block Member';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a::after {
+	content:'Friend Request';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+
+/* player icons */
+img[src$="//static.lioden.com/images/layout/icon_den_message.png"]{
+display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_gift.png"]{
+display: none;
+
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_trade.png"]{
+display: none;
+
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_wishlist.png"]{
+display: none;
+
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_viewtrade.png"]{
+display: none;
+
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_block.png"]{
+display: none;
+
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
+display: none;
+
+}
+
+
+/* copyright */
+.col-xs-10{
+    color: #482e13 !important;
+    text-shadow: none !important
+}
+
+
+.breadcrumb:after { 
+	content:'CSS by grassman (#243884)' !important;
+	right: 113px;
+	position: absolute;
+	color: #FADE97;
+	font-size: auto !important;
+}
+
+.container.main::before {
+background-image: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/juicePagedoll.png');
+background-size: contain;
+position: fixed;
+display: block;
+width:350px !important;
+height: 250px;
+right:-30px;
+bottom: -10px;
+z-index: 100;
+    pointer-events: none;}
+
+a.btn.btn-defult.button {
+    visibility: hidden !important;
+    display: none !important;     
+}
