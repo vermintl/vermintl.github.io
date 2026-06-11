@@ -943,26 +943,31 @@ img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
 img[src$="den_ancestors.png"] {
 	content: url('https://static.lioden.com/images/items/Other/uzara.png');
 	width: 100% !important;
+	max-width: 80px !important;
 } 
 
 img[src$="ancestorsfem.png"] {
 	content: url('https://static.lioden.com/images/items/Other/buchu.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_achievements.png"] {
 	content: url('https://static.lioden.com/images/items/Other/BaobabFruit.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_showcase.png"] {
 	content: url('https://static.lioden.com/images/items/Other/ibogaroot.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_beetlebook.png"] {
 	content: url('https://static.lioden.com/images/items/Other/marulafruit.png');
 	width: 100% !important; 
+	max-width: 80px !important;
 }
 
 .col-xs-10{
@@ -973,15 +978,15 @@ img[src$="den_beetlebook.png"] {
 /* social media icons */
 img[src$="iconFB.png"] {
 	content: url('https://static.lioden.com/images/items/Other/energyrefill.png');
-	width: 23% !important;
+	width: 30% !important;
 }
 
 img[src$="iconTwit.png"] {
 	content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png');
-	width: 23% !important;
+	width: 30% !important;
 }
 
 img[src$="iconInsta.png"] {
 	content: url('https://static.lioden.com/images/items/Other/coconut.png');
-	width: 23% !important;
+	width: 30% !important;
 }
