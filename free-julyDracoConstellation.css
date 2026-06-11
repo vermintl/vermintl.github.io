@@ -362,10 +362,6 @@ img[src$="icon-season-dry.png"] {
 
 /* chat channel button + pinned message */
 
-#btnChatSettings, #btnLoadNewMessages, .s-chat-message_menu {
-	filter: grayscale() brightness(350%) !important;
-}
-
 button.channelSwitcher {
 	background: #2A2B6E;
 	border: 0px #000 solid; 
@@ -405,39 +401,6 @@ button.channelSwitcher:hover {
 }
 
 /* chatbox */
-#btnChatSettings, #btnLoadNewMessages, .s-chat-message_menu {
-	filter: grayscale() brightness(0%) !important;
-}
-
-#btnChatSettings {
-    background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
-background-size: contain !important;
-        filter: brightness(0) !important;
-}
-
-#btnChatSettings:focus {
-	background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
-	background-size: contain !important;
-        filter: brightness(0) !important;
-}
-
-#btnChatSettings:select {
-	background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
-	background-size: contain !important;
-	filter: brightness(0) !important;
-}
-
-#btnLoadNewMessages{
-	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
-	background-size: contain !important;
-	filter: brightness(0) !important;
-}
-
-#btnLoadNewMessages:focus{
-	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
-	background-size: contain !important;
-        filter: brightness(0) !important;
-}
 
 .s-chat-sidebar #label_currentChannel {
 	background: #3a329a !important;
@@ -899,6 +862,113 @@ img[src$="den_beetlebook.png"] {
     color: #303182 !important;
     text-shadow: none !important
 }
-#pageSidebar > p > a {
-    display:none;
+
+
+#context-chatMenu {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+#btnChatSettings {
+    background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+#btnChatSettings:focus {
+	background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+	background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+#btnChatSettings:select {
+	background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+	background-size: contain !important;
+	filter: brightness(0) !important;
+}
+
+#btnLoadNewMessages{
+	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
+	background-size: contain !important;
+	filter: brightness(0) !important;
+}
+
+#btnLoadNewMessages:focus{
+	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
+	background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+.s-chat-message_menu {
+	background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
+	filter: brightness(0) !important;
+	background-size: contain !important;
+}
+
+.s-chat-message_menu:focus{
+	background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
+	filter: brightness(0) !important;
+	background-size: contain !important;
+}
+
+.s-chat-message_menu:select{
+    background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
+    filter: brightness(0) !important;
+background-size: contain !important;
+}
+
+.s-chat-message_menu:hover{
+    background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
+    filter: brightness(0) !important;
+background-size: contain !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    border-bottom-color: transparent !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    min-height: 0px;
+    margin-top: 3px !important;
+    text-indent: 0px !important;
+}
+
+.s-chat-sidebar #label_currentChannel {
+	border-radius: 4px !important;
+	color: #color !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+div#fraChatChannelMenu.chatMenu-container {
+	box-shadow: none !important;
+    border: 0px #000 solid;
+}
+
+div#chatMessageContainer {
+    border: 0px #000 solid;
+}
+
+.s-chat-message:nth-child(even) {
+	border: 0px #000 solid; 
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	border: 0px #000 solid; 
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_content {
+    display: block !important;
+    padding-left: 8px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_timestamp {
+	padding-left:8px;
 }
