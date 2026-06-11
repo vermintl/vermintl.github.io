@@ -990,15 +990,15 @@ img[src$="den_beetlebook.png"] {
 /* social media icons */
 img[src$="iconFB.png"] {
 	content: url('https://static.lioden.com/images/items/Other/foodbundle.png');
-	width: 23% !important;
+	width: 30% !important;
 }
 
 img[src$="iconTwit.png"] {
 	content: url('https://static.lioden.com/images/items/Other/medlarfruit.png');
-	width: 23% !important;
+	width: 30% !important;
 }
 
 img[src$="iconInsta.png"] {
 	content: url('https://static.lioden.com/images/items/Other/fermentedmarulafruit.png');
-	width: 23% !important;
+	width: 30% !important;
 }
