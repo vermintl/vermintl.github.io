@@ -1,0 +1,904 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Nova+Square&family=Revalia&family=Share+Tech+Mono&display=swap');
+
+/* background */
+@media only screen and (min-width: 601px) {} body {
+	background: url('https://static.lioden.com/images/explorenew/celestial/backdrops/16.png');
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Electrolize' !important;
+	text-transform: none;
+	box-shadow: none !important;
+	color: #604aff;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background-image: 
+    url('https://static.lioden.com/images/explorenew/celestial/cometiceshards.png'),
+    url('https://static.lioden.com/images/explorenew/celestial/variables/27.png');
+  background-size: cover, cover;
+  background-repeat: repeat, repeat;
+  background-position: center center, center center;
+}
+
+/* main panel */
+.container.main {
+	background: rgb(22, 23, 76,.8);
+	border-radius: 0px;
+	box-shadow: none!important;
+}
+
+.col-md-9 {
+	background: none;
+	background-size: cover !important; 
+	background-repeat: no-repeat;
+	border-right: none
+}
+
+/* logo 192x120 */
+img[src$="//static.lioden.com/img/layout/logo-full-2.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/neutrondrakeling.png');
+	display: block;
+	width: 240px;
+    margin-left: 20px;
+    margin-top:-30px;
+    filter: hue-rotate(15deg);
+}
+
+.navbar li:last-child{
+    display:none;
+    visibility: hidden;
+}
+
+/* topbar "welcome back" */
+.topbar {
+	background: #201f41;
+	border: 0px;
+	border-top: none;
+	border-radius: 0px;
+	color: #604aff;
+}
+
+.badge /* message count */{
+	background: #604aff;
+}
+
+img[src$="gold.png"] {
+	content:url('https://static.lioden.com/images/items/Other/prismaticscale.png')!important;
+	width:20px!important;
+}
+
+img[src$="silver.png"] {
+	content:url('https://static.lioden.com/images/items/Other/cometpiece.png')!important;
+	width:20px!important; 
+}
+
+/* navbar "den, crossroads ..." */
+.navbar {
+	background: #2a2b6e;
+	border-bottom: none;
+	border-radius: 0px;
+}
+
+.navbar li a {
+	color: #604aff !important;
+	margin-top: 5px;
+}
+
+.navbar li a:hover {
+	background: #2a2b6e !important;
+	border-bottom: none;
+	color: #8a68ff !important;
+	border-radius: 0px
+}
+
+/* links */
+a:link,
+a:visited {
+	color: #8a68ff !important
+}
+
+a:hover {
+	color: #af84ff !important
+}
+
+/* buttons */
+input {
+	background: #4d39ff !important;
+	border: 0px #000 solid !important; 
+	color: #181431 !important;
+    border-radius:0px !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+input:focus {
+	background: #604aff !important; 
+	border: 0px #000 solid; 
+	color: #181431 !important;
+}
+
+input:hover {
+	background: #604aff !important; 
+	border: 0px #000 solid; 
+	color: #181431 !important;
+}
+
+/* dropdowns */
+select {
+	background: #4d39ff !important; 
+	border: 0px #000 solid; 
+	border-radius: 0px !important;
+	color: #181431 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+select:focus {
+	background: #604aff !important; 
+	border: 0px #000 solid; 
+	border-radius: 0px !important;
+	color: #181431 !important;
+}
+
+select:hover {
+	background: #604aff !important; 
+	border: 0px #000 solid; 
+	border-radius: 0px !important;
+	color: #181431 !important;
+}
+
+/* "home/den" bar */
+.breadcrumb {
+	background: #3a329a;
+	border-radius: 0px
+}
+
+.breadcrumb .active {
+	color: #604aff;
+}
+
+.breadcrumb:after { 
+	content:'CSS by grassman (#243884) ★';
+	right: 110px;
+	position: absolute;
+	color: #8a68ff;
+	font-size: auto !important;
+}
+
+input.floatright {
+	background: #4d39ff !important;
+	border: 0px #000 solid !important; 
+	color: #181431 !important;
+	margin-top: 2% !important;
+}
+
+input.floatright:hover {
+	background: #604aff !important;
+	border: 0px #000 solid; 
+	color: #181431 !important;
+}
+
+
+/* alerts */
+.alert,
+.alert-warning {
+	background: #443ac4 !important;
+	color: #181431;
+	border: 0px #000 solid; 
+	border-radius: 0px !important
+}
+
+.alert-danger {
+	background: #443ac4 !important;
+	border: 0px #000 solid; 
+	color: #181431;
+	border-radius: 0px !important
+}
+
+/* comment box */
+#commentBox {
+	background: #2A2B6E;
+	border: 0px #000 solid;
+	color: #af84ff;
+	border-radius: 0px;
+}
+
+.commentTag {
+	content: url('https://www.lioden.com/images/tags/0/3/3343.png');
+	width: 40px;
+	height: 40px;
+	border-radius: 0px;
+}
+
+.comment:nth-child(even) {
+	background: #303182 !important;
+}
+
+.comment:nth-child(odd) {
+	background: #3b3496 !important;
+}
+
+small.text-muted{
+	color: #604aff !important
+}
+
+input[type="button"].bad {
+	background: #443ac4!important;
+	border: 0px #000 solid !important;
+	border-radius: 0px !important;
+	color: #181431 !important;
+    text-transform: uppercase !important;
+}
+
+input[type="button"].bad:hover {
+	background: #453ae0 !important;
+	border: 0px #000 solid;
+	color: #181431 !important;
+}
+
+input#comment {
+	background: #2A2B6E !important;
+	border: 0px #000 solid !important;
+	color: #8a68ff !important;
+}
+
+input#comment:hover {
+	background: #303182 !important;
+	border: 0px #000 solid !important;
+	color: #af84ff !important;
+}
+
+input#postComment {
+	background: #2A2B6E !important;
+	border: 0px #000 solid !important;
+	color: #8a68ff !important;
+}
+
+input#postComment:hover {
+	background: #303182 !important;
+	border: 0px #000 solid !important;
+	color: #af84ff !important;
+}
+
+/* sidebar */
+.sidebar h3 {
+	color: #443ac4 !important;
+	font-size: 20px;
+	text-transform: none;
+}
+
+.panel {
+	background: #3a329a !important;
+	box-shadow: none !important;
+	border: 0px #000 solid !important;
+	color: #7954ff !important;
+	border-radius: 0px;
+	text-transform: none;
+}
+
+/* arrows */
+div.col-md-12.col-xs-6 > a h3 div {
+	content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/celestialcanopus.png);
+	position:absolute;
+	right: 0px;
+	top: 150px;
+	width:120px;
+	z-index:1;
+    transform: scalex(-1);
+    filter: hue-rotate(10deg);
+}
+
+div.col-md-12.col-xs-5 > a:nth-child(1) h3 div {
+	content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/celestialssagit.png);
+	position:absolute;
+	right: -20px;
+	top: -15px;
+	width:120px;
+	z-index:1;
+    transform: scalex(-1);
+    filter: hue-rotate(15deg);
+}
+
+div.col-md-12.col-xs-5 > a:nth-child(3) h3 div {
+	content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/celestialwarthog.png);
+	position:absolute;
+	right: -10px;
+	top: 70px;
+	width:90px;
+	z-index:1;
+    transform: scalex(-1);
+    filter: hue-rotate(15deg);
+}
+
+img[src$="icon-time-day.png"] {
+	content: url('https://static.lioden.com/images/items/Background/MergingGalaxies.png')!important;
+	width: 20px !important;
+}
+
+img[src$="icon-time-night.png"] {
+	content: url('https://static.lioden.com/images/items/Background/swirlingsky.png')!important;
+	width: 20px !important;
+}
+
+img[src$="icon-season-wet.png"] {
+	content: url('https://static.lioden.com/images/items/Background/meteor_shower.png')!important;
+	width: 20px !important; 
+}
+
+img[src$="icon-season-dry.png"] {
+	content: url('https://static.lioden.com/images/items/Background/SwirlingGalaxy.png')!important;
+	width: 20px !important; 
+} 
+
+.col-md-3 form .panel.panel-default {
+    display:none !important;
+}
+
+/* energy bar */ 
+.progress {
+	background: #8a68ff;
+	border-radius: 0px !important;
+	border: 0px #000 solid !important;
+}
+
+.progress-bar {
+	background: #4d39ff;
+}
+
+.progress div {
+	color: #2a2b6e !important;
+}
+
+
+/* chat channel button + pinned message */
+
+#btnChatSettings, #btnLoadNewMessages, .s-chat-message_menu {
+	filter: grayscale() brightness(350%) !important;
+}
+
+button.channelSwitcher {
+	background: #2A2B6E;
+	border: 0px #000 solid; 
+	border-radius: 0px;
+	color: #604aff;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+button.channelSwitcher.active {
+	background: #303182;
+	border: 0px #000 solid; 
+	border-radius: 0px;
+	color: #604aff;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+button.channelSwitcher:hover {
+	background: #303182;
+	border: 0px #000 solid; 
+	border-radius: 0px;
+	color: #8a68ff;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.s-chat-message__pinned {
+	background: #2A2B6E !important;
+	color: #604aff !important;
+	border: 0px #000 solid; 
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    min-height: 0px;
+}
+
+/* chatbox */
+#btnChatSettings, #btnLoadNewMessages, .s-chat-message_menu {
+	filter: grayscale() brightness(0%) !important;
+}
+
+#btnChatSettings {
+    background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+#btnChatSettings:focus {
+	background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+	background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+#btnChatSettings:select {
+	background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+	background-size: contain !important;
+	filter: brightness(0) !important;
+}
+
+#btnLoadNewMessages{
+	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
+	background-size: contain !important;
+	filter: brightness(0) !important;
+}
+
+#btnLoadNewMessages:focus{
+	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
+	background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+.s-chat-sidebar #label_currentChannel {
+	background: #3a329a !important;
+	border: 0px #000 solid !important; 
+	border-radius: 4px !important;
+	color: #604aff !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+div#chatMessageContainer {
+    border: 0px #000 solid;
+    box-shadow: none!important
+}
+
+.s-chat-message:nth-child(even) {
+	background: #303182 !important;
+	color: #af84ff !important;
+	border: 0px #000 solid; 
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #3b3496 !important;
+	color: #af84ff !important;
+	border: 0px #000 solid; 
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_content {
+    display: block !important;
+    padding-left: 8px !important;
+    padding-right: 5px !important;
+}
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background-color: #443ac4 !important;
+}
+
+#txtChatContainer #lblCharacterCounter {
+	color: #604aff !important
+}
+
+.s-chat-message_timestamp {
+	color: #604aff !important;
+    padding-left:8px;
+}
+
+input#txtChatInput, select, textarea {
+	background: #2A2B6E !important;
+	border: 0px #000 solid !important; 
+	border-radius: 0px !important;
+	color: #8a68ff !important;
+}
+
+input#btnChatSend {
+	background: #2A2B6E !important;
+	border: 0px #000 solid; 
+	color: #8a68ff !important;
+}
+
+input#btnChatSend:hover {
+	background: #303182 !important;
+	border: 0px #000 solid; 
+	color: #af84ff !important;
+}
+
+/* social media icons */
+img[src$="iconFB.png"] {
+	content: url('https://static.wolvden.com/images/items/toys/pherrisrollingball.png');
+	width: 24% !important;
+    filter: hue-rotate(20deg);
+}
+
+img[src$="iconTwit.png"] {
+	content: url('https://static.lioden.com/images/items/Other/spacerock.png');
+	width: 24% !important;
+}
+
+img[src$="iconInsta.png"] {
+	content: url('https://static.wolvden.com/images/items/trophies/lunarchitin.png');
+	width: 24% !important;
+}
+
+img[src$="iconInsta.png"] {
+	content: url('https://static.wolvden.com/images/items/lore/sapphire.png');
+	width: 24% !important;
+}
+
+/* switch acc button */
+button.button {
+	background: #2A2B6E !important;
+	border: 0px #000 solid; 
+	border-radius: 0px !important;
+	color: #8a68ff !important;
+    box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+button.button:hover {
+	background: #303182 !important;
+	border: 0px #000 solid; 
+	border-radius: 0px !important;
+	color: #af84ff !important;
+}
+
+/* den header */
+h1 {
+	color: #af84ff;
+	font-size: 30px;
+	text-align: center;
+	text-transform: none !important;
+}
+
+/* all table backgrounds */
+table.table {
+	background: #3a329a;
+    border: 0px;
+}
+
+/* all table headers */
+.top, th {
+	background: #2a2b6e !important;
+	color: #604aff !important;
+	border-radius: 0px
+}
+
+/* all table footers */
+.bottom {
+	background: #2a2b6e !important;
+	color: #604aff !important;
+	border-radius: 0px
+}
+
+td.left {
+	background: #2a2b6e !important;
+}
+
+/* "level, stats, etc" */
+.inner-table .left {
+	background: #2a2b6e !important;
+	color: #4d39ff;
+	border-radius: 0px;
+}
+
+.inner-table .right {
+	background: #303182 !important;
+	color: #604aff;
+	border-radius: 0px;
+}
+
+table#about.table > tbody > tr.right > td.right > table.inner-table.auto a {
+	color: #8a68ff !important
+}
+
+/* king image */
+#lion_image {
+	border-radius: 50px !important;
+	width:200px !important;
+	margin-top: 6%;
+	margin-left: 4%;
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/dragoncssking')!important; 
+}
+
+/* player table cosmetics */
+#player.table hr {
+	visibility: hidden !important;
+	display: none !important; 
+}
+
+#player.table div.xlarge { 
+	margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+	margin-top:10px !important
+}
+
+#player.table .text-muted {
+	visibility: hidden;
+	position: relative;
+}
+
+#player.table .text-muted::after {
+	content: none !important;
+	visibility: hidden;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+	content:'Block Member';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a::after {
+	content:'Friend Request';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+
+/* player icons */
+img[src$="//static.lioden.com/images/layout/icon_den_message.png"]{
+    content: url('https://static.wolvden.com/images/items/other/glowing_spores.png');
+    width: 25px !important;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_gift.png"]{
+    content: url('https://static.wolvden.com/images/items/trophies/chargedcore.png');
+    width: 25px !important;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_trade.png"]{
+    content: url('https://static.wolvden.com/images/items/trophies/glowingclaw.png');
+    width: 25px !important;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_wishlist.png"]{
+    content: url('https://static.wolvden.com/images/items/trophies/frozenpearl.png');
+    width: 30px !important;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_viewtrade.png"]{
+    content: url('https://static.wolvden.com/images/items/other/essence-covered-furclump.png');
+    width: 25px !important;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_block.png"]{
+    content: url('https://static.wolvden.com/images/items/trophies/essencecoveredegg.png');
+    width: 25px !important;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
+    content: url('https://static.wolvden.com/images/items/other/charged_eyeball.png');
+    width: 25px !important;
+}
+
+/* caves */
+.cave-grid {
+	background: #3A329A;
+	border: 0px #000 solid;
+	border-radius: 0px;
+}
+
+.cave-grid img {
+	content: url('https://static.lioden.com/images/explorenew/celestial/pulsardrake.png')!important;
+    	height:120px;
+	object-fit: cover;
+	object-position: 0% 0;
+	min-width: 0 !important;
+	width: 100% !important;
+}
+
+div.cave-grid>img[src$="nestingbanner.png"]{
+	content:url('https://static.lioden.com/images/explorenew/celestial/galacticdrakontos.png') !important;
+	width:100px;
+}
+
+div.cave-grid>img[src$="unsortedlionsbanner.png"]{
+	content:url('https://static.lioden.com/images/explorenew/celestial/pulsardragon.png') !important;
+}
+
+div.cave-grid>img[src$="prideoverviewbanner.png"]{
+	content:url('https://static.lioden.com/images/explorenew/celestial/skyrmiondragon.png') !important;
+}
+
+/* mounds */
+.mound-grid {
+	background: #3A329A;
+border: 0px #000 solid;
+	border-radius: 0px;
+}
+
+.mound-grid img {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/pulsarwyrm%20(1).png') !important;
+    	height:120px;
+	object-fit: cover;
+	object-position: 0% 0;
+	min-width: 0 !important;
+	width: 100% !important;
+	margin-top: -5px !important;
+    margin-left:-10px !important;
+}
+
+/* sparring */ 
+.right_odd {
+	background: rgb(0, 0, 0,.0) !important;
+color: #604aff;
+}
+
+/* fapa */
+
+/* _ days left */
+b span {
+	color: #8a68ff !important;
+}
+
+.feature h3 {
+color: #604aff;
+}
+
+.feature, div.left {
+	background: #3A329A !important;
+	border: 0px #000 solid !important;
+	border-radius: 0px !important;
+	color: #8a68ff;
+	box-shadow: none !important;
+}
+
+/* friends */
+#allies.table td.left{
+	background: rgb(0, 0, 0, .0) !important;
+}
+
+/* hides friends
+#allies.table {
+	display: none !important;
+} */
+
+/* clans */
+#clans.table td.left{
+	background: rgb(0, 0, 0, .0) !important;
+}
+
+/* hides clans
+#clans.table {
+	display: none !important;
+} */
+
+/* hides clan banners 
+.right a.bigger img {
+	display: none !important;
+	visibility: hidden !important;
+} */
+
+/* showcase */
+.dynastylist {
+	width: 20%;
+}
+
+.dynastylist h3 {
+        font-size: 100% !important;
+    color: #604aff;
+}
+
+@media only screen and (min-width: 601px) {
+    .dynastylist h3 {
+        font-size: 20px !important;
+    }
+}
+
+img[src$="den_ancestors.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/eccentricradiation.png');
+	width: 100% !important;
+} 
+
+img[src$="ancestorsfem.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/stardust3.png');
+	width: 100% !important;
+}
+
+img[src$="den_achievements.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/gasoutflow.png');
+	width: 100% !important;
+}
+
+img[src$="den_showcase.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/stardust4.png');
+	width: 100% !important;
+}
+
+img[src$="den_beetlebook.png"] {
+	content: url('https://static.lioden.com/images/items/Decoration/plasma.png');
+	width: 100% !important; 
+}
+
+/* details panel */
+#editdetailspanel td.left{
+	background: #303182 !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #303182;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #303182;
+	border-radius: 2px;
+}
+
+/* copyright */
+.col-xs-10{
+    color: #303182 !important;
+    text-shadow: none !important
+}
+#pageSidebar > p > a {
+    display:none;
+}
