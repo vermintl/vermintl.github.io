@@ -1,0 +1,987 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Marcellus&display=swap');
+
+/*BACKGROUND*/
+
+body {
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/DesertOasis.png') center center fixed;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	color: #595018;
+    font-family: "Chelsea Market" !important;
+}
+table#player.table hr {
+    visibility: hidden !important;
+    display: none !important; 
+}
+
+table#player.table div.xlarge { 
+    margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+margin-top:10px !important}
+
+hr {
+display:none;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgb(248,195,115, .7);
+box-shadow: none; 
+	border: none;
+	border-radius: 0px
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+	background-size: cover !important; 
+	background-repeat: no-repeat;
+        border-right: none;
+box-shadow: none; 
+}
+
+/*LOGO. 192x120px.*/
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://static.lioden.com/images/items/Other/app_victor.png');
+	display: block;
+	margin-left: auto;
+	width: 120px;
+	height: px;}
+
+/*TOPBAR ("welcome back")*/
+
+.topbar {
+	background: rgb(243,161,79,.9);
+	border: none;
+	border-top: none;
+	color: #595018;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: rgb(243,161,79,.8);
+	border-bottom: none;
+	color: #ffaa00;
+	border-radius: 0px
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #7d5428 !important
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: #868422 !important;
+	border-bottom: none;
+	color: #595018 !important;
+	border-radius: 0px
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgb(134,132,34,.9)!important;
+        border: none;
+	border-radius: 0px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #595018
+}
+
+/* BUTTONS */
+
+input[type="button"] {
+        background: #595018  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #f8c373 !important; 
+	text-shadow: none !important;
+}
+
+input[type="button"]:hover {
+        background: #7d5428 !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #f8c373 !important; 
+	text-shadow: none !important;
+}
+
+input[type="submit"] {
+background: #595018  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #f8c373 !important;
+	text-shadow: none !important;
+}
+
+input[type="submit"]:hover {
+background: #7d5428!important;
+        border: none !important;
+	border-radius: 0px;
+	color: #f8c373 !important;
+	text-shadow: none !important;
+}
+
+/* BOOKMARK BUTTON */
+
+input.floatright {
+	background: #595018 !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #f8c373 !important;    
+}
+
+input.floatright:hover {
+	background: #7d5428!important;
+        border: none !important;
+	border-radius: 0px;
+	color: #f8c373 !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button {
+	background: #7d5428;
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #f8c373 !important
+}
+
+button.button:hover{
+	background: #595018;
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #f8c373 !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning {
+	background: rgb(134,132,34, .8) !important;
+	border: none;
+	color: #595018;
+	border-radius: 0px !important
+}
+
+.alert-danger {
+	background: rgb(134,132,34, .8) !important;
+	border: none;
+	color: #595018;
+	border-radius: 0px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #595018;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #595018;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #595018 !important;
+	font-size: 14px !important;
+}
+
+/* COMMENT BOX */
+
+div#commentBox, div#makeComment, div#commentErrors {
+        border: none !important;
+        border-radius: 0px !important;
+        text-align: center;}
+
+#commentBox {
+	background: rgb(248,195,115,) !important;
+	border: none !important;
+}
+
+.comment:nth-child(even) {
+	background: rgb(134,132,34,.5) !important;
+	color: #E1C6AB !important
+}
+
+.comment:nth-child(odd) {
+	background: rgb(134,132,34, .8) !important;
+	color: #E1C6AB !important;
+}
+
+/* BY ____ ON ____ */
+small.text-muted{
+	color: #7d5428 !important
+}
+
+/* TEXT COLOR */
+div.commentText {
+	background: none !important;
+	color: #595018
+}
+
+/* WRITING BOX */
+input#comment {
+	background: rgb(134,132,34, .5)!important;
+	color: #E1C6AB !important;
+box-shadow: none;
+border: none; 
+}
+
+/* X BUTTON */
+input[type="button"].bad {
+	background: #7d5428 !important;
+	border-radius: px !important;
+color: #f8c373;
+}
+
+input[type="button"].bad:hover {
+	background: #595018 !important;
+	border-radius: px !important;
+color: #f8c373 !important; 
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #595018 !important;
+        font-size: 16px !important;
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgb(134,132,34, .9) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #f8c373 !important;
+	border-radius: 0px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: #7d5428;
+	color: #f8c373 !important;
+	border-radius: px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgb(243,161,79,.6);
+	color: #f8c373 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar-warning {
+        background: rgb(243,161,79,.6)!important;
+}
+
+/* HUNGER BAR COLOR */
+.progress-bar-danger {
+        background: rgb(243,161,79,.6)!important;
+}
+
+/* EXP BAR COLOR */
+.progress-bar-success {
+        background: rgb(243,161,79,.6)!important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #f8c373 !important;
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: rgb(134,132,34,.5) !important;
+        color: #E1C6AB !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: rgb(134,132,34,.8) !important;
+        color: #E1C6AB !important;
+	border: none !important;
+}
+
+/* TIMESTAMPS */
+.s-chat-message_timestamp {
+	color: #7d5428 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: #7d5428 !important;
+        color: #E1C6AB !important;
+	border: none !important;
+}
+
+/* MOD MESSAGE */
+#fra_chatContainer .modMessage, .s-chat-message__mod {
+        background: rgb(243,161,79, .5) !important;
+        color: #E1C6AB;
+}
+
+/* PING */
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background: rgb(243,161,79, .5) !important;
+	color: #E1C6AB;
+}
+
+/* CHANNEL BUTTON */
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: #7d5428 !important;
+        color: #E1C6AB !important;
+	border: none !important
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+/* LION IMAGE */
+
+#lion_image {
+	border-radius: 12px !important;
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+        /*content: url('LINK')!important;*/
+}
+
+#lion_image>div>img:first-child {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/grand_bara.png')!important;
+transform: scaleX(-1)!important;
+width: 640px!important;
+height: 500px!important; }
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgb(134,132,34, .8);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 0px;
+color: #f8c373;
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgb(89,80,24, .7) !important;
+	color: #f8c373 !important;
+	border-radius: 0px
+}
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgb(125,84,40, .9) !important;
+        color: #f3a14f;
+	border-radius: 0px;
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgb(243,161,79,.7);
+	color:  #facc83;
+	border-radius: 0px !important
+}
+
+td.right {
+	border-radius: 0px !important
+}
+
+
+  
+.left {
+  background: rgb(89,80,24,.5)!important;
+  color: #f3a14f !important;
+  border: none !important;
+  text-align: center !important;
+}
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/*CAVE/MOUND IMAGES. CHANGE 12345 to USER ID! 260x60px*/
+
+/* CAVE BACKGROUND */
+
+.cave-grid,
+.mound-grid {
+	background: rgb(89,80,24, .8);
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* PREGGO LIONS */
+.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Other/YohimbeBark.png')!important;
+width: auto;
+}
+
+/* MOUNDS. 130x80px. */
+
+/* UNCREATED MOUND */
+.mound-grid img {
+	content: url('https://static.lioden.com/images/items/Food/critterturtle.png');
+	margin-bottom: 5px;
+height:auto;
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgb(134,132,34, .8) !important;
+	color: #facc83 !important;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+.feature,
+div.left {
+	background: rgb(134,132,34, .8) !important;
+	border: none;
+	border-radius: 0px !important
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgb(134,132,34,.5) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: #facc83 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+/* TERRITORY DESCRIPTION */
+
+textarea {
+	background: rgb(243,161,79,.3) !important;
+	color: #facc83 !important;
+	border: none !important;
+	text-align: center !important;
+}
+
+textarea:focus {
+	background: rgb(243,161,79,.5)!important;
+	color: #facc83 !important;
+	border: none !important;
+	text-align: center !important;}
+
+/* PASSWORD */
+
+input[type="password"] {
+	background: rgb(243,161,79,.3)!important;
+	color: #facc83 !important;
+	border: none  !important;
+	text-align: center !important;
+}
+
+input[type="password"]:focus {
+	background: rgb(243,161,79,.5)!important;
+	color: #facc83 !important;
+	border: none !important;
+	text-align: center !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgb(89,80,24, .5) !important;
+	color: #facc83  !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: rgb(89,80,24, .3) !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* Next to Player/Avatar/Email */
+input[type="text"] {
+	background: rgb(243,161,79,.3)!important;
+	color: #facc83 !important;
+	border-radius: 5px;
+	border: 1px solid #!important;
+	text-align: center !important;
+}
+
+input[type="text"]:focus {
+	background: rgb(243,161,79,.5)!important;
+	color: #facc83 !important;
+	border: 1px solid #!important;
+	text-align: center !important;
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: rgb(243,161,79,.6)!important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #facc83 !important
+}
+
+/* DROPDOWN MENU */
+
+select {
+	background: rgb(89,80,24, .5) !important;
+	color: #f8c373 !important;
+	border: 1px solid #!important;
+	text-align: center !important;}
+  
+select:focus {
+	background: rgb(89,80,24, .5)!important;
+	color: #facc83 !important;
+	border: 1px solid #!important;
+	text-align: center !important;
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #7d5428 !important;
+        text-shadow: none !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #362f0c !important
+}
+
+a:hover {
+	color: #334026 !important
+}
+
+/* Scrollbar Edits */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #595018;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #868422;
+	border-radius: px;
+}
+
+/* BOXES */
+.boxContainer{
+display: flex;
+justify-content: space-between;
+}
+
+.BoxDuo {
+	background: none;
+	height: 150px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.BoxDuoLeft {
+	float: left;
+	background: rgb(153,99,42,.8);
+	color: #facc83;
+	padding: 15px;
+	border: none;
+	float: left;
+	height: 150px;
+	width: 385px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxDuoLeft:hover {
+	overflow-y: auto;
+}
+
+.BoxDuoRight {
+	float: left;
+	background: rgb(153,99,42,.8);
+	color: #facc83;
+	padding: 15px;
+	border: none;
+	float: left;
+	height: 150px;
+	width: 385px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxDuoRight:hover {
+	overflow-y: auto;
+}
+
+.BoxDuoUneven {
+	background: none;
+	height: 150px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.BoxDuoLeftUneven {
+	float: left;
+	background: rgb(153,99,42,.8);
+	color: #facc83;
+	padding: 15px;
+	border: none;
+	float: left;
+	height: 150px;
+	width: 520px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxDuoLeftUneven:hover {
+	overflow-y: auto;
+}
+
+.BoxDuoRightUneven {
+	float: left;
+	background: rgb(153,99,42,.8);
+	color: #facc83;
+	padding: 15px;
+	border: none;
+	float: left;
+	height: 150px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxDuoRightUneven:hover {
+	overflow-y: auto;
+}
+
+.BoxCover {
+	background: rgb(153,99,42,.8);
+	color: #facc83;
+	padding-bottom: 20px;
+	border: none;
+	margin: 10px;
+	height: auto;
+	width: 790px;
+	overflow: hidden;
+margin-bottom: 35px;
+}
+
+.BoxCover:hover {
+	overflow-y: auto;
+}
+
+/* CREDIT do not remove */
+.credit {
+	background: rgb(153,99,42,.8);
+	color: #facc83;
+	z-index: 100;
+	padding: 10px;
+	border: 1px solid #;
+	position: fixed;
+	text-align: center;
+	border-radius: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 180px;
+	height: 40px;
+	font-size: 14px;
+	overflow: auto;
+}
+
+.breadcrumb:after { 
+content:'CSS by grassman (#243884) ★';
+right: 120px;
+position: absolute;
+color: #f8c373;
+font-size: auto !important;
+}
+
+
+#pageSidebar > p > a {
+    display:none;
+}
+
+#context-chatMenu {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    border-bottom-color: transparent !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    min-height: 0px;
+    margin-top: 3px !important;
+    text-indent: 0px !important;
+}
+
+/* chatbox */
+
+.s-chat-sidebar #label_currentChannel {
+	border-radius: 4px !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+div#fraChatChannelMenu.chatMenu-container {
+	box-shadow: none !important;
+}
+
+.s-chat-message:nth-child(even) {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message:nth-child(odd) {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_content {
+    display: block !important;
+    padding-left: 8px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_timestamp {
+	padding-left:8px;
+}
+/* player table cosmetics */
+#player.table hr {
+	visibility: hidden !important;
+	display: none !important; 
+}
+
+#player.table div.xlarge { 
+	margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+	margin-top:10px !important
+}
+
+#player.table .text-muted {
+	visibility: hidden;
+	position: relative;
+}
+
+#player.table .text-muted::after {
+	content: none !important;
+	visibility: hidden;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+	content:'Block Member';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a::after {
+	content:'Friend Request';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+
+/* player icons */
+img[src$="//static.lioden.com/images/layout/icon_den_message.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_gift.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_trade.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_wishlist.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_viewtrade.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_block.png"]{
+   display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
+ display: none;
+}
+
+/* showcase */
+.dynastylist {
+	width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+    .dynastylist h3 {
+        font-size: 15px !important;
+    }
+}
+
+img[src$="den_ancestors.png"] {
+	content: url('https://static.lioden.com/images/items/Other/uzara.png');
+	width: 100% !important;
+} 
+
+img[src$="ancestorsfem.png"] {
+	content: url('https://static.lioden.com/images/items/Other/buchu.png');
+	width: 100% !important;
+}
+
+img[src$="den_achievements.png"] {
+	content: url('https://static.lioden.com/images/items/Other/BaobabFruit.png');
+	width: 100% !important;
+}
+
+img[src$="den_showcase.png"] {
+	content: url('https://static.lioden.com/images/items/Other/ibogaroot.png');
+	width: 100% !important;
+}
+
+img[src$="den_beetlebook.png"] {
+	content: url('https://static.lioden.com/images/items/Other/marulafruit.png');
+	width: 100% !important; 
+}
+
+.col-xs-10{
+    color: #6D6221 !important;
+    text-shadow: none !important
+}
+
+/* social media icons */
+img[src$="iconFB.png"] {
+	content: url('https://static.lioden.com/images/items/Other/energyrefill.png');
+	width: 23% !important;
+}
+
+img[src$="iconTwit.png"] {
+	content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png');
+	width: 23% !important;
+}
+
+img[src$="iconInsta.png"] {
+	content: url('https://static.lioden.com/images/items/Other/coconut.png');
+	width: 23% !important;
+}
