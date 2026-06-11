@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lato&display=swap');
 
-/* # C4CFC2 = light blue = rgb(196, 207, 194, 1)
-# E3D3B7 = cream = rgb(227, 211, 183, 1) 
-# 2D1709 = darkest brown = rgb(45, 23, 9, 1)
-# 623715 = brown 2 = rgb(98, 55, 21, 1)
-# 8a5022 = brown 3 = rgb(138, 80, 34, 1)
-# AD6630 = orange = rgb(173, 102, 48, 1)
-# DEA152 = yellow = rgb(222, 161, 82, 1)*/
-
 table#player.table hr {
     visibility: hidden !important;
     display: none !important; 
@@ -963,26 +955,31 @@ img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
 img[src$="den_ancestors.png"] {
 	content: url('https://static.lioden.com/images/items/Amusement/caracalskull.png');
 	width: 100% !important;
+	max-width: 80px !important;
 } 
 
 img[src$="ancestorsfem.png"] {
 	content: url('https://static.lioden.com/images/items/Amusement/hyenaskullsp.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_achievements.png"] {
 	content: url('https://static.lioden.com/images/items/Amusement/elephantskull.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_showcase.png"] {
 	content: url('https://static.lioden.com/images/items/Amusement/skull_otter.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_beetlebook.png"] {
 	content: url('https://static.lioden.com/images/items/Amusement/stripedhyenaskull.png');
 	width: 100% !important; 
+	max-width: 80px !important;
 }
 
 .col-xs-10{
