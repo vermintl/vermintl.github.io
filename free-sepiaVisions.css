@@ -529,20 +529,17 @@ width:100px;
 
 img[src$="iconFB.png"] {
     content: url(https://static.lioden.com/images/items/Decoration/zagan.png);
-    height: 55px;
-    width: auto !important;
+    width: 30%!important;
 }
     
     img[src$="iconTwit.png"] {
     content: url(https://static.lioden.com/images/items/Decoration/furfur.png);
-    height: 55px;
-    width: auto !important;
+    width: 30% !important;
 }
     
     img[src$="iconInsta.png"] {
     content: url(https://static.lioden.com/images/items/Decoration/vual.png);
-    height: 55px;
-    width: auto !important;
+    width: 30% !important;
 }
 
 #player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
@@ -659,8 +656,6 @@ color: #e2d2bd;
 font-size: auto !important;
 }
 
-
-
 /* player icons */
 img[src$="//static.lioden.com/images/layout/icon_den_message.png"]{
     display: none;
@@ -710,28 +705,33 @@ img[src$="den_ancestors.png"] {
 	content: url('https://static.lioden.com/images/items/Other/fossilafrovenator.png');
 	width: 100% !important;
             filter: grayscale(50%) hue-rotate(20deg);
+	max-width: 80px !important;
 } 
 
 img[src$="ancestorsfem.png"] {
 	content: url('https://static.lioden.com/images/items/Other/ancientfossil.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_achievements.png"] {
 	content: url('https://static.lioden.com/images/items/Other/crackedfossil.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_showcase.png"] {
 	content: url('https://static.lioden.com/images/items/Other/crumbledfossil.png');
 	width: 100% !important;
     filter: grayscale(60%) hue-rotate(20deg);
+	max-width: 80px !important;
 }
 
 img[src$="den_beetlebook.png"] {
 	content: url('https://static.lioden.com/images/items/Other/plantfossil.png');
 	width: 100% !important; 
         filter: grayscale(0%) hue-rotate(10deg);
+	max-width: 80px !important;
 }
 
 .BoxDuo {
