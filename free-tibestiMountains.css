@@ -1,0 +1,1007 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lato&display=swap');
+
+/* # C4CFC2 = light blue = rgb(196, 207, 194, 1)
+# E3D3B7 = cream = rgb(227, 211, 183, 1) 
+# 2D1709 = darkest brown = rgb(45, 23, 9, 1)
+# 623715 = brown 2 = rgb(98, 55, 21, 1)
+# 8a5022 = brown 3 = rgb(138, 80, 34, 1)
+# AD6630 = orange = rgb(173, 102, 48, 1)
+# DEA152 = yellow = rgb(222, 161, 82, 1)*/
+
+table#player.table hr {
+    visibility: hidden !important;
+    display: none !important; 
+}
+ 
+table#player.table div.xlarge { 
+    margin-top: 20px !important; 
+}
+ 
+p.center.xlarge {
+	margin-top:10px !important;
+}
+
+img[src$="gold.png"] {
+    content:url('https://static.lioden.com/images/items/Other/gemmeteorite.png')!important;
+    width: 20px !important;
+    height: 20px !important;
+}
+img[src$="silver.png"] {
+    content:url('https://static.lioden.com/images/items/Other/gemnuumite.png')!important;
+    width: 20px !important;
+    height: 20px !important; 
+}
+
+.commentTag {
+	content: url('https://static.lioden.com/images/items/Amusement/hipposkull.png');
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+/*BACKGROUND*/
+
+body {
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/Tibesti_Mountains.png') center center fixed;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	font-family: 'Lato';
+	color: #C4CFC2
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgb(98, 55, 21,.8);
+	border: none;
+	border-radius: 0px;
+    box-shadow: none;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+	background-size: cover !important; 
+	background-repeat: no-repeat;
+        border-right: none
+}
+
+/*LOGO. 192x120px.*/
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://static.lioden.com/images/items/Other/safou.png');
+       display: block;
+margin-left: auto;
+	width: 120px;
+	height: px;}
+
+/*TOPBAR ("welcome back")*/
+
+.topbar {
+	background: rgb(45, 23, 9, .6);
+	border: none;
+	border-top: none;
+	color: #DEA152;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: rgb(45, 23, 9, .5);
+	border-bottom: none;
+	color: #DEA152;
+	border-radius: 0px
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #AD6630 !important
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: rgb(173, 102, 48, .5) !important;
+	border-bottom: none;
+	color: #DEA152 !important;
+	border-radius: 0px
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgb(45, 23, 9, .5) !important;
+        border: none;
+	border-radius: 0px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #DEA152
+}
+
+/* BUTTONS */
+
+input[type="button"] {
+        background: rgb(173, 102, 48, .5)  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #DEA152 !important; 
+}
+
+input[type="submit"]:hover {
+background: rgb(173, 102, 48, .8)  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #DEA152 !important;
+}
+
+/* BOOKMARK BUTTON */
+
+input.floatright {
+	background: rgb(173, 102, 48, .5)  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #DEA152 !important;    
+}
+
+input.floatright:hover {
+	background: rgb(173, 102, 48, .8)  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #DEA152 !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button {
+	background: rgb(173, 102, 48, .5);
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #DEA152 !important
+}
+
+button.button:hover{
+	background: rgb(173, 102, 48, .8);
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #DEA152 !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning {
+	background: rgb(173, 102, 48,.6) !important;
+	border: none;
+	color: #2D1709;
+	border-radius: 0px !important
+}
+
+.alert-danger {
+	background: rgb(173, 102, 48,.6) !important;
+	border: none;
+	color: #2D1709;
+	border-radius: 0px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #E3D3B7;
+	font-size: 30px;
+	text-align: center;
+        font-family: 'LATO'
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #E3D3B7;
+	font-size: 12px;
+	text-align: center
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #E3D3B7 !important;
+	font-size: 14px !important
+}
+
+/* COMMENT BOX */
+
+div#commentBox, div#makeComment, div#commentErrors {
+        border: none !important;
+        border-radius: 0px !important;
+        text-align: center;}
+
+#commentBox {
+background: rgb(222, 161, 82, .2) !important;
+ border: none !important;}
+
+.comment:nth-child(even) {
+background: rgb(222, 161, 82, .3) !important;
+color: #2D1709 !important
+}
+
+.comment:nth-child(odd) {
+background: rgb(138, 80, 34, .5) !important;
+color: #2D1709 !important;
+}
+
+/* BY ____ ON ____ */
+small.text-muted{
+color: #C4CFC2 !important
+}
+
+/* TEXT COLOR */
+div.commentText {
+background: none !important;
+color: #E3D3B7
+}
+
+/* WRITING BOX */
+input#comment {
+background: rgb(222, 161, 82, .5)!important;
+color: #E1C6AB !important;
+}
+
+/* X BUTTON */
+input[type="button"].bad {
+background: #623715 !important;
+border-radius: px !important;
+}
+
+input[type="button"].bad:hover {
+background: rgb(45, 23, 9, .6) !important;
+border-radius: px !important;
+}
+
+/* POST BUTTON */
+input[type="button"].postComment {
+background: rgb(173, 102, 48, .5)  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #DEA152 !important;
+}
+
+input[type="button"].postComment:hover {
+background: rgb(173, 102, 48, .8)  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #DEA152 !important;}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #E3D3B7 !important;
+        font-size: 16px !important;
+        font-family: 'Lato'
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgb(45, 23, 9, .5) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #C4CFC2 !important;
+	border-radius: 0px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: #E3D3B7;
+	color: #C4CFC2 !important;
+	border-radius: px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: #AD6630;
+	color: #2D1709 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar-warning {
+        background: #B06035 !important;
+}
+
+/* HUNGER BAR COLOR */
+.progress-bar-danger {
+        background: #DEA152 !important;
+}
+
+/* EXP BAR COLOR */
+.progress-bar-success {
+        background: #8a5022 !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #2D1709 !important;
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: rgb(222, 161, 82, .5) !important;
+        color: #2D1709 !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: rgb(173, 102, 48, .5) !important;
+        color: #2D1709 !important;
+	border: none !important;
+}
+
+/* TIMESTAMPS */
+.s-chat-message_timestamp {
+	color: #C4CFC2 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: rgb(45, 23, 9, .7) !important;
+        color: #C4CFC2 !important;
+	border: none !important;
+}
+
+/* MOD MESSAGE */
+#fra_chatContainer .modMessage, .s-chat-message__mod {
+        background: rgb(45, 23, 9, .5) !important;
+        color: #C4CFC2;
+}
+
+/* PING */
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background: rgb(45, 23, 9, .5) !important;
+	color: #C4CFC2;
+}
+
+/* CHANNEL BUTTON */
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgb(45, 23, 9, .7) !important;
+        color: #C4CFC2 !important;
+	border: none !important
+}
+
+/* ROAR BUTTON */
+input[type="button"]:hover {
+rgb(173, 102, 48, .8)  !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #DEA152 !important;
+text-align: center !important;}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+/* LION IMAGE */
+
+#lion_image {
+	border-radius: 12px !important;
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+        /*content: url('LINK')!important;*/
+ 
+}
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgb(173, 102, 48, .5);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 0px
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgb(45, 23, 9, .7) !important;
+	color: #C4CFC2 !important;
+	border-radius: 0px
+}
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgb(98, 55, 21, .6) !important;
+        color: #2D1709;
+	border-radius: 0px
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgb(222, 161, 82, .4);
+	color:  #2D1709;
+	border-radius: 0px !important
+}
+
+td.right {
+	border-radius: 0px !important
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+/*CAVE/MOUND IMAGES. CHANGE 12345 to USER ID! 260x60px*/
+
+/* CAVE BACKGROUND */
+
+.cave-grid,
+.mound-grid {
+	background: rgb(45, 23, 9, .7);
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* PREGGO LIONS */
+.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Other/maypersonality.png')!important;
+width: 100px;
+}
+
+/* UNSORTED */
+a[href="unsorted.php?id=282830"]>.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Other/crumbledfossil.png')!important;
+
+}
+
+/* PRIDE OVERVIEW */
+a[href="lionoverview.php?id=282830"]>.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Other/redbuffallo.png')!important;
+    transform: scaleX(-1)!important;
+}
+
+/* CUSTOM CAVE IMAGES 240x120px.*/
+
+a[href$="369036"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/arena_corridors.png') !important;
+    margin-top: 5px !important; width: 240px; height: 120px; object-fit: cover;object-position: 0% 0;
+}
+
+a[href$="303894"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/trophycave.png') !important;
+    width: 240px; height: 120px; object-fit: cover;object-position: 0% 0; margin-top: 5px !important;
+
+}
+
+a[href$="225216"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/gorgechampions.png') !important;
+    width: 240px; height: 120px; object-fit: cover;object-position: 0% 0; margin-top: 5px !important;
+
+}
+
+a[href$="313892"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/pitofdefeat.png') !important;
+    width: 240px; height: 120px; object-fit: cover;object-position: 0% 0; margin-top: 5px !important;
+
+}
+
+a[href$="367489"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/thepassage.png') !important;
+    width: 240px; height: 120px; object-fit: cover; object-position: 0% 0; margin-top: 5px !important;
+
+}
+
+a[href$="355867"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/TrophyLair.png') !important;
+    width: 240px; height: 120px; object-fit: cover; object-position: 0% 0; margin-top: 6px !important;
+
+}
+/* MOUNDS. 130x80px. */
+
+/* UNCREATED MOUND */
+.mound-grid img {
+  content: url('https://static.lioden.com/images/items/Beetles/EVENTBEETLE_vespaorientalis.png');
+    margin-bottom: 5px;
+}
+
+a[href="unsorted-beetles.php?id=28280"]>.mound-grid>img {
+	content: url('https://static.lioden.com/images/items/Beetles/EVENTBEETLE_vespaorientalis.png')!important;}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgb(173, 102, 48, .5) !important;
+	color: #C4CFC2 !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgb(45, 23, 9, .7);
+	border: none;
+	border-radius: 0px !important
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: rgb(98, 55, 21, .6);
+        border-radius: 0px
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgb(98, 55, 21, .6) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: #E3D3B7 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgb(98, 55, 21, .6) !important;
+	color: #E3D3B7  !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: rgb(222, 161, 82, .3) !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #E3D3B7 !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #623715 !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #623715 !important;
+        text-shadow: none !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #E3D3B7 !important
+}
+
+a:hover {
+	color: #DEA152 !important
+}
+
+/*Scrollbar Edits*/
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #2D1709;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #C4CFC2;
+	border-radius: px;
+}
+
+/* BOXES */
+.boxContainer{
+display: flex;
+justify-content: space-between;
+}
+
+.twobox {
+	background: none;
+	height: 150px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.twoboxleft {
+	float: left;
+	background: rgb(45, 23, 9, .7);
+	color: #C4CFC2;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	height: 150px;
+	width: 385px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.twoboxleft:hover {
+	overflow-y: auto;
+}
+
+.twoboxright {
+	float: left;
+	background: rgb(45, 23, 9, .7);
+	color: #C4CFC2;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	height: 150px;
+	width: 385px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.twoboxright:hover {
+	overflow-y: auto;
+}
+
+.twoboxuneven {
+	background: none;
+	height: 150px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.twoboxunevenleft {
+	float: left;
+    background: rgb(45, 23, 9, .7);
+    color: #C4CFC2;
+	padding: 15px;
+	border: none; 	border-radius: 5px;
+	float: left;
+	height: 150px;
+	width: 520px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.twoboxunevenleft:hover {
+	overflow-y: auto;
+}
+
+.twoboxunevenright {
+	float: left;
+    background: rgb(45, 23, 9, .7);
+    color: #C4CFC2;
+	padding: 15px;
+	border: none; 	border-radius: 5px;
+	float: left;
+	height: 150px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.twoboxunevenright:hover {
+	overflow-y: auto;
+}
+
+
+.largeboxscroll {
+    background: rgb(45, 23, 9, .7);
+    color: #C4CFC2;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    height: 140px;
+    width: auto;
+    overflow: auto;
+}
+
+.largeboxhover {
+	background: rgb(45, 23, 9, .7);
+	color: #C4CFC2;
+	padding-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+    height: 140px;
+	width: auto;
+	overflow: hidden;
+        margin-bottom: 35px;
+transition: height 140s;
+}
+
+.largeboxhover:hover {
+        height: auto;
+	overflow-y: auto;
+}
+
+/* CREDIT do not remove */
+.credit {
+	background: rgba(158, 146, 86, 1);
+	color: #fbefe3;
+	z-index: 100;
+	padding: 10px;
+	border: 1px solid #;
+	position: fixed;
+	text-align: center;
+	border-radius: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 180px;
+	height: 40px;
+	font-size: 14px;
+	overflow: auto;
+}
+
+.breadcrumb:after { 
+content:'CSS by grassman (#243884)ㅤ★ㅤ';
+right: 105px;
+position: absolute;
+color: #E3D3B7;
+font-size: auto !important;
+}
+
+
+#pageSidebar > p > a {
+    display:none;
+}
+
+#context-chatMenu {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    border-bottom-color: transparent !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    min-height: 0px;
+    margin-top: 3px !important;
+    text-indent: 0px !important;
+}
+
+/* chatbox */
+
+.s-chat-sidebar #label_currentChannel {
+	border-radius: 4px !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+div#fraChatChannelMenu.chatMenu-container {
+	box-shadow: none !important;
+}
+
+.s-chat-message:nth-child(even) {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message:nth-child(odd) {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_content {
+    display: block !important;
+    padding-left: 8px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_timestamp {
+	padding-left:8px;
+}
+/* player table cosmetics */
+#player.table hr {
+	visibility: hidden !important;
+	display: none !important; 
+}
+
+#player.table div.xlarge { 
+	margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+	margin-top:10px !important
+}
+
+#player.table .text-muted {
+	visibility: hidden;
+	position: relative;
+}
+
+#player.table .text-muted::after {
+	content: none !important;
+	visibility: hidden;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+	content:'Block Member';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a::after {
+	content:'Friend Request';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+
+/* player icons */
+img[src$="//static.lioden.com/images/layout/icon_den_message.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_gift.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_trade.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_wishlist.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_viewtrade.png"]{
+    display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_block.png"]{
+   display: none;
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
+ display: none;
+}
+
+/* showcase */
+.dynastylist {
+	width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+    .dynastylist h3 {
+        font-size: 15px !important;
+    }
+}
+
+img[src$="den_ancestors.png"] {
+	content: url('https://static.lioden.com/images/items/Amusement/caracalskull.png');
+	width: 100% !important;
+} 
+
+img[src$="ancestorsfem.png"] {
+	content: url('https://static.lioden.com/images/items/Amusement/hyenaskullsp.png');
+	width: 100% !important;
+}
+
+img[src$="den_achievements.png"] {
+	content: url('https://static.lioden.com/images/items/Amusement/elephantskull.png');
+	width: 100% !important;
+}
+
+img[src$="den_showcase.png"] {
+	content: url('https://static.lioden.com/images/items/Amusement/skull_otter.png');
+	width: 100% !important;
+}
+
+img[src$="den_beetlebook.png"] {
+	content: url('https://static.lioden.com/images/items/Amusement/stripedhyenaskull.png');
+	width: 100% !important; 
+}
+
+.col-xs-10{
+    color: #472711 !important;
+    text-shadow: none !important
+}
+
+/* social media icons */
+img[src$="iconFB.png"] {
+	content: url('https://static.lioden.com/images/items/Other/foodbundle.png');
+	width: 23% !important;
+}
+
+img[src$="iconTwit.png"] {
+	content: url('https://static.lioden.com/images/items/Other/medlarfruit.png');
+	width: 23% !important;
+}
+
+img[src$="iconInsta.png"] {
+	content: url('https://static.lioden.com/images/items/Other/fermentedmarulafruit.png');
+	width: 23% !important;
+}
