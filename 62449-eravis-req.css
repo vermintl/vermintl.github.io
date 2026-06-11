@@ -348,6 +348,15 @@ div#chatMessageContainer {
         color: #482e13 !important;
 	border: none !important;
 }
+#chatMessagePinned.s-chat-message__pinned {
+    border-bottom-color: transparent !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    min-height: 0px;
+    margin-top: 3px !important;
+    text-indent: 0px !important;
+}
 
 /* CHANNEL BUTTON */
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
@@ -937,7 +946,6 @@ bottom: -10px;
 z-index: 100;
     pointer-events: none;}
 
-a.btn.btn-defult.button {
-    visibility: hidden !important;
-    display: none !important;     
+#pageSidebar > p > a {
+    display:none;
 }
