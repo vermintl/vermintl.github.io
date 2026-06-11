@@ -843,26 +843,17 @@ img[src$="den_beetlebook.png"] {
     
 img[src$="iconFB.png"] {
     content: url(https://static.lioden.com/images/items/Decoration/leucisticfox.png);
-    height: 55px !important;
-    width: 55px !important;
+    width: 30% !important;
 }
 
     img[src$="iconTwit.png"] {
     content: url(https://static.lioden.com/images/items/Decoration/snowballbush.png);
-    height: 55px !important;
-    width: 55px !important;
+    width: 30% !important;
 }
 
     img[src$="iconInsta.png"] {
     content: url(https://static.lioden.com/images/items/Decoration/playfulragdoll.png);
-    height: 55px!important;
-    width: 55px !important;
-}
-
-    img[src$="iconYoutube.png"] {
-    content: url(https://www.lioden.com/images/items/Decoration/algierianfir.png);
-    height: 55px!important;
-    width: 55px !important;
+    width: 30% !important;
 }
     
 .right a.bigger img {
@@ -875,36 +866,32 @@ visibility: hidden !important;
 
 img[src$="ancestors.jpg"] {
     content: url(https://static.lioden.com/images/items/Decoration/grandpawfrost.png);
-    width: 70% !important;
-    max-width: 120px !important;
-}
+    width: 100% !important;
+max-width: 80px !important;}
 
 img[src$="ancestors.jpg"] {
     content: url(https://static.lioden.com/images/items/Decoration/grandpawfrost.png);
-    width: 70% !important;
-    max-width: 120px !important;
-}
+    width: 100% !important;
+max-width: 80px !important;}
     
 img[src$="ancestorsfem.png"] {
     content: url(https://www.lioden.com/images/items/Decoration/madeirach.png);
-    width: 70% !important;
-    max-width: 120px !important;
-}    
+    width: 100% !important;
+max-width: 80px !important;}    
 img[src$="achievements.jpg"] {
     content: url(https://www.lioden.com/images/items/Decoration/snowmaiden.png);
-    width: 70% !important;
-    max-width: 120px !important;
-}    
+    width: 100% !important;
+max-width: 80px !important;}    
 img[src$="banner.png"] {
     content: url(https://static.lioden.com/images/items/Decoration/garlandframe.png);
-    width: 70% !important;
-    max-width: 120px !important;
+    width: 100% !important;
+max-width: 80px !important;
 }    
 img[src$="beetlebook-front.png"] {
     content:url('https://static.lioden.com/images/items/Decoration/jackfrost.png')!important;
-    width: 70% !important;
-    max-width: 120px !important;
-    transform: scalex(-1);
+    width: 100% !important;
+max-width: 80px !important;
+	transform: scalex(-1);
     background:none!important;
 }
 
