@@ -474,23 +474,18 @@ input#btnChatSend:hover {
 /* social media icons */
 img[src$="iconFB.png"] {
 	content: url('https://static.wolvden.com/images/items/toys/pherrisrollingball.png');
-	width: 24% !important;
+	width: 30% !important;
     filter: hue-rotate(20deg);
 }
 
 img[src$="iconTwit.png"] {
 	content: url('https://static.lioden.com/images/items/Other/spacerock.png');
-	width: 24% !important;
-}
-
-img[src$="iconInsta.png"] {
-	content: url('https://static.wolvden.com/images/items/trophies/lunarchitin.png');
-	width: 24% !important;
+	width: 30% !important;
 }
 
 img[src$="iconInsta.png"] {
 	content: url('https://static.wolvden.com/images/items/lore/sapphire.png');
-	width: 24% !important;
+	width: 30% !important;
 }
 
 /* switch acc button */
@@ -815,26 +810,31 @@ color: #604aff;
 img[src$="den_ancestors.png"] {
 	content: url('https://static.lioden.com/images/items/Decoration/eccentricradiation.png');
 	width: 100% !important;
+	max-width: 80px !important;
 } 
 
 img[src$="ancestorsfem.png"] {
 	content: url('https://static.lioden.com/images/items/Decoration/stardust3.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_achievements.png"] {
 	content: url('https://static.lioden.com/images/items/Decoration/gasoutflow.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_showcase.png"] {
 	content: url('https://static.lioden.com/images/items/Decoration/stardust4.png');
 	width: 100% !important;
+	max-width: 80px !important;
 }
 
 img[src$="den_beetlebook.png"] {
 	content: url('https://static.lioden.com/images/items/Decoration/plasma.png');
 	width: 100% !important; 
+	max-width: 80px !important;
 }
 
 /* details panel */
