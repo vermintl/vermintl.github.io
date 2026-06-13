@@ -1,0 +1,1285 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* background */
+@media only screen and (min-width: 601px) {} body {
+	background: url('https://i.pinimg.com/736x/4c/fd/77/4cfd775673714f8aa19fc4569ab9ca5e.jpg');
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'PT Serif' !important;
+	text-transform: none;
+	box-shadow: none !important;
+	color: #1c0d1a;
+}
+
+/* main panel */
+.container.main {
+    background: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/pinkBG.png) !important;
+	background-repeat: repeat !important;
+    background-size: contain !important;
+    border: 2px #1c0d1a groove;
+	border-radius: 12px;
+	box-shadow: none!important;
+}
+
+.col-md-9 {
+    background: none !important;
+	background-size: contain !important; 
+	background-repeat: repeat;
+	border-right: none;
+}
+
+/* logo 192x120 */
+img[src$="//static.lioden.com/img/layout/logo-full-2.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyAndKuromi.png');
+	display: block;
+	margin-left: 10px;
+	width: 275px;
+    margin-top: -20px;
+    filter: drop-shadow(7px 5px 10px #1c0d1a);
+}
+
+/* topbar "welcome back" */
+.topbar {
+	background: linear-gradient(to top,#e6aac0, #e094b0);
+	border: 1.5px #271c26 dashed;
+	border-top: none;
+	border-radius: 0px 0px 8px 8px;
+	color: #271c26;
+}
+
+.topbar:last-child{
+    display: none;
+}
+
+.badge /* message count */{
+	background: #f5f3f4;
+	color: #271c26;
+}
+
+img[src$="gold.png"] {
+	content:url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/narutoBlossom.png')!important;
+	width:25px!important;
+    filter: drop-shadow(0px 0px 10px #3a2738);
+}
+
+img[src$="silver.png"] {
+	content:url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/naruto.png')!important;
+	width:25px!important;
+    filter: drop-shadow(0px 0px 10px #3a2738);
+}
+
+/* navbar "den, crossroads ..." */
+.navbar {
+	background: #271c26;
+	border-bottom: 5px groove #e6aac0;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.navbar li a {
+	color: #fdd9df !important;
+    margin-left: -5px;
+    text-shadow: 0px 0px 5px #e6aac0;
+	margin-top: 2px;
+}
+
+.navbar li a:hover {
+	background: #1c0d1a !important;
+    margin-top: -1px;
+	color: #f2c6ce !important;
+	border-radius: 0px;
+    text-shadow: 0px 0px 5px #e6aac0;
+}
+
+.navbar li:last-child {
+    display: none;
+}
+
+/* links */
+a:link,
+a:visited {
+	color: #3a2738 !important
+}
+
+a:hover {
+	color: #5e3f5a !important
+}
+
+/* buttons */
+a.btn.btn-default.button {
+    display: none;
+}
+
+#pageSidebar > p > a {
+    display:none;
+}
+
+input {
+	background: #3a2738 !important;
+	border: 0px #000 solid !important; 
+	color: #ffe8eb !important;
+    text-shadow: 0px 0px 2px #f2c6ce !important;
+    border-radius: 5px !important;
+    box-shadow:  0px 0px 5px #5e3f5a !important;
+}
+
+input:focus {
+	background: #271c26 !important;
+	border: 0px #000 solid; 
+	color: #f5f3f4 !important;
+}
+
+input:hover {
+	background: #271c26 !important;
+	border: 0px #000 solid; 
+	color: #f5f3f4 !important;
+}
+
+button {
+	background: #3a2738 !important;
+	border: 0px #000 solid !important; 
+	color: #ffe8eb !important;
+    text-shadow: 0px 0px 1px #f2c6ce !important;
+    border-radius: 5px !important;
+    box-shadow:  0px 0px 5px #5e3f5a !important;
+}
+
+button:focus {
+	background: #271c26 !important;
+	border: 0px #000 solid; 
+	color: #f5f3f4 !important;
+}
+
+button:hover {
+	background: #271c26 !important;
+	border: 0px #000 solid; 
+	color: #f5f3f4 !important;
+}
+
+/* dropdowns */
+select {
+	background: #3a2738 !important;
+	border: 1px #1c0d1a solid !important; 
+	color: #ffe8eb !important;
+    text-shadow: 0px 0px 1px #f2c6ce !important;
+    border-radius: 5px !important;
+    box-shadow:  0px 0px 5px #5e3f5a !important;
+    padding: 3px;
+}
+
+select:focus {
+	background: #271c26 !important;
+	border: 0px #000 solid; 
+	color: #f5f3f4 !important;
+}
+
+select:hover {
+	background: #271c26 !important;
+	border: 0px #000 solid; 
+	color: #f5f3f4 !important;
+}
+
+/* "home/den" bar */
+.breadcrumb {
+	background: linear-gradient(to top,rgb(249, 237, 237,.5),rgb(247, 200, 208,.5)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+    border-radius: 8px;
+    border: 1.5px dashed #3a2738;
+    box-shadow: 0px 0px 7px #916d7b !important;
+}
+
+.breadcrumb > li + li:before {
+        color: #3a2738;
+}
+
+.breadcrumb .active {
+	color: #1c0d1a;
+}
+
+.breadcrumb a {
+    color: #1c0d1a !important;
+}
+
+.breadcrumb a:hover {
+    color: #3a2738 !important;
+}
+
+.breadcrumb:after { 
+content:'CSS by grassman (#243884) ★';
+right: 110px;
+position: absolute;
+color: #1c0d1a;
+font-size: auto !important;
+}
+
+input.floatright {
+	background: #3a2738 !important;
+	border: 0px #000 solid !important; 
+	color: #ffe8eb !important;
+    text-shadow: 0px 0px 1px #f2c6ce !important;
+    border-radius: 5px !important;
+}
+
+input.floatright:hover {
+	background: #271c26 !important;
+	border: 0px #000 solid; 
+	color: #fdd9df !important;
+}
+
+/* alerts */
+.alert,
+.alert-warning {
+    background: linear-gradient(to top,rgb(255, 199, 224,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+    color: #1c0d1a;
+    border-radius: 5px;
+    border: 1.5px dashed #3a2738;
+    box-shadow: 0px 0px 7px #916d7b !important;
+}
+
+.alert-danger {
+    background: linear-gradient(to top,rgb(255, 232, 235,.8)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+    color: #3a2738;
+    border-radius: 5px;
+    border: 1.5px dashed #3a2738;
+    box-shadow: 0px 0px 7px #916d7b !important;
+}
+
+
+/* comment box */
+#commentBox {
+	background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border: 1.5px #3a2738 dashed;
+	color: #1c0d1a;
+	border-radius: 8px;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+.commentTag {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/beadAngel.png');
+	width: 40px;
+	height: 40px;
+	border-radius: 0px;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+.comment:nth-child(even) {
+    background: linear-gradient(to top,rgb(253, 217, 223,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+}
+
+.comment:nth-child(odd) {
+	background: linear-gradient(to top,rgb(232, 150, 180,.7)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+}
+
+small.text-muted{
+	color: #271c26 !important
+}
+
+input[type="button"].bad {
+	background: #3a2738 !important;
+	border: 0px #000 solid !important; 
+	color: #ffe8eb !important;
+    text-shadow: 0px 0px 2px #f2c6ce !important;
+    border-radius: 4px !important;
+    margin-top: 10px !important;
+    margin-right: 8px !important;
+    text-transform: uppercase !important;
+}
+
+input[type="button"].bad:hover {
+	background: #271c26 !important;
+	border: 0px #000 solid; 
+	color: #f5f3f4 !important;
+}
+
+/* sidebar */
+.sidebar h3 {
+	color: #1c0d1a !important;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.panel {
+	background: linear-gradient(to top,rgb(249, 237, 237,.5),rgb(247, 200, 208,.5)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+    box-shadow: none !important;
+	border: 1.5px #3a2738 dashed !important;
+	color: #271c26 !important;
+	/* font-weight: bold; */
+	border-radius: 10px;
+    filter: drop-shadow(0px 0px 7px #916d7b);
+	text-transform: none;
+}
+
+/* arrows */
+div.col-md-12.col-xs-6 > a h3 div {
+	content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyAngel.png);
+	position:absolute;
+	right: -30px;
+	top: 105px;
+	width:130px;
+	z-index:1;
+  filter: drop-shadow(5px 3px 8px #5e3f5a);
+}
+
+div.col-md-12.col-xs-5 > a:nth-child(1) h3 div {
+	content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyBow.png);
+	position:absolute;
+	right: -15px;
+	top: -48px;
+	width:115px;
+	z-index:1;
+    filter: drop-shadow(5px 3px 8px #5e3f5a);
+}
+
+div.col-md-12.col-xs-5 > a:nth-child(3) h3 div {
+	content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyFlowers.png);
+	position:absolute;
+	right: -15px;
+	top: 60px;
+	width:90px;
+	z-index:1;
+    filter: drop-shadow(5px 3px 8px #5e3f5a);
+}
+
+/* img[src$="icon-time-day.png"] {
+	content: url('link')!important;
+	width: 35px !important;
+}
+
+img[src$="icon-time-night.png"] {
+	content: url('link')!important;
+	width: 35px !important;
+}
+
+img[src$="icon-season-wet.png"] {
+	content: url('link')!important;
+	width: 35px !important; 
+}
+
+img[src$="icon-season-dry.png"] {
+	content: url('link')!important;
+	width: 35px !important; 
+} */
+
+.col-md-3 form .panel.panel-default {
+    display:none !important;
+}
+
+/* energy bar */ 
+.progress {
+	background: #f9eded;
+	border-radius: 5px !important;
+	border: 1px #5e3f5a groove !important;
+}
+
+.progress-bar {
+	background: linear-gradient(to right, #e896b4, #e6aac0);
+}
+
+.progress div {
+	color: #3a2738 !important;
+    font-style: italic !important;
+    font-weight: 700;
+}
+
+/* chat channel button + pinned message */
+
+#context-chatMenu {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+#btnChatSettings {
+    background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+#btnChatSettings:focus {
+	background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+	background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+#btnChatSettings:select {
+	background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
+	background-size: contain !important;
+	filter: brightness(0) !important;
+}
+
+#btnLoadNewMessages{
+	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
+	background-size: contain !important;
+	filter: brightness(0) !important;
+}
+
+#btnLoadNewMessages:focus{
+	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
+	background-size: contain !important;
+        filter: brightness(0) !important;
+}
+
+.s-chat-message_menu {
+	background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
+	filter: brightness(0) !important;
+	background-size: contain !important;
+}
+
+.s-chat-message_menu:focus{
+	background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
+	filter: brightness(0) !important;
+	background-size: contain !important;
+}
+
+.s-chat-message_menu:select{
+    background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
+    filter: brightness(0) !important;
+background-size: contain !important;
+}
+
+.s-chat-message_menu:hover{
+    background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
+    filter: brightness(0) !important;
+background-size: contain !important;
+}
+
+#chatMessagePinned {
+	background: #3a2738 !important;
+	color: #ffe8eb !important;
+	border: 0px #000 solid; 
+}
+
+#chatMessagePinned a {
+    color: #fdd9df !important;
+}
+
+#chatMessagePinned a:hover {
+    color: #f5f3f4 !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+    border-bottom: 5px groove #e6aac0 !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    min-height: 0px;
+    margin-top: 3px !important;
+    text-indent: 0px !important;
+}
+
+/* chatbox */
+
+.s-chat-sidebar #label_currentChannel {
+	background: #3a2738 !important;
+	border: 1px #1c0d1a solid !important; 
+	color: #ffe8eb !important;
+    text-shadow: 0px 0px 1px #f2c6ce !important;    
+	border-radius: 8px !important;
+    box-shadow:  0px 0px 5px #5e3f5a !important;
+	text-transform: none !important;
+}
+
+div#fraChatChannelMenu.chatMenu-container {
+	background: #3a2738;
+    border-radius: 8px;
+    box-shadow:  0px 0px 5px #5e3f5a !important;
+	border: 1px #1c0d1a solid !important;
+    color: #ffe8eb !important;
+    text-shadow: 0px 0px 1px #f2c6ce !important; 
+}
+
+button.channelSwitcher {
+    color: #ffe8eb !important;
+    text-shadow: 0px 0px 1px #f2c6ce !important; 
+}
+
+button.channelSwitcher.active {
+    background: #271c26;
+    border-radius: 0px;
+    color: #f5f3f4 !important;
+    text-shadow: 0px 0px 1px #f2c6ce !important; 
+}
+
+div#chatMessageContainer {
+    border: 1.5px #3a2738 dashed;
+}
+
+.s-chat-message:nth-child(even) {
+    background: linear-gradient(to top,rgb(253, 217, 223,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+	color: #1c0d1a !important;
+	border: 0px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: linear-gradient(to top,rgb(232, 150, 180,.7)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	color: #1c0d1a !important;
+	border: 0px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.s-chat-message_content {
+    display: block !important;
+    padding-left: 8px !important;
+    padding-right: 5px !important;
+}
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background: linear-gradient(to top,rgb(94, 63, 90,.8)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+	border-left: 5px #5e3f5a solid !important;
+    padding-left: 5px !important;
+}
+
+.s-chat-message.hasContext {
+	border-left: 5px solid #b88699 !important;
+}
+
+.highlight-user-messages .s-chat-message[data-mid="282830"] {
+    background: linear-gradient(to top,rgb(245, 243, 244,.8)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+    border-bottom-color: transparent;
+    border-left: 5px solid #b88699 !important;
+}
+
+#txtChatContainer #lblCharacterCounter {
+	color: #b88699 !important
+}
+
+.s-chat-message_timestamp {
+	color: #5e3f5a !important;
+	padding-left:5px;
+}
+
+/* social media icons */
+img[src$="iconFB.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodySpeaking.png');
+	width: 40% !important;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    filter: drop-shadow(3px 3px 8px #7c516c);
+    pointer-events: none !important;
+}
+
+img[src$="iconTwit.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/xoxo.png');
+	width: 23% !important;
+    margin-left: -10px;
+    filter: drop-shadow(3px 3px 8px #7c516c);
+    pointer-events: none !important;
+}
+
+img[src$="iconInsta.png"] {
+	display:none;
+}
+
+/* den header */
+h1 {
+	color: #1c0d1a;
+	font-size: 45px;
+    text-shadow: 0px 0px 3px #5e3f5a;
+	text-align: center;
+	text-transform: uppercase !important;
+}
+
+/* all table headers */
+.top, th {
+	background: #3a2738 !important;
+	color: #f5f3f4 !important;
+	border-radius: 7px 7px 0px 0px;
+    border-bottom: 5px groove #e6aac0 !important;
+}
+
+/* all table footers */
+.bottom {
+	background: #ffe8eb !important;
+	color: #5e3f5a !important;
+    border-top: 2px solid #fdd9df !important;
+    border-radius: 0px 0px 7px 7px;   
+    overflow: hidden;
+}
+
+/* all table backgrounds */
+table.table {
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border-radius: 10px;
+    border:1.5px dashed #1c0d1a !important;
+    filter: drop-shadow(0px 0px 7px #916d7b);
+}
+
+
+table#about.table > tbody{
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border-radius: 8px !important;
+    overflow: hidden;
+}
+
+table#about.table {
+    border-radius: 8px !important;
+    border-collapse: separate;
+    overflow: hidden;
+    border:1.5px dashed #1c0d1a !important;
+}
+
+table#player.table {
+    border-radius: 8px !important;
+    border-collapse: separate;
+    border: #1c0d1a 1.5px dashed !important;
+    overflow: hidden;
+}
+
+table#player.table > tbody{
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border-radius: 0px 0px 100px 100px !important;
+    overflow: hidden;
+}
+
+table#player.table .right_odd {
+    background: #ffe8eb !important;
+    border-top: 2px solid #fdd9df !important;
+    overflow: hidden !important;
+}
+
+#player > tbody > tr.right td:nth-child(1) > table > tbody {
+    display: none;
+}
+
+table#sparring.table > tbody{
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border-radius: 0px 0px 100px 100px !important;
+    overflow: hidden;
+}
+    
+table#sparring.table {
+    border: #1c0d1a 1.5px dashed !important;
+    border-radius: 8px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+
+table#sparring.table .right_odd {
+    background: linear-gradient(to top,rgb(232, 150, 180,.5),rgb(230, 170, 192,.5)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+    border-left: #1c0d1a 1.5px dashed !important;
+    border-radius: 0px 0px 8px 0px;
+    overflow: hidden;
+}
+
+table#reclaim.table > tbody{
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border-radius: 7px!important;
+    overflow: hidden;
+}
+    
+table#reclaim.table {
+    border: #1c0d1a 1.5px dashed !important;
+    border-radius: 8px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+
+table#reclaim.table .b.center {
+    background: linear-gradient(to bottom,rgb(232, 150, 180,.8),rgb(232, 150, 180,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+    border-bottom: #1c0d1a 1.5px dashed !important;
+}
+
+table#allies.table > tbody{
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border-radius: 7px!important;
+    overflow: hidden;
+}
+    
+table#allies.table {
+    border: #1c0d1a 1.5px dashed !important;
+    border-radius: 8px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+    
+table#clans.table > tbody{
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border-radius: 0px 0px 100px 100px !important;
+    overflow: hidden;
+    display: none;
+}
+    
+table#clans.table {
+    border: #1c0d1a 1.5px dashed !important;
+    border-radius: 8px !important;
+    border-collapse: separate;
+    overflow: hidden;
+    display: none;
+}
+
+table.table > tbody{
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+    border-radius: 8px !important;
+    border-collapse: separate;
+    border-left: #1c0d1a 0px dashed !important;
+    overflow: hidden;
+}
+    
+table.table {
+    border-bottom: 0px !important;
+    border-radius: 8px 8px 0px 0px !important;
+    border-collapse: separate;
+    overflow: hidden;
+}
+
+#editdetailspanel table.table {
+    border-top: 0px !important;
+    border-radius: 0px 0px 8px 8px  !important;
+    border-bottom: #1c0d1a 1.5px dashed !important;
+}
+
+#editdetailspanel td.left.b {
+    background: linear-gradient(rgb(232, 150, 180,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+    border-right: #1c0d1a 1.5px dashed !important;
+}
+
+table.table > tbody > tr >th a {
+    color: #f7c8d0 !important;
+}
+
+table.table > tbody > tr >th a:hover {
+    color: #ffe8eb !important;
+}
+
+/* "level, stats, etc" */
+.inner-table .left {
+    background: linear-gradient(to top,rgb(255, 199, 224,.8)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+    color: #5e3f5a;
+    border: 1.5px #916d7b solid !important;
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+.inner-table .right {
+    background: linear-gradient(to top,rgb(255, 232, 235,.8)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	color: #3a2738;
+    font-style: italic;
+    border-top: 1.5px #916d7b solid !important;
+    border-bottom: 1.5px #916d7b solid !important;  
+    border-right: 1.5px #916d7b solid !important;  
+    border-radius: 0px 5px 5px 0px !important;
+}
+
+.xlarge.b a {
+	color: #f7c8d0 !important;
+}
+
+.xlarge.b a:hover {
+	color: #fdd9df !important;
+}
+
+.inner-table.auto a {
+    color: #3a2738 !important;
+}
+.inner-table.auto a:hover {
+    color: #5e3f5a !important;
+}
+
+/* king image */
+table#about.table .lion-image-block {
+	border-radius: 40px !important;
+	width:200px !important;
+	margin-top: 6%;
+	margin-left: 4%;
+}
+
+/* player table cosmetics */
+#player.table hr {
+	visibility: hidden !important;
+	display: none !important; 
+}
+
+#player.table div.xlarge { 
+	margin-top: 20px !important; 
+}
+
+p.center.xlarge {
+	margin-top:10px !important
+}
+
+#player.table .text-muted {
+	visibility: hidden;
+	position: relative;
+}
+
+#player.table .text-muted::after {
+	content: none !important;
+	visibility: hidden;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:16px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+	content:'Block Member';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+} 
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a {
+	font-size:0px;
+}
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a::after {
+	content:'Friend Request';
+	font-size:14px;
+    position:relative;
+    top:5px;
+    left:3px;
+}
+
+/* player icons */
+img[src$="//static.lioden.com/images/layout/icon_den_message.png"]{
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/beadStar.png');
+    width: 30px !important;
+    margin-right: 7px;
+    filter: grayscale(100%) brightness(120%) drop-shadow(0px 0px 5px #894e65);
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_gift.png"]{
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/beadHeart.png');
+    width: 35px !important;
+    margin-right: 5px;
+    filter: grayscale(100%) brightness(110%) drop-shadow(0px 0px 5px #894e65);
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_trade.png"]{
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/beadMoon.png');
+    width: 30px !important;
+    margin-right: 5px;
+    filter: grayscale(100%) brightness(110%) drop-shadow(0px 0px 5px #894e65);
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_wishlist.png"]{
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/beadBow.png');
+    width: 35px !important;
+    filter: grayscale(100%) brightness(108%) drop-shadow(0px 0px 5px #894e65);
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_viewtrade.png"]{
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/beadCloud.png');
+    width: 35px !important;
+    filter: grayscale(100%) brightness(105%) drop-shadow(0px 0px 5px #894e65);
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_block.png"]{
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/bun1.png');
+    width: 35px !important;
+    filter: grayscale(100%) drop-shadow(0px 0px 5px #894e65);
+}
+
+img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/bun2.png');
+    width: 35px !important;
+    filter: grayscale(100%) drop-shadow(0px 0px 5px #894e65);
+}
+
+.member-online {
+    content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/pinkDotButton.png) !important;
+    width: 25px;
+    height: 25px !important;
+    background: none !important;
+    border-radius: 0px !important;
+    margin: 0px 7px -5px -5px;
+    filter: drop-shadow(0px 0px 8px #8e5c6f);
+}
+
+.member-offline {
+    content: url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/pinkDotsButton.png) !important;
+    width: 25px;
+    height: 25px !important;
+    background: none !important;
+    border-radius: 0px !important;
+    margin: 0px 7px -5px -5px;
+    filter: drop-shadow(0px 0px 8px #8e5c6f);
+}
+
+/* caves */
+.cave-grid {
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border: 1.5px #3a2738 dashed;
+	border-radius: 10px;
+    filter: drop-shadow(0px 0px 5px #8e5c6f);
+}
+
+.cave-grid img {
+    height:120px;
+	object-fit: cover;
+	min-width: 0 !important;
+	width: 100% !important;
+}
+
+div.cave-grid>img[src$="unsortedlionsbanner.png"]{
+	content:url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodySparkle3.png') !important;
+	object-fit: contain;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+div.cave-grid>img[src$="nestingbanner.png"]{
+	content:url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodySit2.png') !important;
+	object-fit: contain;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+div.cave-grid>img[src$="prideoverviewbanner.png"]{
+	content:url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyHi5.png') !important;
+	object-fit: contain;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+div.cave-grid>img[src$="caveunused.jpg"]{
+	content:url('https://i.pinimg.com/736x/ed/7e/e3/ed7ee33a3468200ff40e02e61e5aab08.jpg');
+    object-position: center -90px;
+}
+
+a[href$="492328"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/736x/ce/bf/a2/cebfa2b5a6684a22fbd262b278447b1e.jpg') !important;
+	object-position: center -100px;
+}
+
+a[href$="487362"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/736x/c3/30/b4/c330b4b8237fb384e8173855f4aab3b0.jpg') !important;
+	object-position: center -60px;
+}
+
+a[href$="489847"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/736x/c0/9d/77/c09d77dfa7576a0123391da52fc662ce.jpg') !important;
+	object-position: center -70px;
+}
+
+a[href$="498258"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/736x/80/eb/1d/80eb1d2b31fbd790e64eaf3763313354.jpg') !important;
+	object-position: center -110px;
+}
+
+a[href$="504425"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/736x/f9/2a/dd/f92add9770fe33d83584799e399cf010.jpg') !important;
+	object-position: center -100px;
+}
+
+a[href$="507015"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/736x/ea/31/33/ea3133341c722d69144fe2c0204c216d.jpg') !important;
+	object-position: center -30px;
+}
+
+/* mounds */
+.mound-grid {
+	background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border: 1.5px #3a2738 dashed;
+	border-radius: 10px;
+    padding: 0px 0px 5px 0px!important;
+    filter: drop-shadow(0px 0px 5px #8e5c6f);
+}
+
+.mound-grid img {
+	margin-bottom: 5px;
+	height: 80px !important;
+}
+
+div.mound-grid>img[src$="beetleunsorted.png"]{
+	content: url('https://i.pinimg.com/736x/8a/11/99/8a11997967f84482a35ffa41e6412022.jpg')!important;
+	object-fit: cover;
+	width: 100% !important;
+    object-position: center -80px;
+    padding: none !important;
+}
+
+div.mound-grid>img[src$="beetlemound.png"]{
+	content: url('https://i.pinimg.com/736x/43/91/c9/4391c979d1ff7c03496e19a7533aaf71.jpg')!important;
+	object-fit: cover;
+	width: 100% !important;
+    object-position: center -80px;
+    padding: 0px 0px 0px 0px !important;
+}
+
+/* a[href="mound.php?id=id"]>div.mound-grid>img[src$="beetlemound.png"]{
+	content: url('link')!important;
+	object-fit: cover;
+	object-position: 0% 0; 
+	margin-top: 5px !important;
+} */
+
+div.mound-grid>img[src$="addbeetlemound.png"]{
+	content: url('link')!important;
+	object-fit: cover;
+	object-position: 0% 0; 
+	margin-top: 5px !important;
+}
+
+/* fapa */
+
+/* _ days left */
+b span {
+	color: #1c0d1a !important;
+    text-shadow: 0px 0px 3px #f7c8d0;
+    font-style: italic;
+}
+
+/* february thoughts */
+div.center.b {
+	color: #1c0d1a !important
+}
+
+.feature h3 {
+color: #1c0d1a;
+}
+
+.feature, div.left {
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border: 1.5px #3a2738 dashed !important;
+	border-radius: 8px !important;
+	color: #1c0d1a;
+	box-shadow: none !important;
+}
+
+/* friends */
+#allies.table td.left{
+	background:rgb(245, 243, 244,.3) !important;
+}
+
+/* hides friends
+#allies.table {
+	display: none !important;
+} */
+
+/* clans */
+#clans.table td.left{
+	background:rgb(245, 243, 244,.3) !important;
+}
+
+/* hides clans
+#clans.table {
+	display: none !important;
+} */
+
+/* hides clan banners 
+.right a.bigger img {
+	display: none !important;
+	visibility: hidden !important;
+} */
+
+/* showcase */
+.dynastylist {
+	width: 20%;
+}
+
+.dynastylist h3 {
+    color: #1c0d1a;
+    font-size: 18px !important;
+}
+
+img[src$="den_ancestors.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyPraise1.png');
+	width: auto !important;
+    max-width: 120px !important;
+    margin-bottom: 5px;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+} 
+
+img[src$="ancestorsfem.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodySad1.png');
+	width: auto !important;
+    max-width: 120px !important;
+    margin-bottom: 5px;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+img[src$="den_achievements.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyPout1.png');
+    width: auto !important;
+    max-width: 120px !important;
+    margin-bottom: 5px;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+img[src$="den_showcase.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyMad1.png');
+	width: auto !important;
+    max-width: 120px !important;
+    margin-bottom: 5px;
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+img[src$="den_beetlebook.png"] {
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyWonder.png');
+	width: auto !important; 
+    max-width: 120px !important;
+    margin-bottom: 5px;
+    transform: scalex(-1);
+    filter: drop-shadow(0px 0px 8px #7c516c);
+}
+
+/* edit details */
+
+
+form textarea {
+background: #f5f3f4 !important;
+	border: 1px #3a2738 solid; 
+	border-radius: 8px !important;
+	color: #3a2738 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+form textarea:hover {
+background: #f5f3f4 !important;
+	color: #3a2738 !important;
+}
+
+form textarea:focus {
+background: #f5f3f4 !important;
+	color: #3a2738 !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #3a2738;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #fe95b7;
+	border-radius: px;
+}
+
+/* copyright */
+.col-xs-10{
+    color: #ffc7e0 !important;
+    text-shadow: none !important
+}
+
+/* event extras */
+
+/* december */
+
+/* gifting box bg */
+form#frmGifting tbody {
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+    border-radius: 10px;
+    border:1.5px dashed #1c0d1a !important;
+    filter: drop-shadow(0px 0px 7px #916d7b);
+}
+
+/* gifting box item box border */
+.search_field.form-control, .combo-selection-parent {
+    border:1.5px dashed #1c0d1a !important;
+}
+
+/* gifting box button */
+div.combo-select-row {
+background: transparent;
+    border:1.5px dashed #1c0d1a !important;
+}
+
+/* gifting box item search box */
+div.combo-selection-container.noselect {
+	background: linear-gradient(to top,rgb(249, 237, 237,.5),rgb(247, 200, 208,.5)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+    border:1.5px dashed #1c0d1a !important;
+}
+
+div.combo-select-row:hover{
+	background: linear-gradient(to top,rgb(249, 237, 237,.5),rgb(247, 200, 208,.5)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
+border: 0px !important;
+}
+
+/* gifting box item selected */
+.combo-select-row[selected="true"] {
+	background: linear-gradient(to top,rgb(232, 150, 180,.7)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+outline: none;
+}
+
+/* albino challenge gorilla */
+img[src$="//static.lioden.com/images/layout/albinochallenge.png"]{
+	content: url('https://i.pinimg.com/736x/9e/bf/df/9ebfdf62b51631f1f2de280c0a676475.jpg');
+	display: block;
+    border:1.5px dashed #1c0d1a !important;
+}
+
+/* cave stuff */
+.featured-lion {
+    background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+	border-radius: 10px;
+    border:1.5px dashed #1c0d1a !important;
+    filter: drop-shadow(0px 0px 7px #916d7b);
+    color: #3a2738;
+}
+
+.featured-lion > div > img:first-child {
+    display: none;
+}
+
+#pride.table td.left{
+    background: linear-gradient(to top,rgb(232, 150, 180,.7)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+}
+
+#pride .right_odd {
+    background: linear-gradient(to top,rgb(253, 217, 223,.6)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+    color: #5e3f5a;
+    text-transform: lowercase !important;
+}
+
+.col-xs-12 > .auto .b {
+    background: linear-gradient(to top,rgb(232, 150, 180,.7)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+}
+form .auto .b {
+       background: linear-gradient(to top,rgb(232, 150, 180,.7)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;;
+}
