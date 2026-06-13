@@ -563,10 +563,6 @@ div#chatMessageContainer {
 	padding-left:5px;
 }
 
-#fraSidebarChat::-webkit-scrollbar {
-    width:0px;
-}
-
 /* social media icons */
 img[src$="iconFB.png"] {
 	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodySpeaking.png');
@@ -1201,7 +1197,7 @@ background: #f5f3f4 !important;
 
 /* scrollbar */
 ::-webkit-scrollbar {
-	width: 8px;
+	width: 0px;
 }
 
 ::-webkit-scrollbar-track {
