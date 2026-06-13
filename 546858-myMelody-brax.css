@@ -384,16 +384,11 @@ img[src$="icon-season-dry.png"] {
 
 /* chat channel button + pinned message */
 
-#context-chatMenu {
-background: transparent !important;
-border: none !important;
-box-shadow: none !important;
-}
-
 #btnChatSettings {
     background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repeat !important;
 background-size: contain !important;
         filter: brightness(0) !important;
+	    box-shadow: none !important;
 }
 
 #btnChatSettings:focus {
@@ -412,6 +407,7 @@ background-size: contain !important;
 	background: url(//static.lioden.com/images/layout/chat/ico-refresh.png) 0 0 / contain no-repeat !important; 
 	background-size: contain !important;
 	filter: brightness(0) !important;
+    box-shadow: none !important;
 }
 
 #btnLoadNewMessages:focus{
@@ -424,6 +420,7 @@ background-size: contain !important;
 	background: url(//static.lioden.com/images/layout/chat/ico-menu.png) no-repeat !important;
 	filter: brightness(0) !important;
 	background-size: contain !important;
+    box-shadow: none !important;
 }
 
 .s-chat-message_menu:focus{
@@ -491,7 +488,8 @@ div#fraChatChannelMenu.chatMenu-container {
 
 button.channelSwitcher {
     color: #ffe8eb !important;
-    text-shadow: 0px 0px 1px #f2c6ce !important; 
+    text-shadow: 0px 0px 1px #f2c6ce !important;
+    box-shadow: none !important;
 }
 
 button.channelSwitcher.active {
@@ -499,6 +497,19 @@ button.channelSwitcher.active {
     border-radius: 0px;
     color: #f5f3f4 !important;
     text-shadow: 0px 0px 1px #f2c6ce !important; 
+}
+
+#context-chatMenu {
+    background: #3a2738 !important;
+    border-radius: 8px;
+    border: 1px solid #1c0d1a !important;
+    box-shadow:  0px 0px 5px #5e3f5a !important;
+}
+
+button.chatMenu-option {
+	color: #ffe8eb !important;
+    text-shadow: 0px 0px 1px #f2c6ce !important;
+    box-shadow: none !important;
 }
 
 div#chatMessageContainer {
@@ -533,14 +544,14 @@ div#chatMessageContainer {
     padding-left: 5px !important;
 }
 
-.s-chat-message.hasContext {
-	border-left: 5px solid #b88699 !important;
-}
-
 .highlight-user-messages .s-chat-message[data-mid="282830"] {
     background: linear-gradient(to top,rgb(245, 243, 244,.8)), url(https://i.pinimg.com/1200x/03/f4/00/03f400d5f6c3b3ef458e2839e2853742.jpg) !important;
     border-bottom-color: transparent;
     border-left: 5px solid #b88699 !important;
+}
+
+.s-chat-message.hasContext {
+	border-left: 0px !important;
 }
 
 #txtChatContainer #lblCharacterCounter {
@@ -550,6 +561,10 @@ div#chatMessageContainer {
 .s-chat-message_timestamp {
 	color: #5e3f5a !important;
 	padding-left:5px;
+}
+
+#fraSidebarChat::-webkit-scrollbar {
+    width:0px;
 }
 
 /* social media icons */
