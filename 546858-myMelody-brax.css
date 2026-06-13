@@ -207,7 +207,7 @@ select:hover {
 
 .breadcrumb:after { 
 content:'CSS by grassman (#243884) ★';
-right: 110px;
+right: 115px;
 position: absolute;
 color: #1c0d1a;
 font-size: auto !important;
