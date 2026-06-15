@@ -141,6 +141,7 @@ img[src$="silver.png"] {
 }
 
 .navbar li a:hover {
+	background: #efadc4;
 	color: #3a2738 !important;
 	border-radius: 0px;
     text-shadow: 0px 0px 5px #ffe8eb;
@@ -173,7 +174,7 @@ input {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
 	color: #271c26 !important;
-    text-shadow: none;
+     text-shadow: none !important;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
 }
@@ -194,7 +195,7 @@ button {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
 	color: #271c26 !important;
-    text-shadow: none;
+     text-shadow: none !important;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
 }
@@ -216,7 +217,7 @@ select {
 	background: #efadc4 !important;
 	border: 0px solid !important; 
 	color: #271c26 !important;
-    text-shadow: none;
+     text-shadow: none !important;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
     padding: 3px;
@@ -333,7 +334,7 @@ input[type="button"].bad {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
 	color: #3a2738 !important;
-    text-shadow: none;
+     text-shadow: none !important;
     border-radius: 4px !important;
     margin-top: 10px !important;
     margin-right: 8px !important;
@@ -633,7 +634,7 @@ div#chatMessageContainer {
 #btnChatSend {
 	background: #f9f2f4 !important;
 	color: #271c26 !important;
-	text-shadow: none;
+	 text-shadow: none !important;
 }
 
 #btnChatSend:hover {
