@@ -2,9 +2,8 @@
   cursor: url('https://cdn.cursors-4u.net/css-previews/pink-rainbow-over-clouds-13a4d7a2-css.webp') 0 0, auto !important;
 }
 
-form textarea:hover, a:hover, button:hover, input:hover, select:hover, label:hover, .box1:hover,  .box2:hover, .cave-grid:hover, .cave-grid img:hover, .mound-grid:hover, .mound-grid img:hover, .dynastylist:hover, .dynastylist h3:hover, div.col-md-12.col-xs-6 > a h3 div:hover, div.col-md-12.col-xs-5 > a:nth-child(1) h3 div:hover, div.col-md-12.col-xs-5 > a:nth-child(3) h3 div:hover {
-    cursor: url('https://cdn.cursors-4u.net/css-previews/blinking-pink-hello-kitty-17d9d45e-css.webp') 0 0, auto !important;
-
+form textarea:hover, a:hover, button:hover, input:hover, select:hover, label:hover, .box1:hover,  .box2:hover, .cave-grid:hover, .cave-grid img:hover, .mound-grid:hover, .mound-grid img:hover, .dynastylist:hover, .dynastylist h3:hover, div.col-md-12.col-xs-6 > a h3 div:hover, div.col-md-12.col-xs-5 > a:nth-child(1) h3 div:hover, div.col-md-12.col-xs-5 > a:nth-child(3) h3 div:hover, img[src$="//static.lioden.com/images/layout/arrowleft.png"]:hover, img[src$="//static.lioden.com/images/layout/arrow.png"]:hover, .featured-lion:hover 
+{cursor: url('https://cdn.cursors-4u.net/css-previews/blinking-pink-hello-kitty-17d9d45e-css.webp') 0 0, auto !important;
 }
 
 .boxes {
