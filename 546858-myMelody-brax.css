@@ -11,7 +11,7 @@ border-radius: 8px;
 .box1{   
     background: linear-gradient(to bottom,rgb(252, 244, 248,.9), rgb(245, 243, 244,.9)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
     border-radius: 8px;
-    border: 1.5px none #3a2738 !important;
+    border: 0px !important;
     box-shadow: 0px 0px 7px #916d7b !important;
     width:40%;
     height:100px;
@@ -29,7 +29,7 @@ border-radius: 8px;
 .box2{   
     background: linear-gradient(to bottom,rgb(252, 244, 248,.9), rgb(245, 243, 244,.9)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
     border-radius: 8px;
-    border: 1.5px none #3a2738 !important;
+    border: 0px !important;
     box-shadow: 0px 0px 7px #916d7b !important;
     width:40%;
     height:100px;
@@ -173,7 +173,7 @@ input {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
 	color: #271c26 !important;
-    text-shadow: 0px 0px 0px none !important;
+    text-shadow: none;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
 }
@@ -194,7 +194,7 @@ button {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
 	color: #271c26 !important;
-    text-shadow: 0px 0px 0px none !important;
+    text-shadow: none;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
 }
@@ -216,7 +216,7 @@ select {
 	background: #efadc4 !important;
 	border: 0px solid !important; 
 	color: #271c26 !important;
-    text-shadow: 0px 0px 0px #f2c6ce !important;
+    text-shadow: none;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
     padding: 3px;
@@ -254,7 +254,7 @@ select:hover {
     color: #1c0d1a !important;
 }
 
-.breadcrumb a:hover {
+	.breadcrumb a:hover {
     color: #3a2738 !important;
 }
 
@@ -333,7 +333,7 @@ input[type="button"].bad {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
 	color: #3a2738 !important;
-    text-shadow: 0px 0px 0px #f2c6ce !important;
+    text-shadow: none;
     border-radius: 4px !important;
     margin-top: 10px !important;
     margin-right: 8px !important;
@@ -633,6 +633,7 @@ div#chatMessageContainer {
 #btnChatSend {
 	background: #f9f2f4 !important;
 	color: #271c26 !important;
+	text-shadow: none;
 }
 
 #btnChatSend:hover {
