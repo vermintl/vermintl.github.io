@@ -1479,17 +1479,3 @@ img[src$="//static.lioden.com/images/layout/arrow.png"] {
 }
 html { animation: cursor-anim 1664ms step-end infinite; }
 a,button,input,textarea,label,[role=button],select,option{cursor:inherit!important}
-
-
-@charset "UTF-8";
-/*  Brought to you by https://www.cursors-4u.com
- *
- *  Cursor: Pink Rainbow Over Clouds
- *  URL: https://www.cursors-4u.com/cursor/pink-rainbow-over-clouds
- */
-@keyframes cursor-anim {
-  0.00% { cursor: url("data:image/webp;base64,UklGRlIBAABXRUJQVlA4TEYBAAAvH8AHEE+hoG0bafyxng7AnpqGwrZtEA/+v5gYt23kSP03u694QZr/8K2B+Pm83o7WL/RNoZNIaP2+IQQIQSBSAkBJhBAQQYQclBy1x9H6tdcRINu2nba5ZmZbjipFDtP/f6HgyR51GtF/RW7bNlLSuj2tX4SBZfTbbXCyDI5gZnWMMLgdWwRWH8HqQyiiFXdUFFHgtlIgVGSgUlM5NjvC3aSczZYsN+FOZzR1zgQcBcvrBoqmzs/A42L5AM55DUXPBcNjE/2g7cX2ACvIiaPOBTaxwHIRG0Reg1NUDA/dn7f2g0U8wCqacsa1x+fZdl37/KK/YC4pRj5zrOPyan/aruODXEdBD4AC0I3uKVYAfHSQLpz7TuF0Qn647xQWS0rBfaewhzijBt8pnOWUATIDuNpxCiemyZ/el/5TELVIs+89xb/oDw==") 0 0, auto; }
-  50.00% { cursor: url("data:image/webp;base64,UklGRlQBAABXRUJQVlA4TEcBAAAvH8AHEE+hoG0bafyxng7AnpqGwrZtEA/+v5gYt23kSP03u694QZr/8K2B+Pm83o7WL/RNoZNIaP2+IQQIQSBSAkBJhBAQQYQclBy1x9H6tdcRINu2nba5xpjZSlQ5z2H6/y8Ua9RpRP8VuW3bWNmnpP1FHGkkP2+ik0YUIpUpTHF0C2sizUOkeZAozH9JZHPiBuS3IREsEPlVbW3QehR3VRVs0WCFKu72Gm1TMAEDwYqmBdnVFGfgcdF4AOeiAdlzyfDYxTBKBrE/wEpr4mgKgV2s0FjFDlE04DbVDA/pn7fkg1U8wGq7qgXXAZ9n1/fd84vhgqWyaeILx3FaX91P0vd83I6TsAeAAPSTucURAJ8MbaY4d21heGb9cNcWmtbcJu7aQg/pwRZcWxjtfAC2A8DJYwujzLM/Od/cW1hs3dTcucW/wA8A") 0 0, auto; }
-}
-html { animation: cursor-anim 1332ms step-end infinite; }
-a,button,input,textarea,label,[role=button],select,option{cursor:inherit!important}
