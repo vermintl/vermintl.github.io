@@ -11,7 +11,7 @@ border-radius: 8px;
 .box1{   
     background: linear-gradient(to bottom,rgb(252, 244, 248,.9), rgb(245, 243, 244,.9)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
     border-radius: 8px;
-    border: 1.5px dashed #3a2738 !important;
+    border: 1.5px none #3a2738 !important;
     box-shadow: 0px 0px 7px #916d7b !important;
     width:40%;
     height:100px;
@@ -29,7 +29,7 @@ border-radius: 8px;
 .box2{   
     background: linear-gradient(to bottom,rgb(252, 244, 248,.9), rgb(245, 243, 244,.9)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
     border-radius: 8px;
-    border: 1.5px dashed #3a2738 !important;
+    border: 1.5px none #3a2738 !important;
     box-shadow: 0px 0px 7px #916d7b !important;
     width:40%;
     height:100px;
@@ -99,7 +99,7 @@ img[src$="//static.lioden.com/img/layout/logo-full-2.png"] {
 /* topbar "welcome back" */
 .topbar {
 	background: linear-gradient(to top,#e6aac0, #e094b0);
-	border: 1.5px #271c26 dashed;
+	border: 1.5px #271c26 none;
 	border-top: none;
 	border-radius: 0px 0px 8px 8px;
 	color: #271c26;
@@ -128,24 +128,22 @@ img[src$="silver.png"] {
 
 /* navbar "den, crossroads ..." */
 .navbar {
-	background: #271c26;
-	border-bottom: 5px groove #e6aac0;
+	background: #efadc4;
+	border-bottom: 5px none #e6aac0;
 	border-radius: 10px 10px 0px 0px;
 }
 
 .navbar li a {
-	color: #fdd9df !important;
+	color: #1c0d1a !important;
     margin-left: -5px;
-    text-shadow: 0px 0px 5px #e6aac0;
+    text-shadow: 0px 0px 5px none;
 	margin-top: 2px;
 }
 
 .navbar li a:hover {
-	background: #1c0d1a !important;
-    margin-top: -1px;
-	color: #f2c6ce !important;
+	color: #3a2738 !important;
 	border-radius: 0px;
-    text-shadow: 0px 0px 5px #e6aac0;
+    text-shadow: 0px 0px 5px #ffe8eb;
 }
 
 .navbar li:last-child {
@@ -172,75 +170,75 @@ a.btn.btn-default.button {
 }
 
 input {
-	background: #3a2738 !important;
+	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
-	color: #ffe8eb !important;
-    text-shadow: 0px 0px 2px #f2c6ce !important;
+	color: #271c26 !important;
+    text-shadow: 0px 0px 2px none !important;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
 }
 
 input:focus {
-	background: #271c26 !important;
-	border: 0px #000 solid; 
-	color: #f5f3f4 !important;
+	border: 0px;
+	color: #3a2738 !important;
+        text-shadow: 0px 0px 5px #ffe8eb !important;
 }
 
 input:hover {
-	background: #271c26 !important;
-	border: 0px #000 solid; 
-	color: #f5f3f4 !important;
+	border: 0px;
+	color: #3a2738 !important;
+        text-shadow: 0px 0px 5px #ffe8eb !important;
 }
 
 button {
-	background: #3a2738 !important;
+	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
-	color: #ffe8eb !important;
-    text-shadow: 0px 0px 1px #f2c6ce !important;
+	color: #271c26 !important;
+    text-shadow: 0px 0px 2px none !important;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
 }
 
 button:focus {
-	background: #271c26 !important;
-	border: 0px #000 solid; 
-	color: #f5f3f4 !important;
+	border: 0px; 
+	color: #3a2738 !important;
+        text-shadow: 0px 0px 5px #ffe8eb !important;
 }
 
 button:hover {
-	background: #271c26 !important;
-	border: 0px #000 solid; 
-	color: #f5f3f4 !important;
+	border: 0px; 
+	color: #3a2738 !important;
+        text-shadow: 0px 0px 5px #ffe8eb !important;
 }
 
 /* dropdowns */
 select {
-	background: #3a2738 !important;
-	border: 1px #1c0d1a solid !important; 
-	color: #ffe8eb !important;
-    text-shadow: 0px 0px 1px #f2c6ce !important;
+	background: #efadc4 !important;
+	border: 0px solid !important; 
+	color: #271c26 !important;
+    text-shadow: 0px 0px 0px #f2c6ce !important;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
     padding: 3px;
 }
 
 select:focus {
-	background: #271c26 !important;
-	border: 0px #000 solid; 
-	color: #f5f3f4 !important;
+	background: #efadc4 !important;
+    color: #3a2738 !important;
+        text-shadow: 0px 0px 5px #ffe8eb !important;
 }
 
 select:hover {
-	background: #271c26 !important;
-	border: 0px #000 solid; 
-	color: #f5f3f4 !important;
+	background: #efadc4 !important;
+    color: #3a2738 !important;
+        text-shadow: 0px 0px 5px #ffe8eb !important;
 }
 
 /* "home/den" bar */
 .breadcrumb {
 	background: linear-gradient(to top,rgb(249, 237, 237,.5),rgb(247, 200, 208,.5)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;
     border-radius: 8px;
-    border: 1.5px dashed #3a2738;
+    border: 1.5px none #3a2738;
     box-shadow: 0px 0px 7px #916d7b !important;
 }
 
@@ -269,17 +267,19 @@ font-size: auto !important;
 }
 
 input.floatright {
-	background: #3a2738 !important;
+	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
-	color: #ffe8eb !important;
-    text-shadow: 0px 0px 1px #f2c6ce !important;
+	color: #271c26 !important;
+    text-shadow: 0px 0px 0px #f2c6ce !important;
     border-radius: 5px !important;
+    margin-top: 2%;
 }
 
 input.floatright:hover {
-	background: #271c26 !important;
+	background: #efadc4 !important;
 	border: 0px #000 solid; 
-	color: #fdd9df !important;
+	color: #271c26 !important;
+        text-shadow: 0px 0px 5px #ffe8eb !important;
 }
 
 /* alerts */
@@ -303,7 +303,7 @@ input.floatright:hover {
 /* comment box */
 #commentBox {
 	background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-	border: 1.5px #3a2738 dashed;
+	border: 1.5px #3a2738 none;
 	color: #1c0d1a;
 	border-radius: 8px;
     filter: drop-shadow(0px 0px 8px #7c516c);
@@ -346,6 +346,10 @@ input[type="button"].bad:hover {
 	color: #f5f3f4 !important;
 }
 
+#comment {
+        background: #f9f2f4 !important;
+}
+
 /* sidebar */
 .sidebar h3 {
 	color: #1c0d1a !important;
@@ -354,13 +358,13 @@ input[type="button"].bad:hover {
 }
 
 .panel {
-	background: linear-gradient(to top,rgb(249, 237, 237,.5),rgb(247, 200, 208,.5)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;
+	background: linear-gradient(to bottom,rgb(249, 237, 237,.6),rgb(247, 200, 208,.5)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;
     box-shadow: none !important;
-	border: 1.5px #3a2738 dashed !important;
+	border: 1.5px #3a2738 none !important;
 	color: #271c26 !important;
 	/* font-weight: bold; */
 	border-radius: 10px;
-    filter: drop-shadow(0px 0px 7px #916d7b);
+    filter: drop-shadow(0px 0px 7px #996c7b);
 	text-transform: none;
 }
 
@@ -496,21 +500,21 @@ background-size: contain !important;
 }
 
 #chatMessagePinned {
-	background: #3a2738 !important;
-	color: #ffe8eb !important;
+	background: #f5f3f4 !important;
+	color: #271c26 !important;
 	border: 0px #000 solid; 
 }
 
 #chatMessagePinned a {
-    color: #fdd9df !important;
+    color: #5e3f5a !important;
 }
 
 #chatMessagePinned a:hover {
-    color: #f5f3f4 !important;
+    color: #3a2738 !important;
 }
 
 #chatMessagePinned.s-chat-message__pinned {
-    border-bottom: 5px groove #e6aac0 !important;
+    border-bottom: 0px groove #e6aac0 !important;
 }
 
 #chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
@@ -522,9 +526,9 @@ background-size: contain !important;
 /* chatbox */
 
 .s-chat-sidebar #label_currentChannel {
-	background: #3a2738 !important;
-	border: 1px #1c0d1a solid !important; 
-	color: #ffe8eb !important;
+	background: #f9f2f4 !important;
+	border: 0px #1c0d1a solid !important; 
+	color: #1c0d1a !important;
     text-shadow: 0px 0px 1px #f2c6ce !important;    
 	border-radius: 8px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
@@ -532,10 +536,10 @@ background-size: contain !important;
 }
 
 div#fraChatChannelMenu.chatMenu-container {
-	background: #3a2738;
+	background: #f9f2f4;
     border-radius: 8px;
     box-shadow:  0px 0px 5px #5e3f5a !important;
-	border: 1px #1c0d1a solid !important;
+	border: 0px #1c0d1a solid !important;
     color: #ffe8eb !important;
     text-shadow: 0px 0px 1px #f2c6ce !important; 
 }
@@ -547,17 +551,18 @@ button.channelSwitcher {
 }
 
 button.channelSwitcher.active {
-    background: #271c26;
+    background: #f9f2f4;
     border-radius: 0px;
     color: #f5f3f4 !important;
     text-shadow: 0px 0px 1px #f2c6ce !important; 
 }
 
 #context-chatMenu {
-    background: #3a2738 !important;
+    background: #f9f2f4 !important;
     border-radius: 8px;
-    border: 1px solid #1c0d1a !important;
+    border: 0px solid #1c0d1a !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
+	
 }
 
 button.chatMenu-option {
@@ -567,7 +572,8 @@ button.chatMenu-option {
 }
 
 div#chatMessageContainer {
-    border: 1.5px #3a2738 dashed;
+    border: 1.5px #3a2738 none;
+	box-shadow:  0px 0px 7px #5e3f5a !important;
 }
 
 .s-chat-message:nth-child(even) {
@@ -650,10 +656,10 @@ h1 {
 
 /* all table headers */
 .top, th {
-	background: #3a2738 !important;
+	background: #efadc4 !important;
 	color: #f5f3f4 !important;
 	border-radius: 7px 7px 0px 0px;
-    border-bottom: 5px groove #e6aac0 !important;
+    border-bottom: none !important;
 }
 
 /* all table footers */
@@ -669,7 +675,7 @@ h1 {
 table.table {
     background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
 	border-radius: 10px;
-    border:1.5px dashed #1c0d1a !important;
+    border:1.5px none #1c0d1a !important;
     filter: drop-shadow(0px 0px 7px #916d7b);
 }
 
@@ -684,13 +690,13 @@ table#about.table {
     border-radius: 8px !important;
     border-collapse: separate;
     overflow: hidden;
-    border:1.5px dashed #1c0d1a !important;
+    border:1.5px none #1c0d1a !important;
 }
 
 table#player.table {
     border-radius: 8px !important;
     border-collapse: separate;
-    border: #1c0d1a 1.5px dashed !important;
+    border: #1c0d1a 1.5px none !important;
     overflow: hidden;
 }
 
@@ -717,7 +723,7 @@ table#sparring.table > tbody{
 }
     
 table#sparring.table {
-    border: #1c0d1a 1.5px dashed !important;
+    border: #1c0d1a 1.5px none !important;
     border-radius: 8px !important;
     border-collapse: separate;
     overflow: hidden;
@@ -725,7 +731,7 @@ table#sparring.table {
 
 table#sparring.table .right_odd {
     background: linear-gradient(to top,rgb(232, 150, 180,.5),rgb(230, 170, 192,.5)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-    border-left: #1c0d1a 1.5px dashed !important;
+    border-left: #1c0d1a 1.5px none !important;
     border-radius: 0px 0px 8px 0px;
     overflow: hidden;
 }
@@ -737,7 +743,7 @@ table#reclaim.table > tbody{
 }
     
 table#reclaim.table {
-    border: #1c0d1a 1.5px dashed !important;
+    border: #1c0d1a 1.5px none !important;
     border-radius: 8px !important;
     border-collapse: separate;
     overflow: hidden;
@@ -745,7 +751,7 @@ table#reclaim.table {
 
 table#reclaim.table .b.center {
     background: linear-gradient(to bottom,rgb(232, 150, 180,.8),rgb(232, 150, 180,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-    border-bottom: #1c0d1a 1.5px dashed !important;
+    border-bottom: #1c0d1a 1.5px none !important;
 }
 
 table#allies.table > tbody{
@@ -755,7 +761,7 @@ table#allies.table > tbody{
 }
     
 table#allies.table {
-    border: #1c0d1a 1.5px dashed !important;
+    border: #1c0d1a 1.5px none !important;
     border-radius: 8px !important;
     border-collapse: separate;
     overflow: hidden;
@@ -769,7 +775,7 @@ table#clans.table > tbody{
 }
     
 table#clans.table {
-    border: #1c0d1a 1.5px dashed !important;
+    border: #1c0d1a 1.5px none !important;
     border-radius: 8px !important;
     border-collapse: separate;
     overflow: hidden;
@@ -780,7 +786,7 @@ table.table > tbody{
     background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
     border-radius: 8px !important;
     border-collapse: separate;
-    border-left: #1c0d1a 0px dashed !important;
+    border-left: #1c0d1a 0px none !important;
     overflow: hidden;
 }
     
@@ -794,20 +800,20 @@ table.table {
 #editdetailspanel table.table {
     border-top: 0px !important;
     border-radius: 0px 0px 8px 8px  !important;
-    border-bottom: #1c0d1a 1.5px dashed !important;
+    border-bottom: #1c0d1a 1.5px none !important;
 }
 
 #editdetailspanel td.left.b {
     background: linear-gradient(rgb(232, 150, 180,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;
-    border-right: #1c0d1a 1.5px dashed !important;
+    border-right: #1c0d1a 1.5px none !important;
 }
 
 table.table > tbody > tr >th a {
-    color: #f7c8d0 !important;
+    color: #f5f3f4 !important;
 }
 
 table.table > tbody > tr >th a:hover {
-    color: #ffe8eb !important;
+    color: #f9eded !important;
 }
 
 /* "level, stats, etc" */
@@ -829,11 +835,11 @@ table.table > tbody > tr >th a:hover {
 }
 
 .xlarge.b a {
-	color: #f7c8d0 !important;
+	color: #f5f3f4 !important;
 }
 
 .xlarge.b a:hover {
-	color: #fdd9df !important;
+	color: #f9eded !important;
 }
 
 .inner-table.auto a {
@@ -1015,7 +1021,7 @@ img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
 /* caves */
 .cave-grid {
     background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-	border: 1.5px #3a2738 dashed;
+	border: 1.5px #3a2738 none;
 	border-radius: 10px;
     filter: drop-shadow(0px 0px 5px #8e5c6f);
 }
@@ -1083,7 +1089,7 @@ a[href$="507015"]>div.cave-grid>img {
 /* mounds */
 .mound-grid {
 	background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-	border: 1.5px #3a2738 dashed;
+	border: 1.5px #3a2738 none;
 	border-radius: 10px;
     padding: 0px 0px 5px 0px!important;
     filter: drop-shadow(0px 0px 5px #8e5c6f);
@@ -1138,7 +1144,7 @@ color: #1c0d1a;
 
 .feature, div.left {
     background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-	border: 1.5px #3a2738 dashed !important;
+	border: 1.5px #3a2738 none !important;
 	border-radius: 8px !important;
 	color: #1c0d1a;
 	box-shadow: none !important;
@@ -1271,25 +1277,25 @@ background: #f5f3f4 !important;
 form#frmGifting tbody {
     background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
     border-radius: 10px;
-    border:1.5px dashed #1c0d1a !important;
+    border:1.5px none #1c0d1a !important;
     filter: drop-shadow(0px 0px 7px #916d7b);
 }
 
 /* gifting box item box border */
 .search_field.form-control, .combo-selection-parent {
-    border:1.5px dashed #1c0d1a !important;
+    border:1.5px none #1c0d1a !important;
 }
 
 /* gifting box button */
 div.combo-select-row {
 background: transparent;
-    border:1.5px dashed #1c0d1a !important;
+    border:1.5px none #1c0d1a !important;
 }
 
 /* gifting box item search box */
 div.combo-selection-container.noselect {
 	background: linear-gradient(to top,rgb(249, 237, 237,.5),rgb(247, 200, 208,.5)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;
-    border:1.5px dashed #1c0d1a !important;
+    border:1.5px none #1c0d1a !important;
 }
 
 div.combo-select-row:hover{
@@ -1307,14 +1313,14 @@ outline: none;
 img[src$="//static.lioden.com/images/layout/albinochallenge.png"]{
 	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyGorilla.png');
 	display: block;
-    border:1.5px dashed #1c0d1a !important;
+    border:1.5px none #1c0d1a !important;
 }
 
 /* cave stuff */
 .featured-lion {
     background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
 	border-radius: 10px;
-    border:1.5px dashed #1c0d1a !important;
+    border:1.5px none #1c0d1a !important;
     filter: drop-shadow(0px 0px 7px #916d7b);
     color: #3a2738;
 }
