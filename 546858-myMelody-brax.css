@@ -1,3 +1,91 @@
+.bigbox {
+	background: pink;
+	color: #d1bf9a;
+	padding-bottom: 20px;
+    border: black 1.5px dashed !important;
+	border-radius: 8px;
+    height: auto;
+	width: 91.5%;
+	overflow: hidden;
+    padding:20px;
+    }
+    
+.boxes {
+    position: relative; 
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+border-radius: 8px;
+}
+
+.box1{   
+    background: pink;
+	color: #d1bf9a;
+    border-radius: 8px;
+    border: #3c3725 1px solid !important;
+    width:40%;
+    height:auto;
+    position: relative !important;
+	text-align: right;
+    float:left;
+      box-sizing: border-box;
+	overflow:auto;
+    padding:20px;
+    align-content: center;
+}
+
+
+.box2{   
+    background: pink;
+	color: #d1bf9a;
+    border-radius: 8px;
+    border: #3c3725 1px solid !important;
+    width:40%;
+    float:right;
+    margin-left:10px;
+    height:auto;
+    position: relative !important;
+	text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+	overflow:auto;
+    padding:20px;
+    align-content: center;
+}
+
+.testbox {
+    width: 300px;
+  border:none;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+/* Header design */
+.header {
+  background-color: pink;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.content {
+  max-height: 100px; 
+  padding: 15px;
+  opacity: 1;
+  transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.2s ease;
+}
+
+.testbox:focus .content {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  opacity: 0;
+}
+
+
 /* import font */
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
