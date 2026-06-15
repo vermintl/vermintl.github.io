@@ -173,7 +173,7 @@ input {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
 	color: #271c26 !important;
-    text-shadow: 0px 0px 2px none !important;
+    text-shadow: 0px 0px 0px none !important;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
 }
@@ -194,7 +194,7 @@ button {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
 	color: #271c26 !important;
-    text-shadow: 0px 0px 2px none !important;
+    text-shadow: 0px 0px 0px none !important;
     border-radius: 5px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
 }
@@ -303,7 +303,7 @@ input.floatright:hover {
 /* comment box */
 #commentBox {
 	background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-	border: 1.5px #3a2738 none;
+	border: 0px #3a2738 !important;
 	color: #1c0d1a;
 	border-radius: 8px;
     filter: drop-shadow(0px 0px 8px #7c516c);
@@ -330,10 +330,10 @@ small.text-muted{
 }
 
 input[type="button"].bad {
-	background: #3a2738 !important;
+	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
-	color: #ffe8eb !important;
-    text-shadow: 0px 0px 2px #f2c6ce !important;
+	color: #3a2738 !important;
+    text-shadow: 0px 0px 0px #f2c6ce !important;
     border-radius: 4px !important;
     margin-top: 10px !important;
     margin-right: 8px !important;
@@ -341,9 +341,10 @@ input[type="button"].bad {
 }
 
 input[type="button"].bad:hover {
-	background: #271c26 !important;
+	background: #efadc4 !important;
 	border: 0px #000 solid; 
-	color: #f5f3f4 !important;
+	color: #3a2738 !important;
+        text-shadow: 0px 0px 3px #ffe8eb !important;
 }
 
 #comment {
@@ -545,15 +546,15 @@ div#fraChatChannelMenu.chatMenu-container {
 }
 
 button.channelSwitcher {
-    color: #ffe8eb !important;
-    text-shadow: 0px 0px 1px #f2c6ce !important;
+	    background: #f9f2f4 !important;
+    color: #5e3f5a !important;
     box-shadow: none !important;
 }
 
 button.channelSwitcher.active {
     background: #f9f2f4;
     border-radius: 0px;
-    color: #f5f3f4 !important;
+    color: #271c26 !important;
     text-shadow: 0px 0px 1px #f2c6ce !important; 
 }
 
@@ -566,8 +567,9 @@ button.channelSwitcher.active {
 }
 
 button.chatMenu-option {
-	color: #ffe8eb !important;
-    text-shadow: 0px 0px 1px #f2c6ce !important;
+	background: #f9f2f4 !important;
+    color: #5e3f5a !important;
+    box-shadow: none !important;
     box-shadow: none !important;
 }
 
@@ -621,6 +623,22 @@ div#chatMessageContainer {
 .s-chat-message_timestamp {
 	color: #5e3f5a !important;
 	padding-left:5px;
+}
+
+#txtChatInput {
+	background: #f9f2f4 !important;
+	color: #271c26 !important;
+}
+
+#btnChatSend {
+	background: #f9f2f4 !important;
+	color: #271c26 !important;
+}
+
+#btnChatSend:hover {
+	background: #f9f2f4 !important;
+	color: #3a2738 !important;
+	text-shadow: 0px 0px 2px #fdd9df;
 }
 
 /* social media icons */
