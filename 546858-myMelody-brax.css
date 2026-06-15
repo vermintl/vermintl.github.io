@@ -297,7 +297,7 @@ input.floatright:hover {
 .alert,
 .alert-warning {
     background: linear-gradient(to top,rgb(253, 217, 223,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-    color: #1c0d1a;
+    color: #996979;
     border-radius: 5px;
     border: 1.5px dashed #3a2738;
     box-shadow: 0px 0px 7px #916d7b !important;
@@ -305,7 +305,7 @@ input.floatright:hover {
 
 .alert-danger {
     background: linear-gradient(to top,rgb(255, 232, 235,.8)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-    color: #3a2738;
+    color: #996979;
     border-radius: 5px;
     border: 1.5px dashed #3a2738;
     box-shadow: 0px 0px 7px #916d7b !important;
