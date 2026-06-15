@@ -1463,18 +1463,3 @@ img[src$="//static.lioden.com/images/layout/arrow.png"] {
 	width:90px!important;
     filter: drop-shadow(0px 0px 10px #3a2738);
 }
-
-@charset "UTF-8";
-/* Brought to you by https://www.cursors-4u.com
- *
- *  Cursor: Blinking Pink Hello Kitty
- *  URL: https://www.cursors-4u.com/cursor/blinking-hello-kitty-2
- */
-@keyframes cursor-anim {
-  0.00% { cursor: url("data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFkBAAAvH8AHEI+gEJIkh+BAz/M08j9CzhqK2raBwmf8NQLDc/c/NZEkKVfnguP3rwEFvJGD/Oc//v+H0A8VtZsEANkCkyYu8zAJucKHolbUihrFRDEBYiTJcZt7AB72sKIg5J8tCJT8BBDR/wnInD+ckj925Y9d+WNX/tiVP5Q5f+LK6/qRmQ8keZBYAuRcMydFrBKBBeqYM1RRucy5MEOgQRKhkhkqigMaYZkBkq9QjXTRM3amtLTCzgwHoI6Ig0pKZgbIACDeAFU96AyEoXWoqKNLgx711k2Q0i1Mw9F6A4DYlW6yRWQigAgjd9UORAweAfNgP5FTqPSAir74LddIg2p+S5AQkUTdjHGbvD6+W18ft3uMh8n6Jec8+Tz11nz5fNzqZoy7mrusbeNu9R7jYbKUavLo7raI1VI4t+Mu1R72Vss95na8yVLtvBbyPTYryVL3heT8Ik/nvwkA") 0 0, auto; }
-  25.00% { cursor: url("data:image/webp;base64,UklGRnABAABXRUJQVlA4TGMBAAAvH8AHEJegEJIkh+DMD+s08j9CzhqK2raBwmf8NQLDc/c/RZGkRhQu7jf+NSCBig+Of+Y//v+H1g8VnZsEANkaMyYuU5jBDOQJD0Wn6BQdikSRDBAj243bgCAZCgghWVb/1fIY5yjg/4j+T4Dj+WEX/7Ev/zH6j9F/jP5DjucnCPJH4JMgueE2NAs+o+OhQGtYw2Ap24OWYBIDMNCbWGKQ1pI4mCTZBjVMHc2CPFsCPUvaYw+Xw7VED2/ZgERr3KikONAs2ABIPgwJ2OjRjIqjI0nK1uWwtNWPrmIuXZumlu3oBwC0VekqS2sOI0B+B1dVNwBaboRmRN+RXUvSmwnSGZ/Kqblagn8K5iaAW13cvDSTXAEgSb1uThBVzzfOrfONkzWejUxy6AczAJLUvLh5VZX5MQOg9bo5QRRUnWVSJ6wF8Szvq1SdrFnLdT9LvoKl6j5K8HUvxiBLXReSzwe5i38TAA==") 0 0, auto; }
-  50.00% { cursor: url("data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFoBAAAvH8AHEJegEJIkh+DMD+s08j9CzhqK2raBwmf8NQLDc/c/RZGkRhQu7jf+NSCBig+Of+Y//v+H1g8VnZsEANkaMyYuU5jBDOQJD0Wn6BQdikSRADG2rbjNX0Cf98Ozgum/WgTjLAVE9H8CMucPp+SPXfljV/7YlT925Q9lzp+48rp+ZOYDSR4klgA518xJEatEYIE65gxVCJc5F2YINEgiVDJDRXFAIywzQPIVqpEuesbOlJZW2JnhANQRcVBJycwAGQDEG6CqB52BMLQOFXV0adCj3roJUrqFaThabwAQu9JNtohMBBDxRe6qHYgYPALmYD+RU6j0gIi++CnXSINqfkqQEJFE3Yxxm7zevltfb7d7jIfJ+qHKefJ+6q358n67+WaMu5q7rG3jbvUe42GylGry6O62iNVSOLfjLtUe9lbLPeZ2fJOl2nkt5PfYrCRL3ReS84M8nf8m") 0 0, auto; }
-  75.00% { cursor: url("data:image/webp;base64,UklGRnABAABXRUJQVlA4TGMBAAAvH8AHEJegEJIkh+DMD+s08j9CzhqK2raBwmf8NQLDc/c/RZGkRhQu7jf+NSCBig+Of+Y//v+H1g8VnZsEANkaMyYuU5jBDOQJD0Wn6BQdikSRDBAj243bgCAZCgghWVb/1fIY5yjg/4j+T4Dj+WEX/7Ev/zH6j9F/jP5DjucnCPJH4JMgueE2NAs+o+OhQGtYw2Ap24OWYBIDMNCbWGKQ1pI4mCTZBjVMHc2CPFsCPUvaYw+Xw7VED2/ZgERr3KikONAs2ABIPgwJ2OjRjIqjI0nK1uWwtNWPrmIuXZumlu3oBwC0VekqS2sOI0B+B1dVNwBaboRmRN+RXUvSmwnSGZ/Kqblagn8K5iaAW13cvDSTXAEgSb1uThBVzzfOrfONkzWejUxy6AczAJLUvLh5VZX5MQOg9bo5QRRUnWVSJ6wF8Szvq1SdrFnLdT9LvoKl6j5K8HUvxiBLXReSzwe5i38TAA==") 0 0, auto; }
-}
-html { animation: cursor-anim 1664ms step-end infinite; }
-a,button,input,textarea,label,[role=button],select,option{cursor:inherit!important}
