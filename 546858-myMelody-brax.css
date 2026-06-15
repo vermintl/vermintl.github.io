@@ -531,7 +531,7 @@ background-size: contain !important;
 
 #chatMessagePinned {
 	background: #f5f3f4 !important;
-	color: #271c26 !important;
+	color: #9a6979 !important;
 	border: 0px #000 solid; 
 }
 
@@ -558,7 +558,7 @@ background-size: contain !important;
 .s-chat-sidebar #label_currentChannel {
 	background: #f9f2f4 !important;
 	border: 0px #1c0d1a solid !important; 
-	color: #1c0d1a !important;
+	color: #f0adc5 !important;
     text-shadow: 0px 0px 1px #f2c6ce !important;    
 	border-radius: 8px !important;
     box-shadow:  0px 0px 5px #5e3f5a !important;
@@ -576,14 +576,14 @@ div#fraChatChannelMenu.chatMenu-container {
 
 button.channelSwitcher {
 	    background: #f9f2f4 !important;
-    color: #5e3f5a !important;
+    color: #f0adc5 !important;
     box-shadow: none !important;
 }
 
 button.channelSwitcher.active {
     background: #f9f2f4;
     border-radius: 0px;
-    color: #271c26 !important;
+    color: #5e3f5a !important;
     text-shadow: 0px 0px 1px #f2c6ce !important; 
 }
 
