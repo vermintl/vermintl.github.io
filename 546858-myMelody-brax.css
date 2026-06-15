@@ -141,7 +141,7 @@ img[src$="silver.png"] {
 }
 
 .navbar li a:hover {
-	background: #efadc4;
+	background: #efadc4 !important;
 	color: #3a2738 !important;
 	border-radius: 0px;
     text-shadow: 0px 0px 5px #ffe8eb;
