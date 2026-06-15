@@ -58,7 +58,7 @@ border-radius: 8px;
 
 /* background */
 @media only screen and (min-width: 601px) {} body {
-	background: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/blackAndPinkHearts.png');
+	background: linear-gradient(to bottom, #ffe8eb, #FFDEE9);
 	background-position: top;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -67,6 +67,7 @@ border-radius: 8px;
 	text-transform: none;
 	box-shadow: none !important;
 	color: #1c0d1a;
+    font-weight: 0;
 }
 
 /* main panel */
@@ -88,12 +89,12 @@ border-radius: 8px;
 
 /* logo 192x120 */
 img[src$="//static.lioden.com/img/layout/logo-full-2.png"] {
-	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyAndKuromi.png');
+	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyAndKitty.png');
 	display: block;
 	margin-left: 10px;
-	width: 275px;
+	width: 260px;
     margin-top: -20px;
-    filter: drop-shadow(7px 5px 10px #1c0d1a);
+    filter: drop-shadow(3px 5px 10px #5e3f5a);
 }
 
 /* topbar "welcome back" */
@@ -270,16 +271,16 @@ font-size: auto !important;
 input.floatright {
 	background: #efadc4 !important;
 	border: 0px #000 solid !important; 
-	color: #271c26 !important;
+	color: #f8f0f3 !important;
     text-shadow: 0px 0px 0px #f2c6ce !important;
     border-radius: 5px !important;
-    margin-top: 2%;
+    margin-top: 2% !important;
 }
 
 input.floatright:hover {
 	background: #efadc4 !important;
 	border: 0px #000 solid; 
-	color: #271c26 !important;
+	color: #f5f3f4 !important;
         text-shadow: 0px 0px 5px #ffe8eb !important;
 }
 
@@ -354,7 +355,7 @@ input[type="button"].bad:hover {
 
 /* sidebar */
 .sidebar h3 {
-	color: #1c0d1a !important;
+	color: #5e3f5a !important;
 	font-size: 20px;
 	text-transform: uppercase;
 }
@@ -363,7 +364,7 @@ input[type="button"].bad:hover {
 	background: linear-gradient(to bottom,rgb(249, 237, 237,.6),rgb(247, 200, 208,.5)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;
     box-shadow: none !important;
 	border: 1.5px #3a2738 none !important;
-	color: #271c26 !important;
+	color: #996979 !important;
 	/* font-weight: bold; */
 	border-radius: 10px;
     filter: drop-shadow(0px 0px 7px #996c7b);
@@ -421,8 +422,19 @@ img[src$="icon-season-dry.png"] {
 	width: 35px !important; 
 } */
 
-.col-md-3 form .panel.panel-default {
-    display:none !important;
+.panel-default .small {
+    color: #E89BB7 !important;
+    text-shadow: 0px 0px 6px #fff;
+}
+
+.panel-default .small a {
+    color: #E89BB7 !important;
+    text-shadow: 0px 0px 6px #fff;
+}
+
+.panel-default .small a:hover {
+    color: #efadc4 !important;
+    text-shadow: 0px 0px 6px #fff;
 }
 
 /* energy bar */ 
@@ -437,9 +449,25 @@ img[src$="icon-season-dry.png"] {
 }
 
 .progress div {
-	color: #3a2738 !important;
+	color: #9a6979 !important;
+    text-shadow: 0px 0px 6px #ffdee9;0px 0px 3px #5e3f5a
     font-style: italic !important;
-    font-weight: 700;
+    font-weight: 700 !important;
+}
+
+.center .progress div {
+    color: #f5f3f4 !important;
+}
+
+/* bookmarks */
+
+.small.clear a {
+    color: #E89BB7 !important;
+    text-shadow: 0px 0px 6px #fff;
+}
+
+.small.clear a:hover{
+    color: #efadc4 !important;
 }
 
 /* chat channel button + pinned message */
@@ -643,6 +671,21 @@ div#chatMessageContainer {
 	text-shadow: 0px 0px 2px #fdd9df;
 }
 
+.col-xs-12 .visible-lg .small {
+    color: #E89BB7;
+    text-shadow: 0px 0px 6px #fff;
+}
+
+.col-xs-12 .visible-lg .small a {
+    color: #E89BB7 !important;
+    text-shadow: 0px 0px 6px #fff;
+}
+
+.col-xs-12 .visible-lg .small a:hover {
+        color: #efadc4 !important;
+    text-shadow: 0px 0px 6px #fff;
+}
+
 /* social media icons */
 img[src$="iconFB.png"] {
 	content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodySpeaking.png');
@@ -677,7 +720,7 @@ h1 {
 /* all table headers */
 .top, th {
 	background: #efadc4 !important;
-	color: #f5f3f4 !important;
+	color: #fff !important;
 	border-radius: 7px 7px 0px 0px;
     border-bottom: none !important;
 }
@@ -689,6 +732,7 @@ h1 {
     border-top: 2px solid #fdd9df !important;
     border-radius: 0px 0px 7px 7px;   
     overflow: hidden;
+    text-shadow: none;
 }
 
 /* all table backgrounds */
@@ -697,8 +741,18 @@ table.table {
 	border-radius: 10px;
     border:1.5px none #1c0d1a !important;
     filter: drop-shadow(0px 0px 7px #916d7b);
+    color: #fff;
+    text-shadow:0px 0px 5px #5e3f5a;
 }
 
+table.table a {
+    color: #fff !important;
+    text-shadow:0px 0px 5px #5e3f5a;
+}
+
+table.table a:hover {
+    color: #f8f0f3 !important;
+}
 
 table#about.table > tbody{
     background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
@@ -830,6 +884,7 @@ table.table {
 
 table.table > tbody > tr >th a {
     color: #f5f3f4 !important;
+    text-shadow:0px 0px 5px #5e3f5a;
 }
 
 table.table > tbody > tr >th a:hover {
@@ -839,42 +894,48 @@ table.table > tbody > tr >th a:hover {
 /* "level, stats, etc" */
 .inner-table .left {
     background: linear-gradient(to top,rgb(255, 199, 224,.8)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-    color: #5e3f5a;
+    color: #fff;
+    text-shadow:0px 0px 5px #5e3f5a;
     border: 1.5px #916d7b solid !important;
     border-radius: 5px 0px 0px 5px !important;
 }
 
 .inner-table .right {
     background: linear-gradient(to top,rgb(255, 232, 235,.8)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
-	color: #3a2738;
+	color: #9a6979;
     font-style: italic;
     border-top: 1.5px #916d7b solid !important;
     border-bottom: 1.5px #916d7b solid !important;  
     border-right: 1.5px #916d7b solid !important;  
     border-radius: 0px 5px 5px 0px !important;
-}
-
-.xlarge.b a {
-	color: #f5f3f4 !important;
-}
-
-.xlarge.b a:hover {
-	color: #f9eded !important;
+    text-shadow: 0px 0px 0px #916d7b;
 }
 
 .inner-table.auto a {
-    color: #3a2738 !important;
+    color: #9a6979 !important;
+    text-shadow: none !important;
 }
 .inner-table.auto a:hover {
-    color: #5e3f5a !important;
+    color: #bf8f9f !important;
 }
 
 /* king image */
 table#about.table .lion-image-block {
 	border-radius: 40px !important;
 	width:200px !important;
-	margin-top: 6%;
+	margin-top: 12%;
 	margin-left: 4%;
+    filter: drop-shadow(0px 0px 10px #986979);
+}
+
+/* king name */
+.xlarge.b a {
+	color: #f5f3f4 !important;
+    text-shadow:0px 0px 5px #5e3f5a;
+}
+
+.xlarge.b a:hover {
+	color: #f9eded !important;
 }
 
 /* player table cosmetics */
@@ -1044,6 +1105,17 @@ img[src$="//static.lioden.com/images/layout/icon_den_friend.png"]{
 	border: 1.5px #3a2738 none;
 	border-radius: 10px;
     filter: drop-shadow(0px 0px 5px #8e5c6f);
+    color: #fff !important;
+    text-shadow: 0px 0px 5px #5e3f5a !important;
+}
+
+.cave-grid a {
+    color: #fff !important;
+    text-shadow: 0px 0px 5px #5e3f5a !important;
+}
+
+.cave-grid:hover {
+    color: #f8f0f3 !important;
 }
 
 .cave-grid img {
@@ -1159,15 +1231,17 @@ div.center.b {
 }
 
 .feature h3 {
-color: #1c0d1a;
+color: #fff;
+    text-shadow: 0px 0px 5px #5e3f5a;
 }
 
 .feature, div.left {
     background: linear-gradient(to top,rgb(242, 198, 206,.6),rgb(230, 170, 192,.6)), url(https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/plaid.png) !important;;
 	border: 1.5px #3a2738 none !important;
 	border-radius: 8px !important;
-	color: #1c0d1a;
+	color: #fff;
 	box-shadow: none !important;
+    text-shadow: 0px 0px 5px #5e3f5a;
 }
 
 /* friends */
@@ -1202,8 +1276,9 @@ color: #1c0d1a;
 }
 
 .dynastylist h3 {
-    color: #1c0d1a;
+    color: #fff;
     font-size: 18px !important;
+    text-shadow: 0px 0px 5px #5e3f5a;
 }
 
 img[src$="den_ancestors.png"] {
@@ -1379,4 +1454,3 @@ img[src$="//static.lioden.com/images/layout/arrow.png"] {
 	content:url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/melodyArrow2.png')!important;
 	width:90px!important;
     filter: drop-shadow(0px 0px 10px #3a2738);
-}
