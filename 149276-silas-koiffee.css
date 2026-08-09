@@ -80,15 +80,26 @@ display: none;
 object-fit: cover; 
 }
 
+
 #commentBox {
   background: #e5d5c3;
-  height: 235px;
-  width: 40%;
+  height: 235px !important;
+  width: 40% !important;
   border: 1px solid #2b250d;
   overflow: hidden;
   position: absolute;
   margin-top: -26px;        
   left: 1;
+}
+
+#comment {
+    width: 70% !important;
+    background: #f1e7d7;
+    border: 1px #2b250d solid !important;
+    border-radius: 5px !important;
+    height: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #makeComment {
@@ -109,18 +120,6 @@ object-fit: cover;
     text-transform: none !important;
     margin-left: 5px;
     height: 25px;
-}
-
-#comment {
-    width: 70%;
-    padding-left: 0
-    margin-left: -100px !important;
-    background: #f1e7d7;
-    border: 1px #2b250d solid !important;
-    border-radius: 5px !important;
-    height: 25px;
-    margin-top: 1%;
-    margin-bottom: 1%;
 }
 
 /* alerts */
