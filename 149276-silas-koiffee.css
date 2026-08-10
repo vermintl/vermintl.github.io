@@ -185,8 +185,8 @@ object-fit: cover;
 }
 
 /* import font */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-/* background */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Sedan:ital@0;1&display=swap');
+
 @media only screen and (min-width: 601px) {} body {
 	background: url('https://static.lioden.com/images/dynamic/backgrounds/readyforadate.png');
 	background-position: top;
@@ -194,7 +194,7 @@ object-fit: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
 color: #353f0f;
-	font-family: 'Playfair Display' !important;
+	font-family: 'Fraunces' !important;
 	text-transform: none;
 	box-shadow: none !important;
 }
@@ -220,7 +220,7 @@ img[src$="//static.lioden.com/img/layout/logo-full-2.png"] {
 	display: block;
 	width: 330px;
 margin-top: -35px;
-    margin-left: -10px;
+    margin-left: -25px;
 }
 
 /* topbar "welcome back" */
