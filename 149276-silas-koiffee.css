@@ -185,8 +185,7 @@ object-fit: cover;
 }
 
 /* import font */
-@import url('link...')
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /* background */
 @media only screen and (min-width: 601px) {} body {
 	background: url('https://static.lioden.com/images/dynamic/backgrounds/readyforadate.png');
@@ -195,7 +194,7 @@ object-fit: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
 color: #353f0f;
-	font-family: 'font name' !important;
+	font-family: 'Playfair Display' !important;
 	text-transform: none;
 	box-shadow: none !important;
 }
