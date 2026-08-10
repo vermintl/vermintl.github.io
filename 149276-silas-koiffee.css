@@ -148,6 +148,14 @@ object-fit: cover;
     position: relative;
 }
 
+.alert-success {
+    color: #2b250d;
+}
+
+.alert-success a {
+    margin-top: 20px;
+}
+
 .alert-danger img {
     padding-right: 4px;
 }
