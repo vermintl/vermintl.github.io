@@ -107,7 +107,7 @@ object-fit: cover;
   width:40%;
   border: 1px solid #2b250d;
   position: absolute;
-  margin-top: 220px;
+  margin-top: 220px !important;
   left: 1;
   border-radius: 8px;
 }
