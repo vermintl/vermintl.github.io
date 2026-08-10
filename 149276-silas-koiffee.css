@@ -1158,16 +1158,16 @@ div.cave-grid>img[src$="caveunused.jpg"]{
 	content:url('https://static.lioden.com/images/dynamic/backgrounds/IsaloNationalPark.png');
 }
 
-a[href$="369036"]>div.cave-grid>img {
+a[href$="80032"]>div.cave-grid>img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Kpime_Waterfall.png') !important;
     filter: hue-rotate(-10deg);
 }
 
-a[href$="303894"]>div.cave-grid>img {
+a[href$="82548"]>div.cave-grid>img {
 	content: url('https://static.lioden.com/images/dynamic/backgrounds/Gambia_river.png') !important;
 }
 
-a[href$="367489"]>div.cave-grid>img {
+a[href$="80660"]>div.cave-grid>img {
 	content: url('https://static.lioden.com/images/dynamic/backgrounds/Banfora_Falls.png') !important;
 }
 
