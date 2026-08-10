@@ -296,19 +296,17 @@ input {
 
 input:focus {
 	background: #8da340 !important; 
-	border: 0px; 
 	color: #ebe0cf !important;
 }
 
 input:hover {
 	background: #8da340 !important; 
-	border: 0px; 
 	color: #ebe0cf !important;
 }
 
 button {
 	background: #798d35 !important;
-	border: 1px solid #2b250d !important; 
+	border: 1px solid #2b250d; 
     border-radius: 5px !important;
 	color: #ddcdba !important;
     text-shadow: none !important;
@@ -316,13 +314,11 @@ button {
 
 button:focus {
 	background: #8da340 !important; 
-	border: 0px; 
 	color: #ebe0cf !important;
 }
 
 button:hover {
 	background: #8da340 !important; 
-	border: 0px; 
 	color: #ebe0cf !important;
 }
 
@@ -337,13 +333,11 @@ select {
 
 select:focus {
 	background: #8da340 !important; 
-	border: 0px; 
 	color: #ebe0cf !important;
 }
 
 select:hover {
 	background: #8da340 !important; 
-	border: 0px; 
 	color: #ebe0cf !important;
 }
 
@@ -465,6 +459,7 @@ background: url(//static.lioden.com/images/layout/chat/ico-settings.png) no-repe
     background-size: contain !important;
     box-shadow: none !important;
     filter: brightness(0) !important;
+	background: none !important;
 }
 
 #btnChatSettings:focus {
@@ -484,6 +479,7 @@ filter: brightness(0) !important;
 	background-size: contain !important;
     box-shadow: none !important;
     filter: brightness(0) !important;
+	background: none !important;
 }
 
 #btnLoadNewMessages:focus{
@@ -497,6 +493,7 @@ filter: brightness(0) !important;
 	background-size: contain !important;
     box-shadow: none !important;
     filter: brightness(0) !important;
+	background: none !important;
 }
 
 .s-chat-message_menu:focus{
