@@ -152,10 +152,6 @@ object-fit: cover;
     color: #2b250d;
 }
 
-.alert-success a {
-    margin-top: 20px;
-}
-
 .alert-danger img {
     padding-right: 4px;
 }
