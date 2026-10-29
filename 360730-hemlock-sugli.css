@@ -72,6 +72,8 @@ color: #474425;
 	box-shadow: none !important;
 }
 
+body {background: url('https://static.lioden.com/images/dynamic/backgrounds/Gambia_river.png');background-position: top;background-attachment: fixed;background-repeat: no-repeat;background-size: cover;color: #474425;font-family: 'Spectral';text-transform: none;box-shadow: none !important;}
+
 /* main panel */
 .container.main {
 	background: #c0b985;
