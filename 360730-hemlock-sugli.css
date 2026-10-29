@@ -1372,16 +1372,18 @@ z-index: 100;
 /* ANIMATED FALLING RAIN: EDITED FOR LIODEN, BY PLAYER =Austin= #43750 */
 /* ANIMATED BY JERRY LOW ON CODEPEN: https://codepen.io/jerrylow/pen/KaPvNa */
 /* ORIGINAL SOURCE CODE DISCOVERED BY NAMIRA (#211580) */
-.rainContainer{
-  position: fixed;
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  left: 0;
-  height: 100vh;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 100;
+@media only screen and (min-width: 769px) {
+  .rainContainer {
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    height: 100vh;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 100;
+  }
 }
  
 .rain {
