@@ -641,9 +641,9 @@ table#about.table {
 div#lion_image {
     content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/sugliiconwiggle.gif')!important; 
         border-radius: 0px !important;
-	width:auto !important;
+	width:185px !important;
     background-size:contain;
-	margin-top: 2%;
+	margin-top: 20%;
 	margin-left: 4%;
 }
 
