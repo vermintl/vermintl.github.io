@@ -273,9 +273,9 @@ input.floatright:hover {
 /* comment box */
 #commentBox {
 	background: #8d9651;
-	border: 0px;
+	border: 0px !important;
 	color: #d0d897;
-	border-radius: 0px;
+	border-radius: 0px !important;
 }
 
 .comment:nth-child(even) {
@@ -638,13 +638,13 @@ table#about.table {
 }  
 
 /* king image */
-#about .right > td .lion-image-block {
-	border-radius: 0px !important;
-	width:200px !important;
+div#lion_image {
+    content: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/sugliiconwiggle.gif')!important; 
+        border-radius: 0px !important;
+	width:250px !important;
     background-size:contain;
-	margin-top: 7%;
+	margin-top: 2%;
 	margin-left: 4%;
-    background-image: url('https://file.garden/Zr1VmP_gFlhq3hRL/cssassets-etc/sugliiconwiggle.gif')!important; 
 }
 
 /* "level, stats, etc" */
